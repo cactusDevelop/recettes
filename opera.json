@@ -1,0 +1,271 @@
+{
+  "title": "Opéra classique",
+  "description": "Opéra composé de trois couches de biscuit Joconde, de sirop au café, de crème au beurre au café, de ganache au chocolat et d'un glaçage fin au chocolat.",
+  "servings": "8 à 10 parts",
+  "pan_size": "20 x 20 cm",
+  "total_time": {
+    "preparation": "environ 2 h 15",
+    "resting": "4 à 6 h"
+  },
+  "ingredients": {
+    "joconde": [
+      { "ingredient": "Poudre d'amandes", "quantity": "100 g" },
+      { "ingredient": "Sucre glace", "quantity": "100 g" },
+      { "ingredient": "Œufs entiers", "quantity": "3" },
+      { "ingredient": "Farine", "quantity": "30 g" },
+      { "ingredient": "Blancs d'œufs", "quantity": "3" },
+      { "ingredient": "Sucre semoule", "quantity": "20 g" },
+      { "ingredient": "Beurre", "quantity": "20 g" }
+    ],
+    "coffee_syrup": [
+      { "ingredient": "Eau", "quantity": "50 g" },
+      { "ingredient": "Sucre", "quantity": "50 g" },
+      { "ingredient": "Café soluble", "quantity": "5 g" }
+    ],
+    "coffee_buttercream": [
+      { "ingredient": "Jaunes d'œufs", "quantity": "2" },
+      { "ingredient": "Sucre", "quantity": "100 g" },
+      { "ingredient": "Eau", "quantity": "30 g" },
+      { "ingredient": "Beurre doux", "quantity": "200 g" },
+      { "ingredient": "Café soluble", "quantity": "5 g" },
+      { "ingredient": "Eau chaude pour le café", "quantity": "environ 1 cuillère à café" }
+    ],
+    "ganache": [
+      { "ingredient": "Chocolat à 49 %", "quantity": "120 g" },
+      { "ingredient": "Chocolat à 72 %", "quantity": "80 g" },
+      { "ingredient": "Crème entière 35 %", "quantity": "100 g" }
+    ],
+    "glaze": [
+      { "ingredient": "Chocolat", "quantity": "100 g" },
+      { "ingredient": "Huile neutre", "quantity": "10 g" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer le biscuit Joconde",
+      "before": [
+        "Préchauffer le four à 200 °C en chaleur tournante.",
+        "Préparer une plaque d'environ 30 x 40 cm avec du papier cuisson.",
+        "Le biscuit doit être étalé finement, sur environ 5 à 7 mm d'épaisseur.",
+        "Le beurre fondu devra être tiède et non brûlant avant son incorporation."
+      ],
+      "instructions": [
+        "Faire fondre les 20 g de beurre puis le laisser tiédir.",
+        "Mélanger la poudre d'amandes et le sucre glace.",
+        "Ajouter les 3 œufs entiers.",
+        "Fouetter environ 5 minutes jusqu'à obtenir un mélange clair, mousseux et nettement plus volumineux.",
+        "Tamiser les 30 g de farine au-dessus du mélange.",
+        "Incorporer délicatement la farine à la spatule.",
+        "Monter les 3 blancs d'œufs en neige.",
+        "Lorsqu'ils commencent à mousser, ajouter progressivement les 20 g de sucre.",
+        "Continuer à fouetter jusqu'à obtenir des blancs souples mais suffisamment fermes.",
+        "Incorporer les blancs en 2 ou 3 fois avec une spatule, délicatement.",
+        "Ajouter le beurre fondu tiède et l'incorporer doucement.",
+        "Étaler immédiatement la pâte sur la plaque en une couche régulière de 5 à 7 mm.",
+        "Cuire 8 à 10 minutes à 200 °C."
+      ],
+      "doneness": "Le biscuit doit être légèrement doré, souple au toucher et cuit sans être sec."
+    },
+    {
+      "title": "2. Refroidir et décoller le biscuit",
+      "before": [
+        "Ne pas retourner le biscuit immédiatement à la sortie du four : il est alors très fragile et la vapeur peut favoriser son adhérence au papier.",
+        "Ne pas arracher brutalement le papier si celui-ci résiste."
+      ],
+      "instructions": [
+        "Laisser le biscuit refroidir quelques minutes sur la plaque.",
+        "Poser une seconde feuille de papier cuisson sur le biscuit.",
+        "Retourner délicatement le biscuit.",
+        "Retirer lentement le premier papier en le tirant presque parallèlement à la surface du biscuit.",
+        "Si le papier résiste fortement, humidifier très légèrement l'extérieur du papier avec un linge humide et attendre quelques secondes avant de recommencer.",
+        "Laisser complètement refroidir le biscuit.",
+        "Découper ensuite trois carrés de 20 x 20 cm."
+      ]
+    },
+    {
+      "title": "3. Préparer le sirop au café",
+      "before": [
+        "Le sirop doit rester liquide et ne doit surtout pas être réduit jusqu'à devenir un caramel."
+      ],
+      "instructions": [
+        "Mettre 50 g d'eau et 50 g de sucre dans une petite casserole.",
+        "Porter à ébullition.",
+        "Laisser bouillir environ 1 minute.",
+        "Retirer du feu.",
+        "Ajouter les 5 g de café soluble.",
+        "Mélanger jusqu'à dissolution complète.",
+        "Laisser refroidir."
+      ]
+    },
+    {
+      "title": "4. Préparer le café concentré pour la crème au beurre",
+      "before": [
+        "Éviter d'utiliser une grande quantité de café liquide dans la crème au beurre : l'excès d'eau peut perturber l'émulsion."
+      ],
+      "instructions": [
+        "Mettre les 5 g de café soluble dans un petit récipient.",
+        "Ajouter environ 1 cuillère à café d'eau très chaude.",
+        "Mélanger jusqu'à obtenir une pâte de café très concentrée.",
+        "Réserver."
+      ]
+    },
+    {
+      "title": "5. Préparer la crème au beurre au café",
+      "before": [
+        "Sortir le beurre suffisamment à l'avance afin qu'il soit souple, autour de 20 à 22 °C, mais pas fondu.",
+        "Préparer un saladier suffisamment grand pour pouvoir fouetter sans que le fouet soit constamment contre les parois.",
+        "Sans thermomètre, le sirop devra être contrôlé avec le test de la goutte dans l'eau froide.",
+        "Le sirop doit rester clair : il ne faut pas chercher une coloration caramel."
+      ],
+      "instructions": [
+        "Mettre les 2 jaunes d'œufs dans un grand saladier et commencer à les fouetter.",
+        "Mettre les 100 g de sucre et les 30 g d'eau dans une casserole.",
+        "Chauffer à feu moyen sans remuer avec une cuillère.",
+        "Lorsque le sirop bout, poursuivre la cuisson en surveillant attentivement.",
+        "Pour vérifier sans thermomètre, déposer une petite goutte de sirop dans un verre d'eau froide.",
+        "Le sirop est prêt lorsque la goutte forme entre les doigts une petite boule molle et malléable.",
+        "Si la goutte se dissout immédiatement dans l'eau, le sirop n'est pas assez cuit.",
+        "Si elle forme une boule dure, le sirop est trop cuit.",
+        "Retirer immédiatement le sirop du feu lorsqu'il atteint le bon stade.",
+        "Continuer à fouetter les jaunes.",
+        "Verser le sirop en filet extrêmement fin sur le côté du mélange, et non directement au milieu du fouet.",
+        "Faire couler le sirop dans la zone où les jaunes sont entraînés par le fouet afin qu'il soit immédiatement incorporé.",
+        "Continuer à fouetter sans interruption.",
+        "Fouetter jusqu'à ce que le mélange refroidisse et épaississe.",
+        "Ajouter progressivement le beurre souple en continuant à fouetter.",
+        "Fouetter jusqu'à obtenir une crème lisse et homogène.",
+        "Ajouter progressivement la pâte de café concentrée.",
+        "Fouetter jusqu'à obtenir une crème au beurre parfaitement homogène."
+      ],
+      "important": [
+        "Ne jamais verser le sirop au milieu du fouet : il risque d'être projeté contre les parois du saladier et de former des morceaux de sucre.",
+        "Si la crème devient granuleuse parce qu'elle est trop froide, réchauffer très légèrement le récipient tout en fouettant.",
+        "Si elle devient trop liquide parce qu'elle est trop chaude, la mettre quelques minutes au réfrigérateur puis la fouetter à nouveau."
+      ]
+    },
+    {
+      "title": "6. Préparer la ganache au chocolat",
+      "before": [
+        "Utiliser exactement 200 g de chocolat au total et 100 g de crème entière 35 %.",
+        "Hacher le chocolat très finement, en petits morceaux réguliers de quelques millimètres.",
+        "Éviter absolument les gros morceaux : avec seulement 100 g de crème pour 200 g de chocolat, les gros morceaux risquent de ne pas fondre complètement.",
+        "La crème doit être chaude et frémissante, mais pas violemment bouillie.",
+        "Ne pas ajouter de crème supplémentaire simplement parce que la ganache est liquide lorsqu'elle est chaude : elle épaissira en refroidissant."
+      ],
+      "instructions": [
+        "Hacher très finement les 120 g de chocolat à 49 % et les 80 g de chocolat à 72 %.",
+        "Mettre les 200 g de chocolat haché dans un bol.",
+        "Chauffer les 100 g de crème 35 % jusqu'au frémissement.",
+        "Retirer immédiatement du feu.",
+        "Verser environ 50 g de crème chaude sur le chocolat.",
+        "Attendre environ 30 secondes.",
+        "Mélanger doucement au centre avec une spatule en effectuant de petits cercles.",
+        "Lorsque le centre devient brillant et homogène, incorporer progressivement le reste de la crème.",
+        "Continuer à mélanger jusqu'à obtenir une ganache lisse et brillante."
+      ],
+      "rescue": [
+        "Si des morceaux de chocolat restent malgré le mélange, ne pas ajouter de crème.",
+        "Placer le bol au bain-marie doux.",
+        "Le fond du bol ne doit idéalement pas toucher directement l'eau.",
+        "Chauffer doucement pendant environ 30 secondes à 2 minutes en mélangeant constamment.",
+        "Retirer du bain-marie et continuer à mélanger.",
+        "Répéter par périodes très courtes si nécessaire jusqu'à disparition complète des morceaux.",
+        "La ganache doit être complètement lisse avant le montage."
+      ],
+      "cooling": [
+        "Laisser refroidir à température ambiante en mélangeant occasionnellement.",
+        "La bonne texture pour le montage est celle d'une pâte à tartiner souple : elle doit pouvoir s'étaler sans couler.",
+        "Si elle devient trop ferme, la réchauffer très légèrement."
+      ]
+    },
+    {
+      "title": "7. Première couche de l'Opéra",
+      "before": [
+        "Vérifier que le biscuit est complètement froid.",
+        "Le sirop doit être froid ou à température ambiante.",
+        "La crème au beurre doit être suffisamment souple pour être étalée.",
+        "La ganache doit être suffisamment refroidie pour pouvoir être étalée."
+      ],
+      "instructions": [
+        "Poser le premier carré de Joconde de 20 x 20 cm.",
+        "L'imbiber légèrement avec le sirop au café.",
+        "Étaler environ la moitié de la crème au beurre au café.",
+        "Lisser soigneusement avec une spatule.",
+        "Placer au réfrigérateur environ 15 minutes afin de raffermir la couche."
+      ]
+    },
+    {
+      "title": "8. Deuxième couche",
+      "before": [
+        "La première couche de crème au beurre doit être suffisamment ferme pour que le biscuit suivant ne la déplace pas."
+      ],
+      "instructions": [
+        "Poser le deuxième carré de Joconde.",
+        "L'imbiber légèrement de sirop.",
+        "Étaler toute la ganache.",
+        "Lisser régulièrement.",
+        "Placer au réfrigérateur pendant 15 à 20 minutes."
+      ]
+    },
+    {
+      "title": "9. Troisième couche",
+      "before": [
+        "La ganache doit être suffisamment ferme pour supporter le dernier biscuit.",
+        "La dernière couche de crème au beurre doit être parfaitement plane car elle servira de support au glaçage."
+      ],
+      "instructions": [
+        "Poser le dernier carré de Joconde.",
+        "L'imbiber légèrement de sirop.",
+        "Étaler le reste de la crème au beurre au café.",
+        "Lisser parfaitement la surface.",
+        "Placer au réfrigérateur pendant au moins 1 heure."
+      ]
+    },
+    {
+      "title": "10. Préparer le glaçage au chocolat",
+      "before": [
+        "Le gâteau doit être très froid avant le glaçage afin que le chocolat fige rapidement au contact de la surface.",
+        "Pour faciliter le glaçage et éviter d'arracher la crème au beurre, placer le gâteau 20 à 30 minutes au congélateur juste avant le glaçage si possible.",
+        "Le glaçage doit être fluide mais pas brûlant.",
+        "Ce glaçage contient moins d'huile que la version précédente afin d'obtenir une couche qui se raffermit davantage au froid."
+      ],
+      "instructions": [
+        "Faire fondre doucement les 100 g de chocolat.",
+        "Ajouter les 10 g d'huile neutre.",
+        "Mélanger jusqu'à obtenir un glaçage parfaitement homogène.",
+        "Laisser légèrement redescendre en température : il doit rester fluide mais ne doit pas être chaud au point de ramollir la crème au beurre.",
+        "Sortir le gâteau très froid.",
+        "Verser le glaçage au centre du gâteau.",
+        "Incliner doucement le gâteau dans différentes directions afin de faire couler le glaçage vers les bords.",
+        "Utiliser la spatule le moins possible.",
+        "Si nécessaire, pousser très légèrement le glaçage vers une zone non couverte avec la spatule, sans racler la crème au beurre.",
+        "Éviter de tartiner vigoureusement le glaçage avec la spatule : cela peut arracher la crème au beurre située dessous.",
+        "Remettre immédiatement au réfrigérateur."
+      ]
+    },
+    {
+      "title": "11. Repos final",
+      "before": [
+        "Le glaçage doit avoir suffisamment de temps pour se raffermir avant la découpe."
+      ],
+      "instructions": [
+        "Laisser l'Opéra au réfrigérateur pendant au moins 1 heure.",
+        "Pour une texture plus homogène et une découpe plus nette, un repos de plusieurs heures est préférable."
+      ]
+    },
+    {
+      "title": "12. Découpe",
+      "before": [
+        "Utiliser un grand couteau bien droit et bien aiguisé.",
+        "Le glaçage doit être froid et ferme."
+      ],
+      "instructions": [
+        "Tremper la lame dans de l'eau très chaude.",
+        "Essuyer complètement la lame.",
+        "Découper d'un mouvement franc.",
+        "Réchauffer et essuyer la lame entre chaque découpe.",
+        "Servir l'Opéra bien froid ou le laisser légèrement revenir en température avant dégustation."
+      ]
+    }
+  ]
+}
