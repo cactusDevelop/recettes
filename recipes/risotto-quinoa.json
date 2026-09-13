@@ -1,6 +1,6 @@
 {
   "title": "Quinoa façon risotto aux champignons",
-  "description": "Le quinoa remplace le riz dans cette version plus légère et plus digeste du risotto classique : champignons de Paris rôtis, échalotes fondues, parmesan et beurre pour une texture crémeuse, sans bouillon de légumes.",
+  "description": "Le quinoa remplace le riz dans cette version plus légère et plus digeste du risotto classique : champignons de Paris rôtis, oignon (ou échalotes) fondu, parmesan et beurre pour une texture crémeuse, sans bouillon de légumes.",
   "servings": "4 parts",
   "pan_size": "poêle ou sauteuse large",
   "total_time": {
@@ -10,7 +10,7 @@
     "risotto": [
       { "ingredient": "Quinoa", "quantity": "200 g" },
       { "ingredient": "Champignons de Paris", "quantity": "250 g" },
-      { "ingredient": "Échalotes", "quantity": "2 (équivalent d'un oignon)" },
+      { "ingredient": "Oignon (ou échalotes)", "quantity": "1 oignon (ou 2 échalotes)" },
       { "ingredient": "Ail", "quantity": "1 gousse" },
       { "ingredient": "Eau chaude", "quantity": "600 ml" },
       { "ingredient": "Parmesan râpé", "quantity": "50 g" },
@@ -23,7 +23,7 @@
     {
       "title": "1. Préparer les légumes",
       "instructions": [
-        "Éplucher et émincer finement les échalotes et l'ail.",
+        "Éplucher et émincer finement l'oignon (ou les échalotes) et l'ail.",
         "Nettoyer les champignons de Paris avec un chiffon humide, les couper en lamelles."
       ]
     },
@@ -46,10 +46,10 @@
       ]
     },
     {
-      "title": "4. Faire suer les échalotes et nacrer le quinoa",
+      "title": "4. Faire suer l'oignon et nacrer le quinoa",
       "instructions": [
         "Dans la même poêle, ajouter un filet d'huile si nécessaire.",
-        "Faire suer les échalotes et l'ail 2 à 3 minutes à feu doux, sans coloration.",
+        "Faire suer l'oignon (ou les échalotes) et l'ail 2 à 3 minutes à feu doux, sans coloration.",
         "Ajouter le quinoa cru et remuer 1 minute pour le nacrer légèrement."
       ]
     },

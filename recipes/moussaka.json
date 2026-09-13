@@ -16,7 +16,7 @@
     ],
     "sauce_viande": [
       { "ingredient": "Viande hachée (agneau ou bœuf)", "quantity": "600 g" },
-      { "ingredient": "Oignon", "quantity": "1 gros" },
+      { "ingredient": "Oignon (ou échalotes)", "quantity": "1 gros (ou 3 échalotes)" },
       { "ingredient": "Ail", "quantity": "2 gousses" },
       { "ingredient": "Tomates concassées", "quantity": "400 g (1 boîte)" },
       { "ingredient": "Concentré de tomate", "quantity": "1 cuillère à soupe" },
@@ -82,9 +82,9 @@
         "Réduire le vin avant d'ajouter la tomate évite une sauce trop acide."
       ],
       "instructions": [
-        "Émincer finement l'oignon et l'ail.",
+        "Émincer finement l'oignon (ou les échalotes) et l'ail.",
         "Faire chauffer l'huile d'olive dans une sauteuse.",
-        "Faire revenir l'oignon et l'ail jusqu'à ce qu'ils deviennent translucides.",
+        "Faire revenir l'oignon (ou les échalotes) et l'ail jusqu'à ce qu'ils deviennent translucides.",
         "Ajouter la viande hachée et la faire dorer en l'émiettant à la spatule.",
         "Verser le vin rouge et laisser réduire 2 minutes.",
         "Ajouter les tomates concassées, le concentré de tomate, la cannelle, les clous de girofle et le laurier.",
