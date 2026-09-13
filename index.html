@@ -72,9 +72,15 @@
 
         <div class="category-row">
 
-            <h3 class="category-row-title">Desserts</h3>
+            <div class="category-row-header">
+                <h3 class="category-row-title">Desserts</h3>
+                <div class="category-row-nav" hidden>
+                    <button type="button" class="category-nav-btn" data-dir="-1" aria-label="Recettes précédentes">‹</button>
+                    <button type="button" class="category-nav-btn" data-dir="1" aria-label="Recettes suivantes">›</button>
+                </div>
+            </div>
 
-            <div class="category-thumbs">
+            <div class="category-thumbs" data-category-slider>
 
                 <a href="opera.html" class="category-thumb">
                     <span class="category-thumb-image">
@@ -110,9 +116,15 @@
 
         <div class="category-row">
 
-            <h3 class="category-row-title">Plats salés</h3>
+            <div class="category-row-header">
+                <h3 class="category-row-title">Plats salés</h3>
+                <div class="category-row-nav" hidden>
+                    <button type="button" class="category-nav-btn" data-dir="-1" aria-label="Recettes précédentes">‹</button>
+                    <button type="button" class="category-nav-btn" data-dir="1" aria-label="Recettes suivantes">›</button>
+                </div>
+            </div>
 
-            <div class="category-thumbs">
+            <div class="category-thumbs" data-category-slider>
 
                 <a href="quiche.html" class="category-thumb">
                     <span class="category-thumb-image">
@@ -252,6 +264,9 @@
     <p class="footer-title">RECETTES</p>
     <p class="footer-tagline">Pâtisserie maison, recette par recette.</p>
 </footer>
+
+
+<script src="categories.js"></script>
 
 </body>
 </html>
