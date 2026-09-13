@@ -134,12 +134,54 @@ function renderRecipe(recipe) {
         .textContent =
         recipe.total_time?.resting || "—";
 
+    renderTableOfContents(recipe.steps);
 
     renderIngredients(recipe.ingredients);
 
     renderSteps(recipe.steps);
 }
 
+
+function renderTableOfContents(steps) {
+
+    const container =
+        document.getElementById("toc-container");
+
+    clearElement(container);
+
+    steps.forEach((step, index) => {
+
+        const link =
+            document.createElement("a");
+
+        link.className = "toc-item";
+
+        link.href = `#step-${index + 1}`;
+
+        const number =
+            document.createElement("span");
+
+        number.className = "toc-number";
+
+        number.textContent =
+            String(index + 1).padStart(2, "0");
+
+
+        const title =
+            document.createElement("span");
+
+        title.className = "toc-title";
+
+        title.textContent =
+            step.title.replace(/^\d+\.\s*/, "");
+
+
+        link.appendChild(number);
+        link.appendChild(title);
+
+        container.appendChild(link);
+    });
+}
 
 /* =========================================================
    INGREDIENTS
