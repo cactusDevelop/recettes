@@ -1,0 +1,162 @@
+{
+  "title": "Tiramisù traditionnel",
+  "description": "Tiramisù italien classique composé de biscuits Savoiardi imbibés de café et d'une crème au mascarpone légère réalisée à partir d'une pâte à bombe et de blancs montés.",
+  "servings": "6 parts",
+  "pan_size": "25 × 19 cm",
+  "total_time": {
+    "preparation": "environ 35 min",
+    "resting": "au moins 1 h, idéalement plusieurs heures"
+  },
+  "ingredients": {
+    "coffee": [
+      {
+        "ingredient": "Café fort",
+        "quantity": "200 g"
+      }
+    ],
+    "mascarpone_cream": [
+      {
+        "ingredient": "Mascarpone",
+        "quantity": "300 g"
+      },
+      {
+        "ingredient": "Jaunes d'œufs",
+        "quantity": "80 g"
+      },
+      {
+        "ingredient": "Blancs d'œufs",
+        "quantity": "120 g"
+      },
+      {
+        "ingredient": "Sucre semoule",
+        "quantity": "180 g"
+      },
+      {
+        "ingredient": "Eau",
+        "quantity": "30 g"
+      }
+    ],
+    "assembly": [
+      {
+        "ingredient": "Biscuits Savoiardi",
+        "quantity": "200 g"
+      },
+      {
+        "ingredient": "Cacao amer en poudre",
+        "quantity": "à volonté"
+      }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer le café",
+      "before": [
+        "Le café doit être suffisamment fort pour parfumer les biscuits sans être masqué par la crème.",
+        "Le café doit être complètement refroidi avant le montage."
+      ],
+      "instructions": [
+        "Préparer environ 200 g de café fort.",
+        "Verser le café dans un récipient large et peu profond.",
+        "Laisser complètement refroidir à température ambiante."
+      ]
+    },
+    {
+      "title": "2. Préparer la pâte à bombe",
+      "before": [
+        "Utiliser un thermomètre de cuisine pour contrôler précisément la température du sirop.",
+        "Les jaunes doivent être prêts à être fouettés lorsque le sirop atteint sa température cible."
+      ],
+      "instructions": [
+        "Séparer les jaunes des blancs.",
+        "Placer les jaunes dans la cuve d'un batteur et commencer à les fouetter.",
+        "Verser l'eau et le sucre dans une petite casserole.",
+        "Chauffer le sirop jusqu'à environ 118 °C.",
+        "Verser progressivement le sirop chaud sur les jaunes tout en continuant à fouetter.",
+        "Continuer à fouetter jusqu'à obtenir une préparation claire, mousseuse et suffisamment refroidie."
+      ],
+      "doneness": "La pâte à bombe doit être pâle, aérienne et avoir nettement augmenté de volume."
+    },
+    {
+      "title": "3. Préparer la crème au mascarpone",
+      "before": [
+        "Le mascarpone doit être suffisamment souple pour être incorporé sans former de grumeaux.",
+        "Éviter de travailler le mascarpone trop longtemps afin de conserver une texture ferme."
+      ],
+      "instructions": [
+        "Détendre légèrement le mascarpone à l'aide d'un fouet.",
+        "Ajouter progressivement la pâte à bombe au mascarpone.",
+        "Mélanger jusqu'à obtenir une crème homogène et dense.",
+        "Réserver la crème au mascarpone."
+      ]
+    },
+    {
+      "title": "4. Monter les blancs en neige",
+      "before": [
+        "Le bol et le fouet doivent être parfaitement propres et exempts de matière grasse.",
+        "Aucune trace de jaune ne doit être présente dans les blancs."
+      ],
+      "instructions": [
+        "Verser les blancs d'œufs dans un récipient propre.",
+        "Commencer à les fouetter à vitesse moyenne.",
+        "Lorsqu'ils deviennent mousseux, augmenter progressivement la vitesse.",
+        "Fouetter jusqu'à obtenir des blancs fermes et brillants."
+      ],
+      "doneness": "Les blancs doivent former une pointe ferme mais conserver une texture souple et brillante."
+    },
+    {
+      "title": "5. Alléger la crème",
+      "before": [
+        "La crème au mascarpone doit être homogène avant d'incorporer les blancs."
+      ],
+      "instructions": [
+        "Ajouter environ un tiers des blancs montés à la crème au mascarpone.",
+        "Mélanger plus franchement afin d'alléger la préparation.",
+        "Ajouter le reste des blancs en deux fois.",
+        "Incorporer délicatement à la spatule en effectuant des mouvements de bas en haut.",
+        "Arrêter dès que la crème est homogène afin de ne pas la faire retomber."
+      ]
+    },
+    {
+      "title": "6. Monter le tiramisù",
+      "before": [
+        "Le café doit être froid.",
+        "Préparer le plat de 25 × 19 cm avant de commencer le montage."
+      ],
+      "instructions": [
+        "Étaler une première fine couche de crème au mascarpone dans le fond du plat.",
+        "Tremper rapidement chaque Savoiardi dans le café refroidi.",
+        "Disposer les biscuits côte à côte afin de former une couche régulière.",
+        "Recouvrir avec une couche de crème au mascarpone.",
+        "Réaliser une seconde couche de Savoiardi imbibés de café.",
+        "Recouvrir avec le reste de la crème.",
+        "Lisser soigneusement la surface à l'aide d'une spatule."
+      ],
+      "important": [
+        "Ne pas laisser les Savoiardi tremper dans le café : ils doivent être rapidement imbibés afin de conserver une structure agréable après le repos.",
+        "La crème doit être suffisamment ferme pour conserver des couches nettes."
+      ]
+    },
+    {
+      "title": "7. Repos",
+      "before": [
+        "Le repos permet aux biscuits d'absorber progressivement l'humidité et aux différentes couches de se stabiliser."
+      ],
+      "instructions": [
+        "Couvrir le tiramisù.",
+        "Placer au réfrigérateur pendant au moins 1 heure.",
+        "Pour une texture plus homogène et un meilleur développement des arômes, laisser reposer plusieurs heures."
+      ]
+    },
+    {
+      "title": "8. Finition au cacao",
+      "before": [
+        "Le cacao doit être ajouté juste avant le service afin de conserver son caractère sec et légèrement amer."
+      ],
+      "instructions": [
+        "Sortir le tiramisù du réfrigérateur.",
+        "Tamiser généreusement le cacao amer sur toute la surface.",
+        "Découper et servir bien frais."
+      ]
+    }
+  ]
+}
