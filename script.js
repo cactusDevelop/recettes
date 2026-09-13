@@ -4,13 +4,13 @@
    ========================================================= */
 
 /*
- * Le nom de la recette est automatiquement récupéré
- * depuis le nom du fichier HTML.
+ * Le nom de la recette est déterminé automatiquement
+ * par le nom du fichier HTML.
  *
  * opera.html    -> opera
  * tiramisu.html -> tiramisu
  *
- * Le fichier JSON correspondant sera donc :
+ * Donc :
  *
  * recipes/opera.json
  * recipes/tiramisu.json
@@ -19,9 +19,30 @@
 const pageName = window.location.pathname
     .split("/")
     .pop()
-    .replace(".html", "");
+    .replace(/\.html$/, "");
 
-const RECIPE_FILE = `recipes/${pageName}.json`;
+
+/*
+ * Compatibilité avec une éventuelle URL de type :
+ *
+ * recipe.html?recipe=opera
+ *
+ * Le paramètre URL est prioritaire s'il existe.
+ */
+const params = new URLSearchParams(window.location.search);
+const recipeName = params.get("recipe") || pageName;
+
+
+/*
+ * La page d'accueil n'est pas une page de recette.
+ */
+const isRecipePage =
+    recipeName &&
+    recipeName !== "index";
+
+
+const RECIPE_FILE =
+    `recipes/${recipeName}.json`;
 
 
 /* =========================================================
@@ -57,7 +78,9 @@ function clearElement(element) {
  * un contenu texte.
  */
 function createElement(tag, className = "", text = "") {
-    const element = document.createElement(tag);
+
+    const element =
+        document.createElement(tag);
 
     if (className) {
         element.className = className;
@@ -77,17 +100,28 @@ function createElement(tag, className = "", text = "") {
 
 async function loadRecipe() {
 
+    if (!isRecipePage) {
+        return;
+    }
+
+
     try {
 
-        const response = await fetch(RECIPE_FILE);
+        const response =
+            await fetch(RECIPE_FILE);
+
 
         if (!response.ok) {
+
             throw new Error(
                 `Impossible de charger ${RECIPE_FILE}`
             );
         }
 
-        const recipe = await response.json();
+
+        const recipe =
+            await response.json();
+
 
         renderRecipe(recipe);
 
@@ -95,11 +129,13 @@ async function loadRecipe() {
 
         console.error(error);
 
+
         document.body.innerHTML = `
             <main style="
                 padding: 50px;
                 font-family: sans-serif;
             ">
+
                 <h1>Impossible de charger la recette</h1>
 
                 <p>
@@ -113,6 +149,7 @@ async function loadRecipe() {
                     avec ton navigateur, utilise plutôt GitHub
                     Pages ou un serveur local.
                 </p>
+
             </main>
         `;
     }
@@ -125,62 +162,145 @@ async function loadRecipe() {
 
 function renderRecipe(recipe) {
 
-    document.title = recipe.title;
+    document.title =
+        recipe.title;
 
-    document
-        .getElementById("recipe-title")
-        .textContent = recipe.title;
 
-    document
-        .getElementById("recipe-description")
-        .textContent = recipe.description || "";
+    const title =
+        document.getElementById("recipe-title");
 
-    document
-        .getElementById("recipe-servings")
-        .textContent = recipe.servings || "—";
+    if (title) {
+        title.textContent =
+            recipe.title;
+    }
 
-    document
-        .getElementById("recipe-pan-size")
-        .textContent = recipe.pan_size || "—";
 
-    document
-        .getElementById("recipe-preparation-time")
-        .textContent =
-        recipe.total_time?.preparation || "—";
+    const description =
+        document.getElementById("recipe-description");
 
-    document
-        .getElementById("recipe-resting-time")
-        .textContent =
-        recipe.total_time?.resting || "—";
+    if (description) {
+        description.textContent =
+            recipe.description || "";
+    }
 
-    renderTableOfContents(recipe.steps);
 
-    renderIngredients(recipe.ingredients);
+    const servings =
+        document.getElementById("recipe-servings");
 
-    renderSteps(recipe.steps);
+    if (servings) {
+        servings.textContent =
+            recipe.servings || "—";
+    }
+
+
+    const panSize =
+        document.getElementById("recipe-pan-size");
+
+    if (panSize) {
+        panSize.textContent =
+            recipe.pan_size || "—";
+    }
+
+
+    const preparationTime =
+        document.getElementById(
+            "recipe-preparation-time"
+        );
+
+    if (preparationTime) {
+        preparationTime.textContent =
+            recipe.total_time?.preparation || "—";
+    }
+
+
+    const restingTime =
+        document.getElementById(
+            "recipe-resting-time"
+        );
+
+    if (restingTime) {
+        restingTime.textContent =
+            recipe.total_time?.resting || "—";
+    }
+
+
+    /*
+     * L'image suit automatiquement le nom
+     * de la recette :
+     *
+     * opera    -> images/opera.jpg
+     * tiramisu -> images/tiramisu.jpg
+     */
+    const image =
+        document.getElementById("recipe-image");
+
+    if (image && recipeName) {
+
+        image.src =
+            `images/${recipeName}.jpg`;
+
+        image.alt =
+            recipe.title;
+    }
+
+
+    renderTableOfContents(
+        recipe.steps
+    );
+
+
+    renderIngredients(
+        recipe.ingredients
+    );
+
+
+    renderSteps(
+        recipe.steps
+    );
 }
 
+
+/* =========================================================
+   SOMMAIRE
+   ========================================================= */
 
 function renderTableOfContents(steps) {
 
     const container =
-        document.getElementById("toc-container");
+        document.getElementById(
+            "toc-container"
+        );
+
+
+    if (!container) {
+        return;
+    }
+
 
     clearElement(container);
+
 
     steps.forEach((step, index) => {
 
         const link =
             document.createElement("a");
 
-        link.className = "toc-item";
 
-        link.href = `#step-${index + 1}`;
+        link.className =
+            "toc-item";
+
+
+        link.href =
+            `#step-${index + 1}`;
+
 
         const number =
             document.createElement("span");
 
-        number.className = "toc-number";
+
+        number.className =
+            "toc-number";
+
 
         number.textContent =
             String(index + 1).padStart(2, "0");
@@ -189,10 +309,16 @@ function renderTableOfContents(steps) {
         const title =
             document.createElement("span");
 
-        title.className = "toc-title";
+
+        title.className =
+            "toc-title";
+
 
         title.textContent =
-            step.title.replace(/^\d+\.\s*/, "");
+            step.title.replace(
+                /^\d+\.\s*/,
+                ""
+            );
 
 
         link.appendChild(number);
@@ -210,15 +336,29 @@ function renderTableOfContents(steps) {
 function renderIngredients(ingredients) {
 
     const container =
-        document.getElementById("ingredients-container");
+        document.getElementById(
+            "ingredients-container"
+        );
+
+
+    if (!container) {
+        return;
+    }
+
 
     clearElement(container);
 
 
-    for (const [groupName, items] of Object.entries(ingredients)) {
+    for (
+        const [groupName, items]
+        of Object.entries(ingredients)
+    ) {
 
         const group =
-            createElement("div", "ingredient-group");
+            createElement(
+                "div",
+                "ingredient-group"
+            );
 
 
         const title =
@@ -235,7 +375,10 @@ function renderIngredients(ingredients) {
         for (const item of items) {
 
             const ingredient =
-                createElement("div", "ingredient");
+                createElement(
+                    "div",
+                    "ingredient"
+                );
 
 
             const name =
@@ -257,6 +400,7 @@ function renderIngredients(ingredients) {
             ingredient.appendChild(name);
             ingredient.appendChild(quantity);
 
+
             group.appendChild(ingredient);
         }
 
@@ -273,7 +417,15 @@ function renderIngredients(ingredients) {
 function renderSteps(steps) {
 
     const container =
-        document.getElementById("steps-container");
+        document.getElementById(
+            "steps-container"
+        );
+
+
+    if (!container) {
+        return;
+    }
+
 
     clearElement(container);
 
@@ -281,7 +433,18 @@ function renderSteps(steps) {
     steps.forEach((step, index) => {
 
         const article =
-            createElement("article", "step");
+            createElement(
+                "article",
+                "step"
+            );
+
+
+        /*
+         * Permet au sommaire de pointer vers
+         * chaque étape.
+         */
+        article.id =
+            `step-${index + 1}`;
 
 
         /* Numéro */
@@ -297,7 +460,10 @@ function renderSteps(steps) {
         /* Contenu */
 
         const content =
-            createElement("div", "step-content");
+            createElement(
+                "div",
+                "step-content"
+            );
 
 
         const title =
@@ -315,10 +481,17 @@ function renderSteps(steps) {
          * AVANT DE COMMENCER
          */
 
-        if (Array.isArray(step.before) && step.before.length > 0) {
+        if (
+            Array.isArray(step.before) &&
+            step.before.length > 0
+        ) {
 
             const block =
-                createElement("div", "step-block");
+                createElement(
+                    "div",
+                    "step-block"
+                );
+
 
             const blockTitle =
                 createElement(
@@ -327,10 +500,15 @@ function renderSteps(steps) {
                     "Avant de commencer"
                 );
 
+
             block.appendChild(blockTitle);
 
+
             const list =
-                createList(step.before);
+                createList(
+                    step.before
+                );
+
 
             block.appendChild(list);
 
@@ -348,7 +526,11 @@ function renderSteps(steps) {
         ) {
 
             const block =
-                createElement("div", "step-block");
+                createElement(
+                    "div",
+                    "step-block"
+                );
+
 
             const blockTitle =
                 createElement(
@@ -357,10 +539,16 @@ function renderSteps(steps) {
                     "Préparation"
                 );
 
+
             block.appendChild(blockTitle);
 
+
             const list =
-                createList(step.instructions, true);
+                createList(
+                    step.instructions,
+                    true
+                );
+
 
             block.appendChild(list);
 
@@ -381,6 +569,7 @@ function renderSteps(steps) {
                     step.doneness
                 );
 
+
             content.appendChild(box);
         }
 
@@ -399,6 +588,7 @@ function renderSteps(steps) {
                     "important",
                     step.important
                 );
+
 
             content.appendChild(box);
         }
@@ -419,6 +609,7 @@ function renderSteps(steps) {
                     step.rescue
                 );
 
+
             content.appendChild(box);
         }
 
@@ -438,12 +629,14 @@ function renderSteps(steps) {
                     step.cooling
                 );
 
+
             content.appendChild(box);
         }
 
 
         article.appendChild(number);
         article.appendChild(content);
+
 
         container.appendChild(article);
     });
@@ -454,12 +647,20 @@ function renderSteps(steps) {
    LISTES
    ========================================================= */
 
-function createList(items, numbered = false) {
+function createList(
+    items,
+    numbered = false
+) {
 
     const list =
         createElement(
-            numbered ? "ol" : "ul",
-            numbered ? "step-list numbered" : "step-list"
+            numbered
+                ? "ol"
+                : "ul",
+
+            numbered
+                ? "step-list numbered"
+                : "step-list"
         );
 
 
@@ -468,7 +669,10 @@ function createList(items, numbered = false) {
         const li =
             createElement("li");
 
-        li.textContent = item;
+
+        li.textContent =
+            item;
+
 
         list.appendChild(li);
     });
@@ -482,7 +686,10 @@ function createList(items, numbered = false) {
    BOITES D'INFORMATION
    ========================================================= */
 
-function createInfoBox(className, items) {
+function createInfoBox(
+    className,
+    items
+) {
 
     const box =
         createElement(
@@ -503,13 +710,17 @@ function createInfoBox(className, items) {
         const li =
             createElement("li");
 
-        li.textContent = item;
+
+        li.textContent =
+            item;
+
 
         list.appendChild(li);
     });
 
 
     box.appendChild(list);
+
 
     return box;
 }
