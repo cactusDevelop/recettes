@@ -2,7 +2,10 @@
    CONFIGURATION
    ========================================================= */
 
-const RECIPE_FILE = "recipes/opera.json";
+const params = new URLSearchParams(window.location.search);
+const recipeName = params.get("recipe");
+
+const RECIPE_FILE = `recipes/${recipeName}.json`;
 
 
 /* =========================================================
