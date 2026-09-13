@@ -1,22 +1,127 @@
 ```html
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tiramisù</title>
+
+    <title>Tiramisù traditionnel</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <a href="index.html">← Retour aux recettes</a>
+<header class="site-header">
+    <div class="header-inner">
 
-    <main id="recipe">
-        <!-- Le contenu de la recette est chargé par script.js -->
-    </main>
+        <a href="index.html" class="site-title">RECETTES</a>
 
-    <script src="script.js"></script>
+        <nav>
+            <a href="#ingredients">Ingrédients</a>
+            <a href="#preparation">Préparation</a>
+        </nav>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-image">
+            <img
+                id="recipe-image"
+                src="images/tiramisu.jpg"
+                alt="Tiramisù traditionnel"
+            >
+        </div>
+
+        <div class="hero-content">
+
+            <h1 id="recipe-title">Tiramisù traditionnel</h1>
+
+            <p id="recipe-description" class="description"></p>
+
+            <div class="recipe-meta">
+
+                <div class="meta-item">
+                    <span class="meta-label">PORTIONS</span>
+                    <span id="recipe-servings"></span>
+                </div>
+
+                <div class="meta-item">
+                    <span class="meta-label">MOULE</span>
+                    <span id="recipe-pan-size"></span>
+                </div>
+
+                <div class="meta-item">
+                    <span class="meta-label">PRÉPARATION</span>
+                    <span id="recipe-preparation-time"></span>
+                </div>
+
+                <div class="meta-item">
+                    <span class="meta-label">REPOS</span>
+                    <span id="recipe-resting-time"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOMMAIRE -->
+    <section id="sommaire" class="section toc-section">
+
+        <div class="section-heading">
+            <span class="section-number">00</span>
+            <h2>Sommaire</h2>
+        </div>
+
+        <nav id="toc-container" class="toc-container"></nav>
+
+    </section>
+
+
+    <!-- INGREDIENTS -->
+    <section id="ingredients" class="section ingredients-section">
+
+        <div class="section-heading">
+            <span class="section-number">01</span>
+            <h2>Ingrédients</h2>
+        </div>
+
+        <div id="ingredients-container" class="ingredients-container"></div>
+
+    </section>
+
+
+    <!-- PREPARATION -->
+    <section id="preparation" class="section preparation-section">
+
+        <div class="section-heading">
+            <span class="section-number">02</span>
+            <h2>Préparation</h2>
+        </div>
+
+        <div id="steps-container" class="steps-container"></div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>RECETTES</p>
+</footer>
+
+
+<script src="script.js"></script>
 
 </body>
 </html>
