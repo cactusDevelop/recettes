@@ -17,10 +17,41 @@
 
         <a href="index.html" class="site-title">RECETTARIUM</a>
 
-        <nav>
-            <a href="index.html#recettes">Recettes</a>
-            <a href="#ingredients">Ingrédients</a>
-            <a href="#preparation">Préparation</a>
+        <button type="button" class="hamburger" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="site-nav" id="site-nav">
+
+            <div class="nav-dropdown" data-nav-dropdown>
+                <button type="button" class="nav-dropdown-toggle" aria-expanded="false">
+                    <span>Desserts</span>
+                    <svg class="nav-arrow" viewBox="0 0 12 8" aria-hidden="true">
+                        <path d="M1 1l5 5 5-5"/>
+                    </svg>
+                </button>
+                <div class="nav-dropdown-panel">
+                    <div class="nav-dropdown-panel-inner" data-nav-category="desserts"></div>
+                </div>
+            </div>
+
+            <div class="nav-dropdown" data-nav-dropdown>
+                <button type="button" class="nav-dropdown-toggle" aria-expanded="false">
+                    <span>Plats salés</span>
+                    <svg class="nav-arrow" viewBox="0 0 12 8" aria-hidden="true">
+                        <path d="M1 1l5 5 5-5"/>
+                    </svg>
+                </button>
+                <div class="nav-dropdown-panel">
+                    <div class="nav-dropdown-panel-inner" data-nav-category="sales"></div>
+                </div>
+            </div>
+
+            <a href="#ingredients" class="nav-link">Ingrédients</a>
+            <a href="#preparation" class="nav-link">Préparation</a>
+
         </nav>
 
     </div>
@@ -121,6 +152,7 @@
 </footer>
 
 
+<script src="nav.js"></script>
 <script src="script.js"></script>
 
 </body>
