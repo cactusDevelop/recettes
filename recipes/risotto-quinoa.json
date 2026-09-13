@@ -1,0 +1,74 @@
+{
+  "title": "Quinoa façon risotto aux champignons",
+  "description": "Le quinoa remplace le riz dans cette version plus légère et plus digeste du risotto classique : champignons de Paris rôtis, échalotes fondues, parmesan et beurre pour une texture crémeuse, sans bouillon de légumes.",
+  "servings": "4 parts",
+  "pan_size": "poêle ou sauteuse large",
+  "total_time": {
+    "preparation": "35 min"
+  },
+  "ingredients": {
+    "risotto": [
+      { "ingredient": "Quinoa", "quantity": "200 g" },
+      { "ingredient": "Champignons de Paris", "quantity": "250 g" },
+      { "ingredient": "Échalotes", "quantity": "2 (équivalent d'un oignon)" },
+      { "ingredient": "Ail", "quantity": "1 gousse" },
+      { "ingredient": "Eau chaude", "quantity": "600 ml" },
+      { "ingredient": "Parmesan râpé", "quantity": "50 g" },
+      { "ingredient": "Beurre", "quantity": "20 g" },
+      { "ingredient": "Huile d'olive", "quantity": "1 cuillère à soupe" },
+      { "ingredient": "Sel, poivre", "quantity": "au goût" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer les légumes",
+      "instructions": [
+        "Éplucher et émincer finement les échalotes et l'ail.",
+        "Nettoyer les champignons de Paris avec un chiffon humide, les couper en lamelles."
+      ]
+    },
+    {
+      "title": "2. Faire dorer les champignons",
+      "instructions": [
+        "Chauffer l'huile d'olive dans une poêle ou sauteuse large, à feu vif.",
+        "Ajouter les champignons et les faire sauter 5 minutes sans trop remuer, jusqu'à ce qu'ils rendent leur eau et dorent.",
+        "Saler légèrement, poivrer, puis réserver hors de la poêle."
+      ],
+      "doneness": "Les champignons doivent être bien dorés, sans excès de liquide restant dans la poêle."
+    },
+    {
+      "title": "3. Faire chauffer l'eau",
+      "before": [
+        "L'eau doit rester chaude à proximité pendant toute la cuisson du quinoa, pour ne pas interrompre la cuisson."
+      ],
+      "instructions": [
+        "Faire chauffer l'eau dans une casserole à part, la maintenir frémissante."
+      ]
+    },
+    {
+      "title": "4. Faire suer les échalotes et nacrer le quinoa",
+      "instructions": [
+        "Dans la même poêle, ajouter un filet d'huile si nécessaire.",
+        "Faire suer les échalotes et l'ail 2 à 3 minutes à feu doux, sans coloration.",
+        "Ajouter le quinoa cru et remuer 1 minute pour le nacrer légèrement."
+      ]
+    },
+    {
+      "title": "5. Cuire le quinoa façon risotto",
+      "instructions": [
+        "Verser une louche d'eau chaude sur le quinoa, remuer régulièrement jusqu'à absorption presque complète.",
+        "Répéter l'opération louche par louche pendant environ 20 minutes, en remuant souvent."
+      ],
+      "doneness": "Le quinoa doit être tendre mais encore légèrement croquant au cœur, avec les petits germes en spirale bien détachés."
+    },
+    {
+      "title": "6. Terminer et servir",
+      "instructions": [
+        "Hors du feu, incorporer les champignons réservés, le beurre et le parmesan.",
+        "Mélanger jusqu'à obtenir une texture crémeuse.",
+        "Rectifier l'assaisonnement en sel et poivre.",
+        "Servir immédiatement, avec un peu de parmesan supplémentaire si désiré."
+      ]
+    }
+  ]
+}
