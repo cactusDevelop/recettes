@@ -1,0 +1,127 @@
+{
+  "title": "Quiche poireaux, petits pois, échalotes et saumon",
+  "description": "Quiche maison sur pâte brisée, garnie de poireaux et échalotes fondus, de petits pois et de saumon, gratinée au fromage râpé. Un appareil équilibré (crème et lait) pour rester léger sans sacrifier le fondant.",
+  "servings": "6 parts",
+  "pan_size": "moule à tarte de 28 cm",
+  "total_time": {
+    "preparation": "45 min",
+    "resting": "30 min de repos pour la pâte + 10 min avant découpe"
+  },
+  "ingredients": {
+    "pate_brisee": [
+      { "ingredient": "Farine", "quantity": "250 g" },
+      { "ingredient": "Beurre froid", "quantity": "125 g" },
+      { "ingredient": "Œuf", "quantity": "1" },
+      { "ingredient": "Eau froide", "quantity": "2 à 3 cuillères à soupe" },
+      { "ingredient": "Sel fin", "quantity": "1 pincée" }
+    ],
+    "garniture": [
+      { "ingredient": "Poireaux (blanc uniquement)", "quantity": "2, soit environ 300 g" },
+      { "ingredient": "Échalotes", "quantity": "2" },
+      { "ingredient": "Petits pois (frais ou surgelés)", "quantity": "150 g" },
+      { "ingredient": "Pavé de saumon frais", "quantity": "200 g" },
+      { "ingredient": "Beurre", "quantity": "20 g" },
+      { "ingredient": "Huile d'olive", "quantity": "1 cuillère à soupe" },
+      { "ingredient": "Sel, poivre", "quantity": "au goût" }
+    ],
+    "appareil": [
+      { "ingredient": "Œufs", "quantity": "3" },
+      { "ingredient": "Crème fraîche épaisse", "quantity": "20 cl" },
+      { "ingredient": "Lait", "quantity": "10 cl" },
+      { "ingredient": "Muscade", "quantity": "1 pincée" },
+      { "ingredient": "Sel, poivre", "quantity": "au goût" },
+      { "ingredient": "Fromage râpé (emmental ou gruyère)", "quantity": "80 g" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer la pâte brisée",
+      "before": [
+        "Le beurre doit rester froid pour obtenir une pâte sableuse et non élastique."
+      ],
+      "instructions": [
+        "Couper le beurre froid en petits dés.",
+        "Dans un saladier, mélanger la farine, le sel et le beurre du bout des doigts jusqu'à obtenir une texture sableuse.",
+        "Ajouter l'œuf et mélanger rapidement.",
+        "Ajouter l'eau froide cuillère par cuillère, juste assez pour lier la pâte.",
+        "Former une boule sans trop pétrir, filmer et réserver au réfrigérateur 30 minutes."
+      ]
+    },
+    {
+      "title": "2. Foncer le moule et précuire à blanc",
+      "before": [
+        "Préchauffer le four à 180 °C.",
+        "La précuisson à blanc évite que le fond de tarte détrempe avec la garniture."
+      ],
+      "instructions": [
+        "Étaler la pâte sur un plan fariné et foncer le moule beurré.",
+        "Piquer le fond à la fourchette.",
+        "Couvrir de papier cuisson et de billes de cuisson (ou légumes secs).",
+        "Enfourner 15 minutes.",
+        "Retirer les billes et le papier, poursuivre la cuisson 5 minutes pour sécher légèrement le fond.",
+        "Réserver."
+      ],
+      "doneness": "Le fond doit être légèrement doré et sec au toucher, sans être complètement cuit."
+    },
+    {
+      "title": "3. Préparer les poireaux et les échalotes",
+      "instructions": [
+        "Émincer finement les poireaux et les échalotes.",
+        "Faire fondre le beurre dans une poêle à feu doux.",
+        "Ajouter les poireaux et les échalotes, une pincée de sel.",
+        "Couvrir et laisser fondre 15 minutes à feu doux en remuant régulièrement.",
+        "Réserver hors du feu."
+      ],
+      "doneness": "Les poireaux doivent être fondants et translucides, sans coloration."
+    },
+    {
+      "title": "4. Préparer les petits pois",
+      "instructions": [
+        "Si les petits pois sont surgelés, les plonger 2 minutes dans l'eau bouillante salée puis les égoutter.",
+        "S'ils sont frais, les cuire à l'eau bouillante salée 4 à 5 minutes jusqu'à tendreté.",
+        "Réserver."
+      ]
+    },
+    {
+      "title": "5. Cuire le saumon",
+      "before": [
+        "Le saumon sera terminé de cuire au four dans la quiche : il doit rester à peine saisi à cette étape."
+      ],
+      "instructions": [
+        "Saler et poivrer le pavé de saumon.",
+        "Faire chauffer l'huile d'olive dans une poêle.",
+        "Saisir le saumon 1 minute de chaque côté, il doit rester rosé à cœur.",
+        "Laisser tiédir puis émietter en gros morceaux, en retirant la peau et les éventuelles arêtes."
+      ]
+    },
+    {
+      "title": "6. Préparer l'appareil à quiche",
+      "instructions": [
+        "Dans un saladier, fouetter les œufs avec la crème fraîche et le lait.",
+        "Ajouter la muscade, le sel et le poivre.",
+        "Mélanger jusqu'à obtenir une préparation homogène."
+      ]
+    },
+    {
+      "title": "7. Garnir et cuire",
+      "before": [
+        "Préchauffer le four à 180 °C si ce n'est pas déjà fait."
+      ],
+      "instructions": [
+        "Répartir les poireaux et échalotes fondus sur le fond de tarte précuit.",
+        "Ajouter les petits pois et les morceaux de saumon émietté.",
+        "Verser l'appareil à quiche sur la garniture.",
+        "Parsemer de fromage râpé.",
+        "Enfourner 30 à 35 minutes."
+      ],
+      "doneness": "La quiche doit être dorée et gonflée sur les bords ; le centre doit trembloter légèrement sans être liquide."
+    },
+    {
+      "title": "8. Laisser reposer avant de servir",
+      "instructions": [
+        "Laisser reposer la quiche 10 minutes hors du four avant de découper.",
+        "Servir tiède, accompagnée d'une salade verte."
+      ]
+    }
+  ]
+}

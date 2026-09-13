@@ -1,0 +1,115 @@
+{
+  "title": "Tarte Tatin",
+  "description": "La tarte renversée aux pommes caramélisées, inventée par les sœurs Tatin. Pommes fermes cuites dans un caramel au beurre, puis recouvertes de pâte brisée et cuites au four avant d'être démoulées à l'envers.",
+  "servings": "6 à 8 parts",
+  "pan_size": "moule ou poêle allant au four, 24 cm",
+  "total_time": {
+    "preparation": "1 h",
+    "resting": "30 min de repos pour la pâte + 10 min avant démoulage"
+  },
+  "ingredients": {
+    "pate_brisee": [
+      { "ingredient": "Farine", "quantity": "200 g" },
+      { "ingredient": "Beurre froid", "quantity": "100 g" },
+      { "ingredient": "Sucre semoule", "quantity": "1 cuillère à soupe" },
+      { "ingredient": "Sel fin", "quantity": "1 pincée" },
+      { "ingredient": "Eau froide", "quantity": "3 à 4 cuillères à soupe" }
+    ],
+    "pommes_caramel": [
+      { "ingredient": "Pommes fermes (reinette, golden ou boskoop)", "quantity": "1,3 kg, soit 7 à 8 pommes" },
+      { "ingredient": "Beurre doux", "quantity": "100 g" },
+      { "ingredient": "Sucre semoule", "quantity": "150 g" },
+      { "ingredient": "Jus de citron", "quantity": "quelques gouttes" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer la pâte brisée",
+      "before": [
+        "Le beurre doit rester froid pour une pâte sableuse et facile à travailler."
+      ],
+      "instructions": [
+        "Couper le beurre froid en dés.",
+        "Sabler la farine, le sucre, le sel et le beurre du bout des doigts.",
+        "Ajouter l'eau froide progressivement, juste assez pour lier la pâte sans la travailler davantage.",
+        "Former une boule aplatie, filmer et réserver au réfrigérateur 30 minutes."
+      ]
+    },
+    {
+      "title": "2. Préparer les pommes",
+      "before": [
+        "Choisir une variété de pomme ferme qui tient bien à la cuisson : elle ne doit pas se transformer en compote."
+      ],
+      "instructions": [
+        "Éplucher les pommes.",
+        "Les couper en deux, retirer le cœur et les pépins.",
+        "Arroser de quelques gouttes de citron pour éviter l'oxydation.",
+        "Réserver."
+      ]
+    },
+    {
+      "title": "3. Préparer le caramel à sec",
+      "before": [
+        "Utiliser un moule ou une poêle allant au four, à fond épais.",
+        "Le caramel à sec (sans eau) colore plus vite : rester attentif en permanence."
+      ],
+      "instructions": [
+        "Répartir le sucre semoule en couche régulière dans le fond du moule.",
+        "Chauffer à feu moyen sans remuer, en inclinant le moule de temps en temps pour répartir la fonte.",
+        "Laisser cuire jusqu'à obtenir un caramel ambré.",
+        "Retirer du feu et ajouter le beurre coupé en morceaux, en mélangeant rapidement pour l'incorporer."
+      ],
+      "doneness": "Le caramel doit être ambré, couleur miel foncé, sans être brûlé (odeur âcre)."
+    },
+    {
+      "title": "4. Disposer et cuire les pommes",
+      "before": [
+        "Disposer les pommes serrées les unes contre les autres : elles vont réduire en cuisant."
+      ],
+      "instructions": [
+        "Ranger les demi-pommes debout, côté bombé contre le fond, bien serrées en cercle.",
+        "Combler les espaces avec des petits morceaux de pomme.",
+        "Cuire à feu moyen sur la plaque de cuisson pendant 20 à 25 minutes.",
+        "Arroser régulièrement les pommes avec le caramel qui remonte sur les bords."
+      ],
+      "doneness": "Les pommes doivent être fondantes lorsqu'on les pique avec la pointe d'un couteau, et le caramel bien réduit."
+    },
+    {
+      "title": "5. Couvrir de pâte et enfourner",
+      "before": [
+        "Préchauffer le four à 200 °C.",
+        "Laisser tiédir légèrement les pommes avant de poser la pâte."
+      ],
+      "instructions": [
+        "Étaler la pâte brisée sur un plan fariné, en un disque un peu plus grand que le moule.",
+        "Poser la pâte sur les pommes.",
+        "Rentrer les bords de la pâte à l'intérieur du moule, tout autour des pommes.",
+        "Piquer légèrement la surface avec une fourchette.",
+        "Enfourner 25 à 30 minutes."
+      ],
+      "doneness": "La pâte doit être dorée et bien cuite."
+    },
+    {
+      "title": "6. Démouler",
+      "before": [
+        "Le démoulage se fait à chaud : utiliser des gants et travailler avec précaution, le caramel est brûlant."
+      ],
+      "instructions": [
+        "Laisser reposer la tarte 10 minutes à la sortie du four.",
+        "Poser un plat de service à l'envers sur le moule.",
+        "Retourner d'un geste ferme et rapide.",
+        "Retirer délicatement le moule."
+      ],
+      "rescue": [
+        "Si quelques morceaux de pomme restent collés au moule, les décoller simplement et les replacer sur la tarte.",
+        "Si du caramel liquide s'est échappé, le récupérer dans le moule et le verser sur la tarte."
+      ]
+    },
+    {
+      "title": "7. Servir",
+      "instructions": [
+        "Déguster idéalement tiède, éventuellement avec une boule de glace vanille ou de la crème fraîche."
+      ]
+    }
+  ]
+}

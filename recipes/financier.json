@@ -1,0 +1,103 @@
+{
+  "title": "Financiers aux amandes",
+  "description": "Petits gâteaux moelleux à la poudre d'amandes et au beurre noisette, typiques de la pâtisserie française. Une recette classique où seuls les blancs d'œufs sont utilisés, pour une texture légère et un goût de noisette prononcé.",
+  "servings": "environ 16 financiers",
+  "pan_size": "moules à financiers (ou moule à mini-cakes)",
+  "total_time": {
+    "preparation": "35 min",
+    "resting": "30 min (idéalement 1 h, facultatif mais recommandé)"
+  },
+  "ingredients": {
+    "pate": [
+      { "ingredient": "Beurre doux", "quantity": "150 g" },
+      { "ingredient": "Sucre glace", "quantity": "150 g" },
+      { "ingredient": "Poudre d'amandes", "quantity": "75 g" },
+      { "ingredient": "Farine", "quantity": "50 g" },
+      { "ingredient": "Blancs d'œufs (environ 5)", "quantity": "150 g" },
+      { "ingredient": "Miel liquide", "quantity": "10 g" },
+      { "ingredient": "Sel fin", "quantity": "1 pincée" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer le beurre noisette",
+      "before": [
+        "Utiliser une casserole à fond clair pour bien surveiller la couleur du beurre.",
+        "Prévoir une passoire fine ou une gaze pour filtrer le beurre une fois cuit."
+      ],
+      "instructions": [
+        "Couper le beurre en morceaux et le mettre dans la casserole.",
+        "Faire fondre à feu moyen.",
+        "Laisser cuire en remuant de temps en temps : le beurre mousse, puis les particules de lait tombent au fond et brunissent.",
+        "Continuer la cuisson jusqu'à ce que le beurre prenne une couleur ambrée et dégage une odeur de noisette.",
+        "Retirer immédiatement du feu et filtrer à travers la passoire fine pour retirer les particules brunes.",
+        "Laisser tiédir à température ambiante."
+      ],
+      "doneness": "Le beurre doit être ambré et sentir la noisette, sans particules noires ni odeur de brûlé."
+    },
+    {
+      "title": "2. Mélanger les poudres",
+      "instructions": [
+        "Tamiser le sucre glace, la poudre d'amandes et la farine dans un grand saladier.",
+        "Ajouter la pincée de sel.",
+        "Mélanger brièvement à la spatule pour homogénéiser."
+      ]
+    },
+    {
+      "title": "3. Incorporer les blancs d'œufs",
+      "before": [
+        "Les blancs ne doivent pas être montés : ils sont simplement ajoutés tels quels, à température ambiante de préférence."
+      ],
+      "instructions": [
+        "Faire un puits au centre des poudres.",
+        "Verser les blancs d'œufs et le miel.",
+        "Mélanger à la spatule en partant du centre, jusqu'à obtenir une pâte lisse et homogène."
+      ]
+    },
+    {
+      "title": "4. Incorporer le beurre noisette",
+      "before": [
+        "Le beurre doit être tiède, pas chaud, pour ne pas cuire les blancs d'œufs."
+      ],
+      "instructions": [
+        "Verser le beurre noisette tiède en filet, tout en mélangeant à la spatule.",
+        "Mélanger jusqu'à obtenir une pâte lisse et brillante."
+      ]
+    },
+    {
+      "title": "5. Laisser reposer la pâte",
+      "before": [
+        "Ce repos n'est pas obligatoire mais améliore nettement la texture et la tenue à la cuisson."
+      ],
+      "instructions": [
+        "Filmer le saladier au contact.",
+        "Réserver au réfrigérateur au moins 30 minutes, idéalement 1 heure."
+      ]
+    },
+    {
+      "title": "6. Cuire les financiers",
+      "before": [
+        "Préchauffer le four à 210 °C en chaleur tournante.",
+        "Beurrer les moules à financiers, même s'ils sont antiadhésifs."
+      ],
+      "instructions": [
+        "Remplir les moules aux trois quarts à l'aide d'une poche à douille ou d'une cuillère.",
+        "Enfourner et cuire 4 minutes à 210 °C.",
+        "Baisser le four à 180 °C sans ouvrir la porte et poursuivre la cuisson 8 à 10 minutes."
+      ],
+      "doneness": "Les bords doivent être dorés et le centre moelleux, qui reprend sa forme sous le doigt sans être liquide."
+    },
+    {
+      "title": "7. Démouler et refroidir",
+      "instructions": [
+        "Laisser tiédir 5 minutes dans les moules.",
+        "Démouler délicatement sur une grille.",
+        "Laisser refroidir complètement avant de déguster."
+      ],
+      "important": [
+        "Les financiers se conservent 3 à 4 jours dans une boîte hermétique et se congèlent très bien une fois cuits.",
+        "Ne pas prolonger la cuisson au-delà du repère de couleur : ils se dessèchent vite."
+      ]
+    }
+  ]
+}

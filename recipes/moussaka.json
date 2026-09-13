@@ -1,0 +1,151 @@
+{
+  "title": "Moussaka",
+  "description": "Le gratin grec traditionnel en couches : pommes de terre, aubergines rôties, sauce à la viande parfumée à la cannelle et béchamel gratinée. Les aubergines sont ici rôties au four plutôt que frites, pour un plat plus léger sans perdre en fondant.",
+  "servings": "6 à 8 parts",
+  "pan_size": "plat à gratin de 30 x 20 cm",
+  "total_time": {
+    "preparation": "1 h 30",
+    "resting": "20 min avant découpe"
+  },
+  "ingredients": {
+    "legumes": [
+      { "ingredient": "Aubergines", "quantity": "3 grosses, soit environ 1,2 kg" },
+      { "ingredient": "Pommes de terre", "quantity": "4 moyennes" },
+      { "ingredient": "Huile d'olive", "quantity": "5 cuillères à soupe" },
+      { "ingredient": "Sel", "quantity": "pour le dégorgement" }
+    ],
+    "sauce_viande": [
+      { "ingredient": "Viande hachée (agneau ou bœuf)", "quantity": "600 g" },
+      { "ingredient": "Oignon", "quantity": "1 gros" },
+      { "ingredient": "Ail", "quantity": "2 gousses" },
+      { "ingredient": "Tomates concassées", "quantity": "400 g (1 boîte)" },
+      { "ingredient": "Concentré de tomate", "quantity": "1 cuillère à soupe" },
+      { "ingredient": "Vin rouge", "quantity": "10 cl" },
+      { "ingredient": "Cannelle moulue", "quantity": "1/2 cuillère à café" },
+      { "ingredient": "Clous de girofle", "quantity": "2" },
+      { "ingredient": "Feuille de laurier", "quantity": "1" },
+      { "ingredient": "Persil haché", "quantity": "2 cuillères à soupe" },
+      { "ingredient": "Huile d'olive", "quantity": "2 cuillères à soupe" },
+      { "ingredient": "Sel, poivre", "quantity": "au goût" }
+    ],
+    "bechamel": [
+      { "ingredient": "Beurre", "quantity": "60 g" },
+      { "ingredient": "Farine", "quantity": "60 g" },
+      { "ingredient": "Lait", "quantity": "60 cl" },
+      { "ingredient": "Muscade", "quantity": "1 pincée" },
+      { "ingredient": "Jaunes d'œufs", "quantity": "2" },
+      { "ingredient": "Fromage râpé (kefalotyri ou parmesan)", "quantity": "80 g, plus un peu pour gratiner" },
+      { "ingredient": "Sel, poivre", "quantity": "au goût" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer les aubergines",
+      "before": [
+        "Le dégorgement retire l'amertume et l'excès d'eau des aubergines : ne pas le sauter."
+      ],
+      "instructions": [
+        "Couper les aubergines en tranches d'environ 1 cm d'épaisseur, dans le sens de la longueur.",
+        "Les disposer sur une grille ou un torchon, saler généreusement chaque face.",
+        "Laisser dégorger 30 minutes.",
+        "Rincer rapidement et sécher soigneusement avec du papier absorbant."
+      ]
+    },
+    {
+      "title": "2. Rôtir les aubergines",
+      "before": [
+        "Préchauffer le four à 220 °C.",
+        "La cuisson au four remplace la friture traditionnelle : plus légère, tout en gardant les tranches fondantes."
+      ],
+      "instructions": [
+        "Disposer les tranches d'aubergine sur une plaque recouverte de papier cuisson.",
+        "Badigeonner d'huile d'olive des deux côtés.",
+        "Enfourner 20 minutes, en retournant les tranches à mi-cuisson.",
+        "Réserver."
+      ],
+      "doneness": "Les tranches doivent être dorées et souples, sans être desséchées.",
+      "important": [
+        "Pour la version traditionnelle, les tranches peuvent aussi être frites à la poêle dans l'huile d'olive, quelques minutes de chaque côté."
+      ]
+    },
+    {
+      "title": "3. Préparer les pommes de terre",
+      "instructions": [
+        "Éplucher les pommes de terre et les couper en tranches fines (environ 5 mm).",
+        "Les précuire 5 minutes à l'eau bouillante salée pour les attendrir légèrement.",
+        "Égoutter et réserver."
+      ]
+    },
+    {
+      "title": "4. Préparer la sauce à la viande",
+      "before": [
+        "Réduire le vin avant d'ajouter la tomate évite une sauce trop acide."
+      ],
+      "instructions": [
+        "Émincer finement l'oignon et l'ail.",
+        "Faire chauffer l'huile d'olive dans une sauteuse.",
+        "Faire revenir l'oignon et l'ail jusqu'à ce qu'ils deviennent translucides.",
+        "Ajouter la viande hachée et la faire dorer en l'émiettant à la spatule.",
+        "Verser le vin rouge et laisser réduire 2 minutes.",
+        "Ajouter les tomates concassées, le concentré de tomate, la cannelle, les clous de girofle et le laurier.",
+        "Saler, poivrer.",
+        "Laisser mijoter à feu doux 30 minutes, à découvert, en remuant de temps en temps.",
+        "Retirer le laurier et les clous de girofle, ajouter le persil haché."
+      ],
+      "doneness": "La sauce doit être épaisse, sans excès de liquide en surface."
+    },
+    {
+      "title": "5. Préparer la béchamel",
+      "before": [
+        "Verser le lait froid d'un coup sur le roux chaud limite les grumeaux."
+      ],
+      "instructions": [
+        "Faire fondre le beurre dans une casserole à feu doux.",
+        "Ajouter la farine en une fois et mélanger au fouet pendant 1 minute pour cuire le roux.",
+        "Verser le lait froid en une fois, en fouettant énergiquement.",
+        "Cuire à feu moyen en fouettant sans arrêt jusqu'à épaississement.",
+        "Ajouter la muscade, le sel et le poivre.",
+        "Retirer du feu, laisser tiédir 2 minutes.",
+        "Incorporer les jaunes d'œufs un à un en fouettant, puis le fromage râpé."
+      ],
+      "doneness": "La béchamel doit napper la cuillère.",
+      "rescue": [
+        "En cas de grumeaux, passer la béchamel au mixeur plongeant ou au fouet énergiquement hors du feu.",
+        "Ajouter toujours les jaunes hors du feu, sur une béchamel tiède et non brûlante, pour éviter qu'ils ne cuisent en grumeaux."
+      ]
+    },
+    {
+      "title": "6. Assembler la moussaka",
+      "before": [
+        "Préchauffer le four à 180 °C si ce n'est pas déjà fait."
+      ],
+      "instructions": [
+        "Huiler légèrement le plat à gratin.",
+        "Disposer une première couche de pommes de terre au fond.",
+        "Ajouter une couche de tranches d'aubergine.",
+        "Répartir la moitié de la sauce à la viande.",
+        "Ajouter le reste des aubergines.",
+        "Répartir le reste de la sauce à la viande.",
+        "Verser la béchamel sur toute la surface en lissant à la spatule.",
+        "Parsemer d'un peu de fromage râpé supplémentaire."
+      ]
+    },
+    {
+      "title": "7. Cuire au four",
+      "instructions": [
+        "Enfourner 45 à 50 minutes, jusqu'à ce que le dessus soit doré et que les bords bouillonnent légèrement."
+      ],
+      "doneness": "Le dessus doit être bien doré et légèrement gratiné, la pointe d'un couteau doit s'enfoncer facilement dans les pommes de terre."
+    },
+    {
+      "title": "8. Laisser reposer avant de découper",
+      "before": [
+        "Cette étape est essentielle : coupée trop chaude, la moussaka s'effondre et les couches se mélangent."
+      ],
+      "instructions": [
+        "Laisser reposer au moins 20 minutes hors du four avant de découper.",
+        "Découper en parts et servir tiède."
+      ]
+    }
+  ]
+}
