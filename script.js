@@ -1,11 +1,27 @@
+```js
 /* =========================================================
    CONFIGURATION
    ========================================================= */
 
-const params = new URLSearchParams(window.location.search);
-const recipeName = params.get("recipe");
+/*
+ * Le nom de la recette est automatiquement récupéré
+ * depuis le nom du fichier HTML.
+ *
+ * opera.html    -> opera
+ * tiramisu.html -> tiramisu
+ *
+ * Le fichier JSON correspondant sera donc :
+ *
+ * recipes/opera.json
+ * recipes/tiramisu.json
+ */
 
-const RECIPE_FILE = `recipes/${recipeName}.json`;
+const pageName = window.location.pathname
+    .split("/")
+    .pop()
+    .replace(".html", "");
+
+const RECIPE_FILE = `recipes/${pageName}.json`;
 
 
 /* =========================================================
@@ -185,6 +201,7 @@ function renderTableOfContents(steps) {
         container.appendChild(link);
     });
 }
+
 
 /* =========================================================
    INGREDIENTS
@@ -503,3 +520,4 @@ function createInfoBox(className, items) {
    ========================================================= */
 
 loadRecipe();
+```
