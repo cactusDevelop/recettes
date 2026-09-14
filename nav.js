@@ -161,6 +161,48 @@ function initHamburgerMenu() {
 }
 
 
+/* =========================================================
+   MODE SOMBRE / CLAIR
+   ========================================================= */
+
+function initThemeToggle() {
+
+    const toggle =
+        document.getElementById("theme-toggle");
+
+    if (!toggle) {
+        return;
+    }
+
+    function applyTheme(theme) {
+
+        document.documentElement.setAttribute("data-theme", theme);
+
+        toggle.setAttribute("aria-pressed", String(theme === "dark"));
+        toggle.setAttribute(
+            "aria-label",
+            theme === "dark" ? "Activer le mode clair" : "Activer le mode sombre"
+        );
+    }
+
+    applyTheme(document.documentElement.getAttribute("data-theme") || "light");
+
+    toggle.addEventListener("click", () => {
+
+        const current =
+            document.documentElement.getAttribute("data-theme");
+
+        const next =
+            current === "dark" ? "light" : "dark";
+
+        applyTheme(next);
+
+        localStorage.setItem("theme", next);
+    });
+}
+
+
 populateNavDropdowns();
 initNavDropdowns();
 initHamburgerMenu();
+initThemeToggle();
