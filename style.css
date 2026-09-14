@@ -611,48 +611,6 @@ h2 {
 
 
 /* =========================================================
-   SOMMAIRE
-   ========================================================= */
-
-.toc-container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 4px 60px;
-}
-
-.toc-item {
-    display: flex;
-    align-items: baseline;
-    gap: 16px;
-
-    padding: 14px 0;
-
-    border-bottom: 1px solid var(--border);
-
-    color: inherit;
-
-    transition: color 0.2s ease-in-out, border-color 0.3s ease-in-out;
-}
-
-.toc-item:hover {
-    color: var(--accent);
-}
-
-.toc-number {
-    flex-shrink: 0;
-
-    color: var(--accent);
-
-    font-size: 0.75rem;
-    letter-spacing: 0.12em;
-}
-
-.toc-title {
-    font-size: 0.95rem;
-}
-
-
-/* =========================================================
    INGREDIENTS
    ========================================================= */
 
@@ -949,12 +907,6 @@ footer p {
 
     .section {
         margin-bottom: 90px;
-    }
-
-    .toc-container {
-        grid-template-columns: 1fr;
-
-        gap: 0;
     }
 
     .ingredients-container {
