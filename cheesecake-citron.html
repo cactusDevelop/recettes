@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        (function () {
+            var stored = localStorage.getItem("theme");
+            var theme =
+                stored === "dark" || stored === "light"
+                    ? stored
+                    : (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+
+            document.documentElement.setAttribute("data-theme", theme);
+        })();
+    </script>
+
+    <title>Cheesecake spéculoos citron</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+
+        <a href="index.html" class="site-title">RECETTARIUM</a>
+
+        <nav class="site-nav" id="site-nav">
+
+            <div class="nav-dropdown" data-nav-dropdown>
+                <button type="button" class="nav-dropdown-toggle" aria-expanded="false">
+                    <span>Desserts</span>
+                    <svg class="nav-arrow" viewBox="0 0 12 8" aria-hidden="true">
+                        <path d="M1 1l5 5 5-5"/>
+                    </svg>
+                </button>
+                <div class="nav-dropdown-panel">
+                    <div class="nav-dropdown-panel-inner" data-nav-category="desserts"></div>
+                </div>
+            </div>
+
+            <div class="nav-dropdown" data-nav-dropdown>
+                <button type="button" class="nav-dropdown-toggle" aria-expanded="false">
+                    <span>Plats salés</span>
+                    <svg class="nav-arrow" viewBox="0 0 12 8" aria-hidden="true">
+                        <path d="M1 1l5 5 5-5"/>
+                    </svg>
+                </button>
+                <div class="nav-dropdown-panel">
+                    <div class="nav-dropdown-panel-inner" data-nav-category="sales"></div>
+                </div>
+            </div>
+
+            <a href="#ingredients" class="nav-link">Ingrédients</a>
+            <a href="#preparation" class="nav-link">Préparation</a>
+
+        </nav>
+
+        <div class="header-controls">
+
+            <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false" aria-label="Activer le mode sombre">
+                <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+
+            <button type="button" class="hamburger" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Ouvrir le menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </div>
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-image">
+            <img
+                id="recipe-image"
+                src="images/cheesecake-citron.jpg"
+                alt="Cheesecake spéculoos citron"
+            >
+        </div>
+
+        <div class="hero-content">
+
+            <h1 id="recipe-title">Cheesecake spéculoos citron</h1>
+
+            <p id="recipe-description" class="description"></p>
+
+            <div class="recipe-meta">
+
+                <div class="meta-item">
+                    <span class="meta-label">PORTIONS</span>
+                    <span id="recipe-servings"></span>
+                </div>
+
+                <div class="meta-item">
+                    <span class="meta-label">MOULE</span>
+                    <span id="recipe-pan-size"></span>
+                </div>
+
+                <div class="meta-item">
+                    <span class="meta-label">PRÉPARATION</span>
+                    <span id="recipe-preparation-time"></span>
+                </div>
+
+                <div class="meta-item">
+                    <span class="meta-label">REPOS</span>
+                    <span id="recipe-resting-time"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOMMAIRE -->
+    <section id="sommaire" class="section toc-section">
+
+        <div class="section-heading">
+            <span class="section-number">00</span>
+            <h2>Sommaire</h2>
+        </div>
+
+        <nav id="toc-container" class="toc-container"></nav>
+
+    </section>
+
+
+    <!-- INGREDIENTS -->
+    <section id="ingredients" class="section ingredients-section">
+
+        <div class="section-heading">
+            <span class="section-number">01</span>
+            <h2>Ingrédients</h2>
+        </div>
+
+        <div id="ingredients-container" class="ingredients-container"></div>
+
+    </section>
+
+
+    <!-- PREPARATION -->
+    <section id="preparation" class="section preparation-section">
+
+        <div class="section-heading">
+            <span class="section-number">02</span>
+            <h2>Préparation</h2>
+        </div>
+
+        <div id="steps-container" class="steps-container"></div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>RECETTARIUM</p>
+</footer>
+
+
+<script src="nav.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

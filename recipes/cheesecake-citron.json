@@ -1,0 +1,89 @@
+{
+  "title": "Cheesecake spéculoos citron",
+  "description": "Cheesecake cuit au four sur une base de spéculoos, appareil au fromage blanc entier bien égoutté, parfumé au zeste de citron et à la vanille. Texture dense et parfaitement lisse, cuisson douce pour un dessus qui reste très clair.",
+  "servings": "8 parts",
+  "pan_size": "20 cm",
+  "total_time": {
+    "preparation": "environ 35 min (hors cuisson)",
+    "resting": "10 min de cuisson pour la base + 55 min de cuisson pour l'appareil, puis au moins 6 h au réfrigérateur (idéalement toute une nuit)"
+  },
+  "ingredients": {
+    "base_speculoos": [
+      { "ingredient": "Spéculoos", "quantity": "280 g" },
+      { "ingredient": "Beurre", "quantity": "110 g" },
+      { "ingredient": "Fleur de sel", "quantity": "1 pincée" }
+    ],
+    "appareil": [
+      { "ingredient": "Fromage blanc entier bien égoutté", "quantity": "600 g (soit environ 1 kg avant égouttage)" },
+      { "ingredient": "Œufs", "quantity": "4" },
+      { "ingredient": "Sucre semoule", "quantity": "130 g" },
+      { "ingredient": "Crème liquide entière 30 %", "quantity": "200 g" },
+      { "ingredient": "Maïzena", "quantity": "30 g" },
+      { "ingredient": "Citron non traité", "quantity": "1" },
+      { "ingredient": "Extrait de vanille", "quantity": "1 à 2 cuillères à café" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer la base",
+      "before": [
+        "Le fromage blanc doit déjà être bien égoutté : prévoir 1 kg de fromage blanc entier pour obtenir environ 600 g égoutté."
+      ],
+      "instructions": [
+        "Préchauffer le four à 170 °C.",
+        "Écraser très finement le spéculoos.",
+        "Faire fondre le beurre.",
+        "Mélanger le beurre, les biscuits et la pincée de fleur de sel.",
+        "Répartir dans le fond du moule et tasser extrêmement bien avec le fond d'un verre.",
+        "Cuire 10 min à 170 °C (hauteur 2/5).",
+        "Laisser refroidir."
+      ],
+      "doneness": "La base doit être bien tassée et complètement refroidie avant d'y verser l'appareil."
+    },
+    {
+      "title": "2. Préparer l'appareil",
+      "before": [
+        "Le zeste de citron doit être prélevé très finement, sans la partie blanche amère."
+      ],
+      "instructions": [
+        "Mettre le fromage blanc égoutté dans un saladier.",
+        "Ajouter le sucre, la vanille, le zeste très fin du citron et environ 1 cuillère à soupe de jus de citron.",
+        "Mélanger doucement.",
+        "Ajouter la Maïzena et mélanger jusqu'à disparition complète des grumeaux.",
+        "Ajouter les œufs un par un, en mélangeant juste assez pour les incorporer.",
+        "Ajouter enfin la crème liquide."
+      ],
+      "important": [
+        "Ne pas fouetter fortement : le but est d'avoir le moins de bulles d'air possible.",
+        "Un cheesecake de qualité doit avoir une texture dense et parfaitement lisse."
+      ]
+    },
+    {
+      "title": "3. Cuisson",
+      "before": [
+        "La base doit être complètement refroidie avant de verser l'appareil.",
+        "Ce type de cheesecake demande une cuisson relativement douce."
+      ],
+      "instructions": [
+        "Verser l'appareil sur la base refroidie.",
+        "Cuire à 150 °C chaleur statique pendant environ 55 min.",
+        "Surveiller la cuisson à partir de 45 min."
+      ],
+      "doneness": "Le cheesecake est prêt lorsque les bords sont pris, que le centre tremble encore légèrement quand on bouge le moule et que le dessus reste très clair. Il ne doit surtout pas être complètement ferme dans le four.",
+      "rescue": [
+        "S'il commence à gonfler fortement, baisser le four à 140 °C."
+      ]
+    },
+    {
+      "title": "4. Refroidissement",
+      "before": [
+        "Le refroidissement progressif évite que le cheesecake ne retombe ou ne craquelle."
+      ],
+      "instructions": [
+        "Éteindre le four et laisser le cheesecake 30 min à l'intérieur, porte entrouverte.",
+        "Sortir le cheesecake et le laisser refroidir complètement à température ambiante.",
+        "Réfrigérer au minimum 6 h, idéalement toute une nuit, avant de démouler et de servir."
+      ]
+    }
+  ]
+}

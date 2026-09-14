@@ -8,6 +8,7 @@ const NAV_RECIPES = {
         { title: "Tiramisù", href: "tiramisu.html", image: "images/tiramisu.jpg" },
         { title: "Financiers", href: "financier.html", image: "images/financier.jpg" },
         { title: "Tarte Tatin", href: "tarte-tatin.html", image: "images/tarte-tatin.jpg" },
+        { title: "Cheesecake spéculoos citron", href: "cheesecake-citron.html", image: "images/cheesecake-citron.jpg" },
     ],
     sales: [
         { title: "Quiche saumon", href: "quiche.html", image: "images/quiche.jpg" },
