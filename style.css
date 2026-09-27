@@ -498,6 +498,12 @@ h1 {
     color: var(--muted);
 }
 
+.description.motto {
+    margin-top: 16px;
+
+    font-style: italic;
+}
+
 .photo-credit {
     margin: 20px 0 0;
 
