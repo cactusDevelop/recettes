@@ -1,0 +1,79 @@
+{
+  "title": "Crêpes légères",
+  "description": "Crêpes fines et souples à la farine tout usage, au lait demi-écrémé et au beurre noisette. Moins de beurre et de sucre que la recette classique, avec un long repos de la pâte pour des crêpes qui ne cassent pas.",
+  "servings": "environ 15 crêpes",
+  "pan_size": "Poêle de 24 cm",
+  "total_time": {
+    "preparation": "environ 15 min (hors cuisson)",
+    "resting": "au moins 1 h, idéalement 2 h au réfrigérateur"
+  },
+  "ingredients": {
+    "pâte": [
+      { "ingredient": "Farine tout usage", "quantity": "250 g" },
+      { "ingredient": "Lait demi-écrémé", "quantity": "520 g" },
+      { "ingredient": "Œufs", "quantity": "150 g (3 œufs)" },
+      { "ingredient": "Beurre", "quantity": "30 g" },
+      { "ingredient": "Sucre semoule", "quantity": "15 g" },
+      { "ingredient": "Sel", "quantity": "2 g" }
+    ],
+    "cuisson": [
+      { "ingredient": "Beurre ou huile neutre pour la poêle", "quantity": "un peu" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer le beurre noisette",
+      "before": [
+        "Le beurre noisette apporte beaucoup de goût : c'est ce qui permet d'en mettre moins sans perdre en saveur."
+      ],
+      "instructions": [
+        "Faire fondre le beurre dans une petite casserole à feu moyen.",
+        "Laisser cuire jusqu'à ce qu'il mousse, puis prenne une couleur blonde et une odeur de noisette.",
+        "Retirer immédiatement du feu et laisser tiédir."
+      ],
+      "doneness": "Le beurre doit être doré avec de petits dépôts bruns au fond, sans être noir."
+    },
+    {
+      "title": "2. Préparer la pâte",
+      "before": [
+        "La farine tout usage contient souvent plus de protéines qu'une farine française T55 : elle boit un peu plus de liquide, d'où les 520 g de lait."
+      ],
+      "instructions": [
+        "Mélanger la farine, le sucre et le sel dans un saladier.",
+        "Creuser un puits et y casser les œufs.",
+        "Commencer à mélanger au fouet au centre en ajoutant le lait petit à petit, pour obtenir une pâte épaisse et lisse sans grumeaux.",
+        "Verser le reste du lait progressivement en mélangeant.",
+        "Ajouter le beurre noisette tiède et mélanger."
+      ],
+      "important": [
+        "Ajouter le lait en plusieurs fois : c'est ce qui évite les grumeaux, bien plus que de fouetter fort.",
+        "Si la pâte semble trop épaisse après le repos, ajouter jusqu'à 30 g de lait supplémentaire."
+      ]
+    },
+    {
+      "title": "3. Laisser reposer",
+      "before": [
+        "Le repos détend le gluten, plus présent avec la farine tout usage : les crêpes seront plus souples et ne se déchireront pas."
+      ],
+      "instructions": [
+        "Couvrir le saladier.",
+        "Laisser reposer au moins 1 h, idéalement 2 h, au réfrigérateur.",
+        "Remélanger doucement la pâte avant la cuisson."
+      ]
+    },
+    {
+      "title": "4. Cuire les crêpes",
+      "before": [
+        "La première crêpe sert souvent de test pour régler le feu et la quantité de pâte."
+      ],
+      "instructions": [
+        "Chauffer la poêle à feu moyen-vif et la graisser très légèrement avec un papier absorbant.",
+        "Verser environ une petite louche de pâte en inclinant la poêle pour couvrir tout le fond en couche fine.",
+        "Cuire environ 1 min, jusqu'à ce que les bords se décollent et dorent.",
+        "Retourner et cuire encore 30 s à 1 min.",
+        "Empiler les crêpes sur une assiette et les couvrir pour qu'elles restent souples."
+      ],
+      "doneness": "La crêpe doit être dorée par endroits, fine et souple, sans être sèche sur les bords."
+    }
+  ]
+}

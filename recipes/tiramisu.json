@@ -1,6 +1,6 @@
 {
   "title": "Tiramisù traditionnel",
-  "description": "Tiramisù italien classique composé de biscuits Savoiardi imbibés de café et d'une crème au mascarpone légère réalisée à partir d'une pâte à bombe et de blancs montés.",
+  "description": "Tiramisù italien classique composé de biscuits boudoir imbibés de café et d'une crème au mascarpone légère réalisée à partir d'une pâte à bombe et de blancs montés.",
   "servings": "6 parts",
   "pan_size": "25 × 19 cm",
   "total_time": {
@@ -38,7 +38,7 @@
     ],
     "assembly": [
       {
-        "ingredient": "Biscuits Savoiardi",
+        "ingredient": "Biscuits boudoir",
         "quantity": "200 g"
       },
       {
@@ -124,15 +124,15 @@
       ],
       "instructions": [
         "Étaler une première fine couche de crème au mascarpone dans le fond du plat.",
-        "Tremper rapidement chaque Savoiardi dans le café refroidi.",
+        "Tremper rapidement chaque biscuit boudoir dans le café refroidi.",
         "Disposer les biscuits côte à côte afin de former une couche régulière.",
         "Recouvrir avec une couche de crème au mascarpone.",
-        "Réaliser une seconde couche de Savoiardi imbibés de café.",
+        "Réaliser une seconde couche de biscuits boudoir imbibés de café.",
         "Recouvrir avec le reste de la crème.",
         "Lisser soigneusement la surface à l'aide d'une spatule."
       ],
       "important": [
-        "Ne pas laisser les Savoiardi tremper dans le café : ils doivent être rapidement imbibés afin de conserver une structure agréable après le repos.",
+        "Ne pas laisser les biscuits boudoir tremper dans le café : ils doivent être rapidement imbibés afin de conserver une structure agréable après le repos.",
         "La crème doit être suffisamment ferme pour conserver des couches nettes."
       ]
     },
