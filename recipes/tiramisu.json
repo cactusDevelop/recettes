@@ -1,119 +1,94 @@
 {
-  "title": "Tiramisù traditionnel",
-  "description": "Tiramisù italien classique composé de biscuits boudoir imbibés de café et d'une crème au mascarpone légère réalisée à partir d'une pâte à bombe et de blancs montés.",
+  "title": "Tiramisù",
+  "description": "Tiramisù de pâtissier, un peu allégé : une partie du mascarpone est remplacée par du fromage blanc entier bien égoutté, et les blancs sont montés en meringue italienne. Moins de sucre et de gras, et une crème qui tient mieux au découpage.",
   "servings": "6 parts",
   "pan_size": "25 × 19 cm",
   "total_time": {
-    "preparation": "environ 35 min",
-    "resting": "au moins 1 h, idéalement plusieurs heures"
+    "preparation": "environ 45 min",
+    "resting": "égouttage du fromage blanc la veille, puis au moins 6 h au réfrigérateur (idéalement toute une nuit)"
   },
   "ingredients": {
-    "coffee": [
-      {
-        "ingredient": "Café fort",
-        "quantity": "200 g"
-      }
+    "café": [
+      { "ingredient": "Café fort non sucré", "quantity": "250 g" }
     ],
-    "mascarpone_cream": [
-      {
-        "ingredient": "Mascarpone",
-        "quantity": "300 g"
-      },
-      {
-        "ingredient": "Jaunes d'œufs",
-        "quantity": "80 g"
-      },
-      {
-        "ingredient": "Blancs d'œufs",
-        "quantity": "120 g"
-      },
-      {
-        "ingredient": "Sucre semoule",
-        "quantity": "180 g"
-      },
-      {
-        "ingredient": "Eau",
-        "quantity": "30 g"
-      }
+    "pâte_à_bombe": [
+      { "ingredient": "Jaunes d'œufs", "quantity": "80 g" },
+      { "ingredient": "Sucre semoule", "quantity": "80 g" },
+      { "ingredient": "Eau", "quantity": "25 g" }
     ],
-    "assembly": [
-      {
-        "ingredient": "Biscuits boudoir",
-        "quantity": "200 g"
-      },
-      {
-        "ingredient": "Cacao amer en poudre",
-        "quantity": "à volonté"
-      }
+    "meringue_italienne": [
+      { "ingredient": "Blancs d'œufs", "quantity": "120 g" },
+      { "ingredient": "Sucre semoule", "quantity": "50 g" },
+      { "ingredient": "Eau", "quantity": "15 g" }
+    ],
+    "crème": [
+      { "ingredient": "Mascarpone", "quantity": "250 g" },
+      { "ingredient": "Fromage blanc entier bien égoutté", "quantity": "150 g (soit environ 250 g avant égouttage)" }
+    ],
+    "montage": [
+      { "ingredient": "Biscuits boudoir", "quantity": "200 g" },
+      { "ingredient": "Cacao amer en poudre", "quantity": "à volonté" }
     ]
   },
   "steps": [
     {
-      "title": "1. Préparer le café",
+      "title": "1. Égoutter le fromage blanc et préparer le café",
       "before": [
-        "Le café doit être suffisamment fort pour parfumer les biscuits sans être masqué par la crème.",
-        "Le café doit être complètement refroidi avant le montage."
+        "Même égouttage que pour le cheesecake spéculoos citron : prévoir environ 250 g de fromage blanc entier pour obtenir 150 g égoutté.",
+        "Plus le fromage blanc est ferme, plus la crème tiendra : c'est lui qui remplace une partie du mascarpone."
       ],
       "instructions": [
-        "Préparer environ 200 g de café fort.",
-        "Verser le café dans un récipient large et peu profond.",
-        "Laisser complètement refroidir à température ambiante."
-      ]
+        "La veille, égoutter le fromage blanc entier au réfrigérateur, comme pour le cheesecake.",
+        "Préparer le café fort et le verser dans un récipient large et peu profond.",
+        "Laisser complètement refroidir le café."
+      ],
+      "doneness": "Le fromage blanc égoutté doit être assez ferme pour qu'une cuillère tienne debout dedans."
     },
     {
       "title": "2. Préparer la pâte à bombe",
       "before": [
-        "Utiliser un thermomètre de cuisine pour contrôler précisément la température du sirop.",
-        "Les jaunes doivent être prêts à être fouettés lorsque le sirop atteint sa température cible."
+        "Utiliser un thermomètre de cuisine pour contrôler précisément la température du sirop."
       ],
       "instructions": [
-        "Séparer les jaunes des blancs.",
-        "Placer les jaunes dans la cuve d'un batteur et commencer à les fouetter.",
-        "Verser l'eau et le sucre dans une petite casserole.",
-        "Chauffer le sirop jusqu'à environ 118 °C.",
-        "Verser progressivement le sirop chaud sur les jaunes tout en continuant à fouetter.",
-        "Continuer à fouetter jusqu'à obtenir une préparation claire, mousseuse et suffisamment refroidie."
+        "Placer les jaunes dans la cuve du batteur et commencer à les fouetter.",
+        "Chauffer l'eau et le sucre dans une petite casserole jusqu'à 118 °C.",
+        "Verser le sirop en filet sur les jaunes en fouettant, le long de la paroi.",
+        "Fouetter jusqu'à ce que la préparation soit claire, mousseuse et tiède."
       ],
       "doneness": "La pâte à bombe doit être pâle, aérienne et avoir nettement augmenté de volume."
     },
     {
-      "title": "3. Préparer la crème au mascarpone",
+      "title": "3. Préparer la crème",
       "before": [
-        "Le mascarpone doit être suffisamment souple pour être incorporé sans former de grumeaux.",
-        "Éviter de travailler le mascarpone trop longtemps afin de conserver une texture ferme."
+        "Le mascarpone et le fromage blanc doivent être froids, la pâte à bombe tiède."
       ],
       "instructions": [
-        "Détendre légèrement le mascarpone à l'aide d'un fouet.",
-        "Ajouter progressivement la pâte à bombe au mascarpone.",
-        "Mélanger jusqu'à obtenir une crème homogène et dense.",
-        "Réserver la crème au mascarpone."
+        "Détendre le mascarpone avec le fromage blanc égoutté à la spatule, sans fouetter.",
+        "Incorporer la pâte à bombe en deux fois jusqu'à obtenir une crème lisse."
+      ],
+      "important": [
+        "Ne pas fouetter le mascarpone : il peut trancher et donner une crème granuleuse."
       ]
     },
     {
-      "title": "4. Monter les blancs en neige",
+      "title": "4. Préparer la meringue italienne",
       "before": [
-        "Le bol et le fouet doivent être parfaitement propres et exempts de matière grasse.",
-        "Aucune trace de jaune ne doit être présente dans les blancs."
+        "La meringue italienne cuit les blancs avec le sirop : elle est plus stable que des blancs simplement montés."
       ],
       "instructions": [
-        "Verser les blancs d'œufs dans un récipient propre.",
-        "Commencer à les fouetter à vitesse moyenne.",
-        "Lorsqu'ils deviennent mousseux, augmenter progressivement la vitesse.",
-        "Fouetter jusqu'à obtenir des blancs fermes et brillants."
+        "Chauffer l'eau et le sucre jusqu'à 118 °C.",
+        "Quand le sirop atteint environ 110 °C, commencer à monter les blancs à vitesse moyenne.",
+        "Verser le sirop à 118 °C en filet sur les blancs mousseux, en fouettant.",
+        "Continuer à fouetter jusqu'à complet refroidissement."
       ],
-      "doneness": "Les blancs doivent former une pointe ferme mais conserver une texture souple et brillante."
+      "doneness": "La meringue doit être ferme, lisse, brillante et revenue à température ambiante."
     },
     {
       "title": "5. Alléger la crème",
-      "before": [
-        "La crème au mascarpone doit être homogène avant d'incorporer les blancs."
-      ],
       "instructions": [
-        "Ajouter environ un tiers des blancs montés à la crème au mascarpone.",
-        "Mélanger plus franchement afin d'alléger la préparation.",
-        "Ajouter le reste des blancs en deux fois.",
-        "Incorporer délicatement à la spatule en effectuant des mouvements de bas en haut.",
-        "Arrêter dès que la crème est homogène afin de ne pas la faire retomber."
+        "Incorporer un tiers de la meringue à la crème en mélangeant franchement.",
+        "Ajouter le reste en deux fois, délicatement à la spatule, de bas en haut.",
+        "Arrêter dès que la crème est homogène."
       ]
     },
     {
@@ -123,39 +98,26 @@
         "Préparer le plat de 25 × 19 cm avant de commencer le montage."
       ],
       "instructions": [
-        "Étaler une première fine couche de crème au mascarpone dans le fond du plat.",
-        "Tremper rapidement chaque biscuit boudoir dans le café refroidi.",
-        "Disposer les biscuits côte à côte afin de former une couche régulière.",
-        "Recouvrir avec une couche de crème au mascarpone.",
-        "Réaliser une seconde couche de biscuits boudoir imbibés de café.",
-        "Recouvrir avec le reste de la crème.",
-        "Lisser soigneusement la surface à l'aide d'une spatule."
+        "Étaler une fine couche de crème dans le fond du plat.",
+        "Tremper rapidement chaque biscuit boudoir dans le café.",
+        "Disposer une couche régulière de biscuits.",
+        "Recouvrir de crème.",
+        "Réaliser une seconde couche de biscuits imbibés.",
+        "Recouvrir avec le reste de la crème et lisser la surface."
       ],
       "important": [
-        "Ne pas laisser les biscuits boudoir tremper dans le café : ils doivent être rapidement imbibés afin de conserver une structure agréable après le repos.",
-        "La crème doit être suffisamment ferme pour conserver des couches nettes."
+        "Ne pas laisser les biscuits boudoir tremper : un aller-retour rapide suffit, sinon le tiramisù rend de l'eau au repos."
       ]
     },
     {
       "title": "7. Repos",
       "before": [
-        "Le repos permet aux biscuits d'absorber progressivement l'humidité et aux différentes couches de se stabiliser."
+        "Le fromage blanc rend la crème un peu plus humide qu'une crème 100 % mascarpone : le repos est indispensable pour qu'elle se raffermisse."
       ],
       "instructions": [
-        "Couvrir le tiramisù.",
-        "Placer au réfrigérateur pendant au moins 1 heure.",
-        "Pour une texture plus homogène et un meilleur développement des arômes, laisser reposer plusieurs heures."
-      ]
-    },
-    {
-      "title": "8. Finition au cacao",
-      "before": [
-        "Le cacao doit être ajouté juste avant le service afin de conserver son caractère sec et légèrement amer."
-      ],
-      "instructions": [
-        "Sortir le tiramisù du réfrigérateur.",
-        "Tamiser généreusement le cacao amer sur toute la surface.",
-        "Découper et servir bien frais."
+        "Couvrir le plat.",
+        "Réfrigérer au moins 6 h, idéalement toute une nuit.",
+        "Saupoudrer de cacao amer juste avant de servir."
       ]
     }
   ]

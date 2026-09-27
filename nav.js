@@ -6,7 +6,6 @@ const NAV_RECIPES = {
     desserts: [
         { title: "Opéra classique", href: "opera.html", image: "images/opera.jpg" },
         { title: "Tiramisù", href: "tiramisu.html", image: "images/tiramisu.jpg" },
-        { title: "Tiramisù léger", href: "tiramisu-leger.html", image: "images/tiramisu-leger.jpg" },
         { title: "Financiers", href: "financier.html", image: "images/financier.jpg" },
         { title: "Tarte Tatin", href: "tarte-tatin.html", image: "images/tarte-tatin.jpg" },
         { title: "Cheesecake spéculoos citron", href: "cheesecake-citron.html", image: "images/cheesecake-citron.jpg" },
