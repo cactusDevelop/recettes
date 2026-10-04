@@ -16,6 +16,10 @@ const NAV_RECIPES = {
         { title: "Moussaka", href: "moussaka.html", image: "images/moussaka.jpg" },
         { title: "Risotto de quinoa", href: "risotto-quinoa.html", image: "images/risotto-quinoa.jpg" },
         { title: "Pâtes fraîches", href: "pates-fraiches.html", image: "images/pates-fraiches.jpg" },
+        { title: "Tagliatelles aux champignons", href: "pates-champignons.html", image: "images/pates-champignons.jpg" },
+        { title: "Pâtes champignons, tomates cerises et épinards", href: "pates-champignons-tomates-epinards.html", image: "images/pates-champignons-tomates-epinards.jpg" },
+        { title: "Carbonara aux champignons", href: "carbonara-champignons.html", image: "images/carbonara-champignons.jpg" },
+        { title: "Pâtes alla Norma", href: "pates-alla-norma.html", image: "images/pates-alla-norma.jpg" },
     ],
 };
 

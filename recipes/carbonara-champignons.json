@@ -1,0 +1,97 @@
+{
+  "title": "Carbonara aux champignons",
+  "description": "La vraie méthode de la carbonara, sans crème : jaunes d'œufs, parmesan et poivre émulsionnés hors du feu avec l'eau de cuisson. Les champignons dorés remplacent une partie des lardons pour un plat plus léger, ou la totalité pour une version végétarienne.",
+  "servings": "4 parts",
+  "pan_size": "Grande poêle ou sauteuse",
+  "total_time": {
+    "preparation": "environ 25 min",
+    "resting": "aucun"
+  },
+  "ingredients": {
+    "pâtes": [
+      { "ingredient": "Spaghetti", "quantity": "320 g" },
+      { "ingredient": "Eau", "quantity": "environ 4 litres" },
+      { "ingredient": "Gros sel", "quantity": "28 g" }
+    ],
+    "crème_d'œufs": [
+      { "ingredient": "Jaunes d'œufs", "amount": 80, "unit": "g", "kind": "yolk" },
+      { "ingredient": "Œuf entier", "amount": 50, "unit": "g", "kind": "egg" },
+      { "ingredient": "Parmesan (ou pecorino) râpé", "quantity": "60 g, plus 20 g pour servir" },
+      { "ingredient": "Poivre noir fraîchement moulu", "quantity": "1 cuillère à café" }
+    ],
+    "garniture": [
+      { "ingredient": "Lardons fumés (ou guanciale)", "quantity": "100 g" },
+      { "ingredient": "Champignons de Paris", "quantity": "300 g" },
+      { "ingredient": "Eau de cuisson des pâtes", "amount": 150, "unit": "ml", "kind": "water" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer la crème d'œufs",
+      "before": [
+        "Sortir les œufs 30 minutes à l'avance : froids, ils refroidissent les pâtes et la sauce prend moins bien.",
+        "Version végétarienne : remplacer les lardons par 150 g de champignons supplémentaires et 1 cuillère à soupe d'huile d'olive, et saler un peu plus l'eau des pâtes (40 g)."
+      ],
+      "instructions": [
+        "Dans un saladier, mélanger les jaunes d'œufs ({{80 g yolk}}) et l'œuf entier ({{50 g egg}}).",
+        "Ajouter 60 g de parmesan et le poivre.",
+        "Mélanger à la fourchette jusqu'à obtenir une pâte épaisse et homogène."
+      ]
+    },
+    {
+      "title": "2. Dorer les lardons et les champignons",
+      "before": [
+        "Les lardons cuisent dans leur propre gras : inutile d'ajouter de la matière grasse."
+      ],
+      "instructions": [
+        "Nettoyer les champignons sans les faire tremper et les émincer en lamelles de 3 à 4 mm.",
+        "Mettre les lardons dans une grande poêle froide, puis chauffer à feu moyen et les faire dorer 6 à 8 minutes.",
+        "Les retirer avec une écumoire en laissant le gras dans la poêle.",
+        "Monter le feu, ajouter les champignons en une seule couche et les laisser dorer 5 à 6 minutes, en remuant après les 2 premières minutes.",
+        "Remettre les lardons dans la poêle, poivrer sans saler et couper le feu."
+      ],
+      "important": [
+        "Ne pas saler les champignons : les lardons et le parmesan apportent déjà beaucoup de sel."
+      ]
+    },
+    {
+      "title": "3. Cuire les pâtes",
+      "before": [
+        "L'eau est un peu moins salée que d'habitude (7 g par litre), car les lardons, le parmesan et l'eau de cuisson ajoutée à la sauce sont déjà salés."
+      ],
+      "instructions": [
+        "Porter l'eau à ébullition et la saler avec le gros sel.",
+        "Cuire les spaghetti 1 minute de moins que le temps indiqué sur le paquet.",
+        "Avant d'égoutter, prélever une grande tasse d'eau de cuisson."
+      ]
+    },
+    {
+      "title": "4. Détendre la crème d'œufs",
+      "instructions": [
+        "Verser {{50 ml water}} d'eau de cuisson bien chaude sur la crème d'œufs en fouettant à la fourchette.",
+        "Elle doit devenir lisse et fluide, comme une crème épaisse."
+      ],
+      "important": [
+        "L'eau chaude tempère les œufs : ils montent doucement en température et risquent moins de coaguler au contact des pâtes."
+      ]
+    },
+    {
+      "title": "5. Lier hors du feu",
+      "before": [
+        "C'est l'étape clé : les œufs doivent épaissir vers 65 à 70 °C pour devenir crémeux, sans dépasser ce stade, sinon ils brouillent."
+      ],
+      "instructions": [
+        "Égoutter les pâtes et les verser dans la poêle des champignons, feu éteint.",
+        "Mélanger 30 secondes pour les enrober de gras et laisser la poêle tiédir un instant : elle ne doit plus grésiller.",
+        "Verser la crème d'œufs et mélanger vivement avec une pince pendant 1 à 2 minutes.",
+        "Ajouter de l'eau de cuisson, 1 à 2 cuillères à soupe à la fois, jusqu'à obtenir une sauce crémeuse qui nappe les pâtes.",
+        "Servir aussitôt avec le reste de parmesan et un tour de poivre."
+      ],
+      "doneness": "La sauce doit être lisse, brillante et nappante, sans aucun grumeau d'œuf cuit.",
+      "rescue": [
+        "Sauce trop liquide : remettre la poêle 10 à 20 secondes sur feu très doux en mélangeant sans arrêt, puis retirer aussitôt.",
+        "Sauce qui commence à grumeler : ajouter immédiatement 2 cuillères à soupe d'eau de cuisson et mélanger vivement hors du feu."
+      ]
+    }
+  ]
+}

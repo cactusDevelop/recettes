@@ -1,0 +1,93 @@
+{
+  "title": "Tagliatelles aux champignons",
+  "description": "Champignons de Paris saisis à feu vif, oignon (ou échalotes), ail et persil, liés par un peu de crème légère et l'eau de cuisson des pâtes. L'amidon de l'eau remplace une bonne partie de la crème : la sauce reste nappante, sans lourdeur.",
+  "servings": "4 parts",
+  "pan_size": "Grande poêle ou sauteuse",
+  "total_time": {
+    "preparation": "environ 30 min",
+    "resting": "aucun"
+  },
+  "ingredients": {
+    "pâtes": [
+      { "ingredient": "Tagliatelles sèches", "quantity": "320 g (ou environ 450 g de pâtes fraîches maison)" },
+      { "ingredient": "Eau", "quantity": "environ 4 litres" },
+      { "ingredient": "Gros sel", "quantity": "40 g" }
+    ],
+    "sauce": [
+      { "ingredient": "Champignons de Paris", "quantity": "500 g" },
+      { "ingredient": "Oignon (ou échalotes)", "quantity": "1 petit oignon (ou 2 échalotes)" },
+      { "ingredient": "Ail", "quantity": "2 gousses" },
+      { "ingredient": "Huile d'olive", "quantity": "1 cuillère à soupe" },
+      { "ingredient": "Beurre", "quantity": "15 g" },
+      { "ingredient": "Crème fraîche légère 15 %", "amount": 15, "unit": "cl", "kind": "cream" },
+      { "ingredient": "Eau de cuisson des pâtes", "amount": 150, "unit": "ml", "kind": "water" },
+      { "ingredient": "Parmesan râpé", "quantity": "40 g" },
+      { "ingredient": "Persil plat", "quantity": "1/2 bouquet" },
+      { "ingredient": "Sel, poivre", "quantity": "au goût" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer les légumes",
+      "before": [
+        "Ne pas laisser tremper les champignons dans l'eau : ils s'en gorgent et ne dorent plus à la cuisson."
+      ],
+      "instructions": [
+        "Couper le bout terreux des pieds des champignons, puis les nettoyer avec un papier absorbant humide ou les rincer très rapidement et les sécher aussitôt.",
+        "Les émincer en lamelles de 3 à 4 mm.",
+        "Ciseler finement l'oignon (ou les échalotes).",
+        "Hacher l'ail et le persil."
+      ]
+    },
+    {
+      "title": "2. Saisir les champignons",
+      "before": [
+        "Les champignons doivent dorer, pas bouillir : une poêle très chaude et pas trop remplie fait toute la différence."
+      ],
+      "instructions": [
+        "Chauffer l'huile d'olive dans une grande poêle à feu vif.",
+        "Ajouter la moitié des champignons en une seule couche et les laisser colorer 2 minutes sans remuer.",
+        "Remuer puis poursuivre la cuisson 3 à 4 minutes, jusqu'à ce qu'ils soient bien dorés.",
+        "Les réserver dans une assiette et cuire le reste des champignons de la même façon.",
+        "Ajouter le beurre aux derniers champignons en fin de cuisson, saler, poivrer et remettre la première moitié dans la poêle."
+      ],
+      "important": [
+        "Ne saler qu'en fin de cuisson : le sel fait rendre leur eau aux champignons et les empêche de dorer.",
+        "Si la poêle est trop pleine, les champignons rendent leur eau et cuisent à l'étouffée : cuire en deux fois."
+      ]
+    },
+    {
+      "title": "3. Cuire les pâtes",
+      "instructions": [
+        "Porter l'eau à ébullition et la saler avec le gros sel.",
+        "Cuire les pâtes 1 minute de moins que le temps indiqué sur le paquet (2 minutes pour des pâtes fraîches maison) : elles finiront de cuire dans la sauce.",
+        "Avant d'égoutter, prélever une grande tasse d'eau de cuisson."
+      ]
+    },
+    {
+      "title": "4. Préparer la sauce",
+      "instructions": [
+        "Pendant la cuisson des pâtes, pousser les champignons sur le côté de la poêle et baisser le feu à moyen.",
+        "Faire suer l'oignon (ou les échalotes) 3 minutes sans coloration, puis ajouter l'ail et cuire 30 secondes.",
+        "Ajouter la crème et {{100 ml water}} d'eau de cuisson, mélanger et laisser frémir 1 minute."
+      ]
+    },
+    {
+      "title": "5. Lier et servir",
+      "before": [
+        "L'amidon de l'eau de cuisson épaissit la sauce et l'aide à enrober les pâtes : c'est ce qui permet de mettre peu de crème."
+      ],
+      "instructions": [
+        "Égoutter les pâtes et les verser directement dans la poêle.",
+        "Mélanger 1 minute à feu doux.",
+        "Hors du feu, ajouter le parmesan et mélanger vivement, en ajoutant un peu d'eau de cuisson si la sauce devient trop épaisse.",
+        "Parsemer de persil, poivrer et servir aussitôt."
+      ],
+      "doneness": "La sauce doit napper les pâtes et briller, sans liquide au fond de la poêle.",
+      "rescue": [
+        "Sauce trop épaisse ou pâtes qui collent : ajouter de l'eau de cuisson, 2 cuillères à soupe à la fois.",
+        "Sauce trop liquide : remettre 30 secondes à feu moyen en mélangeant, l'amidon va l'épaissir."
+      ]
+    }
+  ]
+}

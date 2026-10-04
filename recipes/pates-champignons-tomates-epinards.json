@@ -1,0 +1,85 @@
+{
+  "title": "Pâtes champignons, tomates cerises et épinards",
+  "description": "Une poêlée de légumes autour des pâtes : champignons bien dorés, tomates cerises juste fondues, pousses d'épinards ajoutées au dernier moment, parmesan et zeste de citron. Peu de matière grasse, beaucoup de légumes.",
+  "servings": "4 parts",
+  "pan_size": "Grande poêle ou sauteuse",
+  "total_time": {
+    "preparation": "environ 30 min",
+    "resting": "aucun"
+  },
+  "ingredients": {
+    "pâtes": [
+      { "ingredient": "Pâtes courtes (penne, fusilli) ou tagliatelles", "quantity": "320 g (ou environ 450 g de pâtes fraîches maison)" },
+      { "ingredient": "Eau", "quantity": "environ 4 litres" },
+      { "ingredient": "Gros sel", "quantity": "40 g" }
+    ],
+    "garniture": [
+      { "ingredient": "Champignons de Paris", "quantity": "300 g" },
+      { "ingredient": "Tomates cerises", "quantity": "300 g" },
+      { "ingredient": "Pousses d'épinards", "quantity": "150 g (ou 200 g d'épinards surgelés en branches, décongelés et bien pressés)" },
+      { "ingredient": "Oignon (ou échalotes)", "quantity": "1 petit oignon (ou 2 échalotes)" },
+      { "ingredient": "Ail", "quantity": "2 gousses" },
+      { "ingredient": "Huile d'olive", "quantity": "2 cuillères à soupe" },
+      { "ingredient": "Eau de cuisson des pâtes", "amount": 120, "unit": "ml", "kind": "water" },
+      { "ingredient": "Parmesan râpé", "quantity": "40 g" },
+      { "ingredient": "Citron non traité", "quantity": "1/2 (zeste)" },
+      { "ingredient": "Piment d'Espelette ou flocons de piment", "quantity": "1 pincée (facultatif)" },
+      { "ingredient": "Sel, poivre", "quantity": "au goût" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer les légumes",
+      "instructions": [
+        "Nettoyer les champignons sans les faire tremper et les couper en quartiers.",
+        "Couper les tomates cerises en deux.",
+        "Ciseler l'oignon (ou les échalotes) et hacher l'ail.",
+        "Rincer et essorer les pousses d'épinards."
+      ]
+    },
+    {
+      "title": "2. Saisir les champignons",
+      "instructions": [
+        "Chauffer 1 cuillère à soupe d'huile d'olive dans une grande poêle à feu vif.",
+        "Ajouter les champignons en une seule couche et les laisser colorer 2 minutes sans remuer.",
+        "Poursuivre la cuisson 3 à 4 minutes en remuant, jusqu'à ce qu'ils soient bien dorés.",
+        "Saler, poivrer et réserver dans une assiette."
+      ],
+      "important": [
+        "Ne saler qu'en fin de cuisson et ne pas surcharger la poêle : sinon les champignons rendent leur eau au lieu de dorer."
+      ]
+    },
+    {
+      "title": "3. Cuire les pâtes",
+      "instructions": [
+        "Porter l'eau à ébullition et la saler avec le gros sel.",
+        "Cuire les pâtes 1 minute de moins que le temps indiqué sur le paquet (2 minutes pour des pâtes fraîches maison).",
+        "Avant d'égoutter, prélever une grande tasse d'eau de cuisson."
+      ]
+    },
+    {
+      "title": "4. Faire fondre les tomates",
+      "instructions": [
+        "Pendant la cuisson des pâtes, remettre la poêle à feu moyen avec le reste d'huile d'olive.",
+        "Faire suer l'oignon (ou les échalotes) 3 minutes sans coloration, puis ajouter l'ail et le piment, et cuire 30 secondes.",
+        "Ajouter les tomates cerises, face coupée contre la poêle, et cuire 3 à 4 minutes.",
+        "Écraser légèrement quelques tomates à la spatule pour qu'elles rendent leur jus."
+      ],
+      "doneness": "Les tomates doivent être fondantes et avoir rendu un peu de jus, tout en gardant leur forme pour la plupart."
+    },
+    {
+      "title": "5. Assembler",
+      "instructions": [
+        "Égoutter les pâtes et les verser dans la poêle avec les champignons et {{80 ml water}} d'eau de cuisson.",
+        "Mélanger 1 minute à feu moyen.",
+        "Couper le feu, ajouter les épinards et mélanger : ils tombent en 1 minute avec la chaleur des pâtes.",
+        "Ajouter le parmesan et le zeste de citron, mélanger et ajuster avec un peu d'eau de cuisson si besoin.",
+        "Goûter, rectifier le sel et le poivre et servir aussitôt."
+      ],
+      "doneness": "Les épinards doivent être tout juste tombés, encore bien verts, et les pâtes enrobées d'un jus légèrement lié.",
+      "rescue": [
+        "Avec des épinards surgelés : bien les presser pour retirer l'eau, puis les ajouter avec les tomates pour les réchauffer 2 minutes."
+      ]
+    }
+  ]
+}
