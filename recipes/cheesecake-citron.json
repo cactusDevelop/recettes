@@ -15,9 +15,9 @@
     ],
     "appareil": [
       { "ingredient": "Fromage blanc entier bien égoutté", "quantity": "600 g (soit environ 1 kg avant égouttage)" },
-      { "ingredient": "Œufs", "quantity": "4" },
+      { "ingredient": "Œufs", "amount": 200, "unit": "g", "kind": "egg" },
       { "ingredient": "Sucre semoule", "quantity": "130 g" },
-      { "ingredient": "Crème liquide entière 30 %", "quantity": "200 g" },
+      { "ingredient": "Crème liquide entière 30 %", "amount": 200, "unit": "g", "kind": "cream" },
       { "ingredient": "Maïzena", "quantity": "30 g" },
       { "ingredient": "Citron non traité", "quantity": "1" },
       { "ingredient": "Extrait de vanille", "quantity": "1 à 2 cuillères à café" }

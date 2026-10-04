@@ -1,0 +1,105 @@
+{
+  "title": "Pâtes fraîches",
+  "description": "Tagliatelles fraîches aux œufs, avec seulement de la farine et des œufs pesés. Le rapport œufs / farine est donné au gramme près : la pâte a la bonne texture quel que soit le calibre de vos œufs.",
+  "servings": "4 parts (environ 630 g de pâte)",
+  "pan_size": "Machine à pâtes ou rouleau",
+  "total_time": {
+    "preparation": "environ 45 min",
+    "resting": "30 min (jusqu'à 2 h)"
+  },
+  "ingredients": {
+    "pâte": [
+      { "ingredient": "Farine tout usage", "amount": 400, "unit": "g", "kind": "flour", "absorption": "flour" },
+      { "ingredient": "Œufs", "amount": 230, "unit": "g", "kind": "egg" }
+    ],
+    "façonnage_et_cuisson": [
+      { "ingredient": "Farine ou semoule fine de blé dur pour fleurer", "quantity": "un peu" },
+      { "ingredient": "Eau", "quantity": "environ 4 litres" },
+      { "ingredient": "Gros sel", "quantity": "40 g" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Peser les œufs",
+      "before": [
+        "C'est l'étape qui fait réussir la pâte : un œuf pèse de 40 à 65 g sans coquille selon son calibre. Avec des petits œufs comptés à l'unité, la pâte manque de liquide, s'effrite et casse au laminage.",
+        "Sortir les œufs 30 minutes à l'avance : à température ambiante, ils s'incorporent plus facilement à la farine."
+      ],
+      "instructions": [
+        "Poser un bol sur la balance et faire la tare.",
+        "Casser les œufs un par un dans le bol jusqu'à atteindre 230 g, quel que soit le nombre d'œufs.",
+        "S'il manque quelques grammes, compléter avec une partie d'un œuf supplémentaire battu ; s'il y en a trop, retirer un peu de blanc.",
+        "Battre légèrement à la fourchette."
+      ],
+      "important": [
+        "C'est le rapport œufs / farine qui fait la texture, pas le nombre d'œufs : toujours peser."
+      ]
+    },
+    {
+      "title": "2. Pétrir la pâte",
+      "before": [
+        "La quantité de farine dépend de la farine choisie dans les paramètres : une farine type 00 ou T45 absorbe moins de liquide que la farine tout usage, il en faut un peu plus pour la même quantité d'œufs."
+      ],
+      "instructions": [
+        "Verser la farine sur le plan de travail ou dans un grand saladier et former un puits.",
+        "Verser les œufs battus au centre.",
+        "Avec une fourchette, ramener peu à peu la farine du bord intérieur vers les œufs en tournant, jusqu'à obtenir une pâte épaisse.",
+        "Rassembler le reste de la farine avec une corne ou les mains pour former une boule grossière.",
+        "Pétrir 8 à 10 minutes : pousser la pâte vers l'avant avec la paume, la replier, tourner d'un quart de tour et recommencer."
+      ],
+      "doneness": "La pâte est prête quand elle est lisse et satinée, ne colle plus aux doigts et reprend lentement sa forme quand on l'enfonce du doigt.",
+      "rescue": [
+        "Pâte sèche qui s'effrite encore après 3 minutes de pétrissage : se mouiller les mains et continuer, ou ajouter de l'eau 1 cuillère à café (5 g) à la fois.",
+        "Pâte qui colle : fleurer le plan de travail de farine, 1 cuillère à soupe à la fois, sans en ajouter plus que nécessaire.",
+        "Une pâte ferme en fin de pétrissage est normale : le repos va la détendre."
+      ]
+    },
+    {
+      "title": "3. Laisser reposer",
+      "before": [
+        "Le repos détend le gluten et laisse la farine finir de s'hydrater : la pâte devient souple et s'étale sans se rétracter."
+      ],
+      "instructions": [
+        "Envelopper la pâte dans un film alimentaire.",
+        "Laisser reposer 30 minutes à température ambiante, jusqu'à 2 heures."
+      ]
+    },
+    {
+      "title": "4. Abaisser la pâte",
+      "before": [
+        "À la machine (laminoir) ou au rouleau. Garder la pâte en attente sous le film pour qu'elle ne sèche pas."
+      ],
+      "instructions": [
+        "Couper la pâte en 4 morceaux.",
+        "Aplatir un morceau à la main et le passer au cran le plus large de la machine.",
+        "Le plier en trois comme une lettre et le repasser au cran le plus large. Répéter 2 ou 3 fois pour obtenir une bande lisse aux bords réguliers.",
+        "Passer ensuite la bande une fois à chaque cran en réduisant l'épaisseur, jusqu'à l'avant-dernier cran (environ 1 mm).",
+        "Au rouleau : abaisser sur un plan légèrement fariné en tournant la pâte d'un quart de tour régulièrement, jusqu'à voir presque ses doigts à travers."
+      ],
+      "important": [
+        "Fariner légèrement la bande si elle colle à la machine, mais sans excès : trop de farine sèche la pâte et la fait casser."
+      ]
+    },
+    {
+      "title": "5. Découper les tagliatelles",
+      "instructions": [
+        "Laisser sécher les bandes 5 à 10 minutes sur un torchon fariné, juste assez pour qu'elles ne collent plus entre elles.",
+        "Les passer dans l'accessoire à tagliatelles, ou les rouler sans serrer et les couper au couteau en lanières de 6 à 8 mm.",
+        "Déplier aussitôt les tagliatelles, les fariner légèrement à la semoule ou à la farine et former des nids."
+      ],
+      "important": [
+        "Conservation : 24 h au réfrigérateur dans une boîte, ou congeler les nids à plat et les cuire directement, sans décongeler, en ajoutant 1 minute de cuisson."
+      ]
+    },
+    {
+      "title": "6. Cuire les pâtes",
+      "instructions": [
+        "Porter à ébullition une grande casserole d'eau, environ 1 litre pour 100 g de pâtes, et la saler avec 10 g de gros sel par litre.",
+        "Plonger les pâtes et remuer aussitôt pour qu'elles ne collent pas.",
+        "Cuire 2 à 3 minutes après la reprise de l'ébullition.",
+        "Garder une louche d'eau de cuisson avant d'égoutter : son amidon aide la sauce à napper les pâtes."
+      ],
+      "doneness": "Les pâtes sont cuites quand elles sont souples mais encore légèrement fermes sous la dent. Goûter dès 2 minutes : les pâtes fraîches cuisent très vite."
+    }
+  ]
+}

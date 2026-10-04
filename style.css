@@ -294,7 +294,8 @@ a {
     flex-shrink: 0;
 }
 
-.theme-toggle {
+.theme-toggle,
+.settings-toggle {
     position: relative;
 
     display: flex;
@@ -317,7 +318,8 @@ a {
         background-color 0.3s ease-in-out;
 }
 
-.theme-toggle:hover {
+.theme-toggle:hover,
+.settings-toggle:hover {
     border-color: var(--accent);
     color: var(--accent);
 }
@@ -1207,4 +1209,291 @@ footer p {
     color: var(--muted);
     font-size: 0.8rem;
     letter-spacing: 0.04em;
+}
+
+
+/* =========================================================
+   PARAMETRES
+   ========================================================= */
+
+.settings-icon {
+    width: 18px;
+    height: 18px;
+
+    fill: var(--background);
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+
+    pointer-events: none;
+}
+
+.settings-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 90;
+
+    background: rgba(24, 23, 22, 0.4);
+
+    opacity: 0;
+
+    transition: opacity 0.3s ease;
+}
+
+.settings-overlay.open {
+    opacity: 1;
+}
+
+.settings-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+
+    width: min(420px, 100%);
+    padding: 28px 28px 40px;
+
+    overflow-y: auto;
+    overscroll-behavior: contain;
+
+    background: var(--background);
+    border-left: 1px solid var(--border);
+    box-shadow: -20px 0 40px rgba(24, 23, 22, 0.14);
+
+    transform: translateX(100%);
+
+    transition: transform 0.3s ease, background-color 0.3s ease-in-out,
+        border-color 0.3s ease-in-out;
+}
+
+.settings-panel.open {
+    transform: translateX(0);
+}
+
+body.settings-open {
+    overflow: hidden;
+}
+
+.settings-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    padding-bottom: 16px;
+
+    border-bottom: 1px solid var(--border);
+}
+
+.settings-title {
+    margin: 0;
+
+    font-size: 2rem;
+}
+
+.settings-close {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 50%;
+
+    color: var(--text);
+    font-family: inherit;
+    font-size: 1.3rem;
+    line-height: 1;
+
+    cursor: pointer;
+
+    transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.settings-close:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.settings-intro {
+    margin: 16px 0 8px;
+
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+.settings-form {
+    margin: 0;
+}
+
+.settings-field {
+    margin: 22px 0 0;
+    padding: 0 0 22px;
+
+    border: none;
+    border-bottom: 1px solid var(--border);
+}
+
+.settings-legend {
+    padding: 0;
+    margin-bottom: 12px;
+
+    color: var(--accent);
+
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.settings-choices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.settings-choice {
+    position: relative;
+    cursor: pointer;
+}
+
+.settings-choice input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.settings-choice span {
+    display: block;
+    padding: 8px 14px;
+
+    border: 1px solid var(--border);
+    border-radius: 999px;
+
+    font-size: 0.85rem;
+    line-height: 1.3;
+
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+        border-color 0.2s ease-in-out;
+}
+
+.settings-choice:hover span {
+    border-color: var(--accent);
+}
+
+.settings-choice input:checked + span {
+    background: var(--text);
+    border-color: var(--text);
+    color: var(--background);
+}
+
+.settings-choice input:focus-visible + span {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.settings-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+
+    margin-top: 14px;
+
+    font-size: 0.85rem;
+}
+
+.settings-custom[hidden] {
+    display: none;
+}
+
+.settings-custom-input {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+}
+
+.settings-custom-input input {
+    width: 70px;
+    padding: 6px 8px;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 4px;
+
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+.settings-hint {
+    margin: 12px 0 0;
+
+    color: var(--muted);
+    font-size: 0.8rem;
+    line-height: 1.5;
+}
+
+.settings-reset {
+    margin-top: 28px;
+    padding: 12px 24px;
+
+    background: none;
+    border: 1px solid var(--text);
+
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+        border-color 0.3s ease-in-out;
+}
+
+.settings-reset:hover {
+    background: var(--text);
+    color: var(--background);
+}
+
+.settings-summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 18px;
+
+    margin: -30px 0 40px;
+
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+
+.settings-summary-link {
+    color: var(--accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.settings-summary-note {
+    flex-basis: 100%;
+    margin: 0;
+}
+
+.ingredient-quantity.adjusted,
+.settings-summary-note {
+    color: var(--accent);
+}
+
+@media (max-width: 500px) {
+
+    .settings-panel {
+        padding: 20px 16px 32px;
+    }
+
+    .header-controls {
+        gap: 8px;
+    }
 }

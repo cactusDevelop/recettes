@@ -9,7 +9,7 @@
   },
   "ingredients": {
     "pate_brisee": [
-      { "ingredient": "Farine", "quantity": "200 g" },
+      { "ingredient": "Farine", "amount": 200, "unit": "g", "kind": "flour" },
       { "ingredient": "Beurre froid", "quantity": "100 g" },
       { "ingredient": "Sucre semoule", "quantity": "1 cuillère à soupe" },
       { "ingredient": "Sel fin", "quantity": "1 pincée" },

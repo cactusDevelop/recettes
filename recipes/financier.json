@@ -12,8 +12,8 @@
       { "ingredient": "Beurre doux", "quantity": "150 g" },
       { "ingredient": "Sucre glace", "quantity": "150 g" },
       { "ingredient": "Poudre d'amandes", "quantity": "75 g" },
-      { "ingredient": "Farine", "quantity": "50 g" },
-      { "ingredient": "Blancs d'œufs (environ 5)", "quantity": "150 g" },
+      { "ingredient": "Farine", "amount": 50, "unit": "g", "kind": "flour" },
+      { "ingredient": "Blancs d'œufs", "amount": 150, "unit": "g", "kind": "white" },
       { "ingredient": "Miel liquide", "quantity": "10 g" },
       { "ingredient": "Sel fin", "quantity": "1 pincée" }
     ]

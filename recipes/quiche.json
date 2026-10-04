@@ -9,9 +9,9 @@
   },
   "ingredients": {
     "pate_brisee": [
-      { "ingredient": "Farine", "quantity": "250 g" },
+      { "ingredient": "Farine", "amount": 250, "unit": "g", "kind": "flour" },
       { "ingredient": "Beurre froid", "quantity": "125 g" },
-      { "ingredient": "Œuf", "quantity": "1" },
+      { "ingredient": "Œuf", "amount": 50, "unit": "g", "kind": "egg" },
       { "ingredient": "Eau froide", "quantity": "2 à 3 cuillères à soupe" },
       { "ingredient": "Sel fin", "quantity": "1 pincée" }
     ],
@@ -25,9 +25,9 @@
       { "ingredient": "Sel, poivre", "quantity": "au goût" }
     ],
     "appareil": [
-      { "ingredient": "Œufs", "quantity": "3" },
-      { "ingredient": "Crème fraîche épaisse", "quantity": "20 cl" },
-      { "ingredient": "Lait", "quantity": "10 cl" },
+      { "ingredient": "Œufs", "amount": 150, "unit": "g", "kind": "egg" },
+      { "ingredient": "Crème fraîche épaisse", "amount": 20, "unit": "cl", "kind": "cream" },
+      { "ingredient": "Lait", "amount": 10, "unit": "cl", "kind": "milk" },
       { "ingredient": "Muscade", "quantity": "1 pincée" },
       { "ingredient": "Sel, poivre", "quantity": "au goût" },
       { "ingredient": "Fromage râpé (emmental ou gruyère)", "quantity": "80 g" }

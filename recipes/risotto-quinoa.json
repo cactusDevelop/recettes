@@ -12,7 +12,7 @@
       { "ingredient": "Champignons de Paris", "quantity": "250 g" },
       { "ingredient": "Oignon (ou échalotes)", "quantity": "1 oignon (ou 2 échalotes)" },
       { "ingredient": "Ail", "quantity": "1 gousse" },
-      { "ingredient": "Eau chaude", "quantity": "600 ml" },
+      { "ingredient": "Eau chaude", "amount": 600, "unit": "ml", "kind": "water" },
       { "ingredient": "Parmesan râpé", "quantity": "50 g" },
       { "ingredient": "Beurre", "quantity": "20 g" },
       { "ingredient": "Huile d'olive", "quantity": "1 cuillère à soupe" },

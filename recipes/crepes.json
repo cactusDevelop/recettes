@@ -9,9 +9,9 @@
   },
   "ingredients": {
     "pâte": [
-      { "ingredient": "Farine tout usage", "quantity": "250 g" },
-      { "ingredient": "Lait demi-écrémé", "quantity": "520 g" },
-      { "ingredient": "Œufs", "quantity": "150 g (3 œufs)" },
+      { "ingredient": "Farine tout usage", "amount": 250, "unit": "g", "kind": "flour" },
+      { "ingredient": "Lait demi-écrémé", "amount": 520, "unit": "g", "kind": "milk", "absorption": "liquid" },
+      { "ingredient": "Œufs", "amount": 150, "unit": "g", "kind": "egg" },
       { "ingredient": "Beurre", "quantity": "30 g" },
       { "ingredient": "Sucre semoule", "quantity": "15 g" },
       { "ingredient": "Sel", "quantity": "2 g" }
@@ -36,7 +36,7 @@
     {
       "title": "2. Préparer la pâte",
       "before": [
-        "La farine tout usage contient souvent plus de protéines qu'une farine française T55 : elle boit un peu plus de liquide, d'où les 520 g de lait."
+        "La quantité de lait dépend de la farine choisie dans les paramètres : la farine tout usage, plus riche en protéines, boit plus de liquide qu'une T45 ou une T55."
       ],
       "instructions": [
         "Mélanger la farine, le sucre et le sel dans un saladier.",
@@ -47,7 +47,7 @@
       ],
       "important": [
         "Ajouter le lait en plusieurs fois : c'est ce qui évite les grumeaux, bien plus que de fouetter fort.",
-        "Si la pâte semble trop épaisse après le repos, ajouter jusqu'à 30 g de lait supplémentaire."
+        "Si la pâte semble trop épaisse après le repos, ajouter jusqu'à {{30 g milk}} de lait supplémentaire."
       ]
     },
     {

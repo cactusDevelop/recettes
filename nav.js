@@ -15,6 +15,7 @@ const NAV_RECIPES = {
         { title: "Quiche saumon", href: "quiche.html", image: "images/quiche.jpg" },
         { title: "Moussaka", href: "moussaka.html", image: "images/moussaka.jpg" },
         { title: "Risotto de quinoa", href: "risotto-quinoa.html", image: "images/risotto-quinoa.jpg" },
+        { title: "Pâtes fraîches", href: "pates-fraiches.html", image: "images/pates-fraiches.jpg" },
     ],
 };
 

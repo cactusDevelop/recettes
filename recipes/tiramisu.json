@@ -9,17 +9,17 @@
   },
   "ingredients": {
     "café": [
-      { "ingredient": "Café fort non sucré", "quantity": "250 g" }
+      { "ingredient": "Café fort non sucré", "amount": 250, "unit": "g", "kind": "coffee" }
     ],
     "pâte_à_bombe": [
-      { "ingredient": "Jaunes d'œufs", "quantity": "80 g" },
+      { "ingredient": "Jaunes d'œufs", "amount": 80, "unit": "g", "kind": "yolk" },
       { "ingredient": "Sucre semoule", "quantity": "80 g" },
-      { "ingredient": "Eau", "quantity": "25 g" }
+      { "ingredient": "Eau", "amount": 25, "unit": "g", "kind": "water" }
     ],
     "meringue_italienne": [
-      { "ingredient": "Blancs d'œufs", "quantity": "120 g" },
+      { "ingredient": "Blancs d'œufs", "amount": 120, "unit": "g", "kind": "white" },
       { "ingredient": "Sucre semoule", "quantity": "50 g" },
-      { "ingredient": "Eau", "quantity": "15 g" }
+      { "ingredient": "Eau", "amount": 15, "unit": "g", "kind": "water" }
     ],
     "crème": [
       { "ingredient": "Mascarpone", "quantity": "250 g" },

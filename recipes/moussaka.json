@@ -20,7 +20,7 @@
       { "ingredient": "Ail", "quantity": "2 gousses" },
       { "ingredient": "Tomates concassées", "quantity": "400 g (1 boîte)" },
       { "ingredient": "Concentré de tomate", "quantity": "1 cuillère à soupe" },
-      { "ingredient": "Vin rouge", "quantity": "10 cl" },
+      { "ingredient": "Vin rouge", "amount": 10, "unit": "cl", "kind": "wine" },
       { "ingredient": "Cannelle moulue", "quantity": "1/2 cuillère à café" },
       { "ingredient": "Clous de girofle", "quantity": "2" },
       { "ingredient": "Feuille de laurier", "quantity": "1" },
@@ -30,10 +30,10 @@
     ],
     "bechamel": [
       { "ingredient": "Beurre", "quantity": "60 g" },
-      { "ingredient": "Farine", "quantity": "60 g" },
-      { "ingredient": "Lait", "quantity": "60 cl" },
+      { "ingredient": "Farine", "amount": 60, "unit": "g", "kind": "flour" },
+      { "ingredient": "Lait", "amount": 60, "unit": "cl", "kind": "milk" },
       { "ingredient": "Muscade", "quantity": "1 pincée" },
-      { "ingredient": "Jaunes d'œufs", "quantity": "2" },
+      { "ingredient": "Jaunes d'œufs", "amount": 40, "unit": "g", "kind": "yolk" },
       { "ingredient": "Fromage râpé (kefalotyri ou parmesan)", "quantity": "80 g, plus un peu pour gratiner" },
       { "ingredient": "Sel, poivre", "quantity": "au goût" }
     ]

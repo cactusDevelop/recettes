@@ -11,21 +11,21 @@
     "joconde": [
       { "ingredient": "Poudre d'amandes", "quantity": "100 g" },
       { "ingredient": "Sucre glace", "quantity": "100 g" },
-      { "ingredient": "Œufs entiers", "quantity": "3" },
-      { "ingredient": "Farine", "quantity": "30 g" },
-      { "ingredient": "Blancs d'œufs", "quantity": "3" },
+      { "ingredient": "Œufs entiers", "amount": 150, "unit": "g", "kind": "egg" },
+      { "ingredient": "Farine", "amount": 30, "unit": "g", "kind": "flour" },
+      { "ingredient": "Blancs d'œufs", "amount": 90, "unit": "g", "kind": "white" },
       { "ingredient": "Sucre semoule", "quantity": "20 g" },
       { "ingredient": "Beurre", "quantity": "20 g" }
     ],
     "coffee_syrup": [
-      { "ingredient": "Eau", "quantity": "50 g" },
+      { "ingredient": "Eau", "amount": 50, "unit": "g", "kind": "water" },
       { "ingredient": "Sucre", "quantity": "50 g" },
       { "ingredient": "Café soluble", "quantity": "5 g" }
     ],
     "coffee_buttercream": [
-      { "ingredient": "Jaunes d'œufs", "quantity": "2" },
+      { "ingredient": "Jaunes d'œufs", "amount": 40, "unit": "g", "kind": "yolk" },
       { "ingredient": "Sucre", "quantity": "100 g" },
-      { "ingredient": "Eau", "quantity": "30 g" },
+      { "ingredient": "Eau", "amount": 30, "unit": "g", "kind": "water" },
       { "ingredient": "Beurre doux", "quantity": "200 g" },
       { "ingredient": "Café soluble", "quantity": "5 g" },
       { "ingredient": "Eau chaude pour le café", "quantity": "environ 1 cuillère à café" }
@@ -33,11 +33,11 @@
     "ganache": [
       { "ingredient": "Chocolat à 49 %", "quantity": "120 g" },
       { "ingredient": "Chocolat à 72 %", "quantity": "80 g" },
-      { "ingredient": "Crème entière 35 %", "quantity": "100 g" }
+      { "ingredient": "Crème entière 35 %", "amount": 100, "unit": "g", "kind": "cream" }
     ],
     "glaze": [
       { "ingredient": "Chocolat", "quantity": "100 g" },
-      { "ingredient": "Huile neutre", "quantity": "10 g" }
+      { "ingredient": "Huile neutre", "amount": 10, "unit": "g", "kind": "oil" }
     ]
   },
   "steps": [
@@ -52,11 +52,11 @@
       "instructions": [
         "Faire fondre les 20 g de beurre puis le laisser tiédir.",
         "Mélanger la poudre d'amandes et le sucre glace.",
-        "Ajouter les 3 œufs entiers.",
+        "Ajouter les œufs entiers ({{150 g egg}}).",
         "Fouetter environ 5 minutes jusqu'à obtenir un mélange clair, mousseux et nettement plus volumineux.",
         "Tamiser les 30 g de farine au-dessus du mélange.",
         "Incorporer délicatement la farine à la spatule.",
-        "Monter les 3 blancs d'œufs en neige.",
+        "Monter les blancs d'œufs ({{90 g white}}) en neige.",
         "Lorsqu'ils commencent à mousser, ajouter progressivement les 20 g de sucre.",
         "Continuer à fouetter jusqu'à obtenir des blancs souples mais suffisamment fermes.",
         "Incorporer les blancs en 2 ou 3 fois avec une spatule, délicatement.",
@@ -88,7 +88,7 @@
         "Le sirop doit rester liquide et ne doit surtout pas être réduit jusqu'à devenir un caramel."
       ],
       "instructions": [
-        "Mettre 50 g d'eau et 50 g de sucre dans une petite casserole.",
+        "Mettre {{50 g water}} d'eau et 50 g de sucre dans une petite casserole.",
         "Porter à ébullition.",
         "Laisser bouillir environ 1 minute.",
         "Retirer du feu.",
@@ -118,8 +118,8 @@
         "Le sirop doit rester clair : il ne faut pas chercher une coloration caramel."
       ],
       "instructions": [
-        "Mettre les 2 jaunes d'œufs dans un grand saladier et commencer à les fouetter.",
-        "Mettre les 100 g de sucre et les 30 g d'eau dans une casserole.",
+        "Mettre les jaunes d'œufs ({{40 g yolk}}) dans un grand saladier et commencer à les fouetter.",
+        "Mettre les 100 g de sucre et les {{30 g water}} d'eau dans une casserole.",
         "Chauffer à feu moyen sans remuer avec une cuillère.",
         "Lorsque le sirop bout, poursuivre la cuisson en surveillant attentivement.",
         "Pour vérifier sans thermomètre, déposer une petite goutte de sirop dans un verre d'eau froide.",
@@ -146,18 +146,18 @@
     {
       "title": "6. Préparer la ganache au chocolat",
       "before": [
-        "Utiliser exactement 200 g de chocolat au total et 100 g de crème entière 35 %.",
+        "Utiliser exactement 200 g de chocolat au total et {{100 g cream}} de crème entière 35 %.",
         "Hacher le chocolat très finement, en petits morceaux réguliers de quelques millimètres.",
-        "Éviter absolument les gros morceaux : avec seulement 100 g de crème pour 200 g de chocolat, les gros morceaux risquent de ne pas fondre complètement.",
+        "Éviter absolument les gros morceaux : avec seulement {{100 g cream}} de crème pour 200 g de chocolat, les gros morceaux risquent de ne pas fondre complètement.",
         "La crème doit être chaude et frémissante, mais pas violemment bouillie.",
         "Ne pas ajouter de crème supplémentaire simplement parce que la ganache est liquide lorsqu'elle est chaude : elle épaissira en refroidissant."
       ],
       "instructions": [
         "Hacher très finement les 120 g de chocolat à 49 % et les 80 g de chocolat à 72 %.",
         "Mettre les 200 g de chocolat haché dans un bol.",
-        "Chauffer les 100 g de crème 35 % jusqu'au frémissement.",
+        "Chauffer les {{100 g cream}} de crème 35 % jusqu'au frémissement.",
         "Retirer immédiatement du feu.",
-        "Verser environ 50 g de crème chaude sur le chocolat.",
+        "Verser environ {{50 g cream}} de crème chaude sur le chocolat.",
         "Attendre environ 30 secondes.",
         "Mélanger doucement au centre avec une spatule en effectuant de petits cercles.",
         "Lorsque le centre devient brillant et homogène, incorporer progressivement le reste de la crème.",
@@ -231,7 +231,7 @@
       ],
       "instructions": [
         "Faire fondre doucement les 100 g de chocolat.",
-        "Ajouter les 10 g d'huile neutre.",
+        "Ajouter les {{10 g oil}} d'huile neutre.",
         "Mélanger jusqu'à obtenir un glaçage parfaitement homogène.",
         "Laisser légèrement redescendre en température : il doit rester fluide mais ne doit pas être chaud au point de ramollir la crème au beurre.",
         "Sortir le gâteau très froid.",
