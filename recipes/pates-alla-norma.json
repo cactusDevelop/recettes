@@ -39,7 +39,7 @@
         "Même égouttage que pour le cheesecake spéculoos citron : le fromage blanc égoutté remplace la ricotta salée, introuvable et chère."
       ],
       "instructions": [
-        "La veille, ou au moins 2 heures avant, égoutter le fromage blanc entier au réfrigérateur dans une passoire tapissée d'un linge propre.",
+        "La veille, ou [[au moins 2 heures]] avant, égoutter le fromage blanc entier (environ 250 g) au réfrigérateur dans une passoire tapissée d'un linge propre.",
         "Il doit être assez ferme pour qu'une cuillère tienne debout dedans."
       ]
     },
@@ -49,11 +49,11 @@
         "À la poêle, l'aubergine boit l'huile comme une éponge. Au four, 2 cuillères à soupe suffisent pour qu'elle soit dorée et fondante."
       ],
       "instructions": [
-        "Préchauffer le four à 220 °C.",
-        "Couper les aubergines en cubes de 2 cm.",
-        "Dans un saladier, les mélanger avec l'huile d'olive et le sel pour bien répartir l'huile.",
+        "Préchauffer le four à 220 °C en chaleur tournante.",
+        "Couper les aubergines (2 moyennes, soit environ 600 g) en cubes de 2 cm.",
+        "Dans un saladier, les mélanger avec l'huile d'olive (2 cuillères à soupe) et le sel fin (1/2 cuillère à café) pour bien répartir l'huile.",
         "Les étaler en une seule couche sur une plaque couverte de papier cuisson, sans les entasser.",
-        "Enfourner 25 à 30 minutes, en les retournant à mi-cuisson."
+        "Enfourner [[25 à 30 minutes]] à 220 °C en chaleur tournante, en les retournant à mi-cuisson."
       ],
       "doneness": "Les cubes doivent être dorés sur les bords et très fondants à cœur.",
       "important": [
@@ -63,11 +63,11 @@
     {
       "title": "3. Préparer la sauce tomate",
       "instructions": [
-        "Pendant la cuisson des aubergines, ciseler l'oignon (ou les échalotes) et hacher l'ail.",
-        "Dans une sauteuse, faire suer l'oignon (ou les échalotes) dans l'huile d'olive 5 minutes à feu doux, sans coloration.",
+        "Pendant la cuisson des aubergines, ciseler l'oignon (1, ou 3 échalotes) et hacher l'ail (2 gousses).",
+        "Dans une sauteuse, faire suer l'oignon (ou les échalotes) dans l'huile d'olive (1 cuillère à soupe) [[5 minutes]] à feu doux, sans coloration.",
         "Ajouter l'ail et cuire 30 secondes.",
-        "Ajouter les tomates cerises entières et les tiges du basilic, couvrir et cuire 5 minutes, jusqu'à ce que les tomates éclatent.",
-        "Retirer les tiges de basilic, écraser les tomates à la fourchette et laisser mijoter 10 minutes à découvert.",
+        "Ajouter les tomates cerises entières (500 g) et les tiges du basilic, couvrir et cuire [[5 minutes]], jusqu'à ce que les tomates éclatent.",
+        "Retirer les tiges de basilic, écraser les tomates à la fourchette et laisser mijoter [[10 minutes]] à découvert.",
         "Saler et poivrer."
       ],
       "doneness": "La sauce doit être épaisse et concentrée, avec encore quelques morceaux de tomate."
@@ -75,19 +75,19 @@
     {
       "title": "4. Cuire les pâtes",
       "instructions": [
-        "Porter l'eau à ébullition et la saler avec le gros sel.",
-        "Cuire les pâtes 1 minute de moins que le temps indiqué sur le paquet.",
+        "Porter l'eau (environ 4 litres) à ébullition et la saler avec le gros sel (40 g).",
+        "Cuire les pâtes (320 g) 1 minute de moins que le temps indiqué sur le paquet.",
         "Avant d'égoutter, prélever une grande tasse d'eau de cuisson."
       ]
     },
     {
       "title": "5. Assembler et servir",
       "instructions": [
-        "Assaisonner le fromage blanc égoutté d'une pincée de sel, de poivre et d'un filet d'huile d'olive.",
-        "Égoutter les pâtes et les verser dans la sauce avec les deux tiers des aubergines et {{80 ml water}} d'eau de cuisson.",
+        "Assaisonner le fromage blanc égoutté (150 g) d'une pincée de sel, de poivre et d'un filet d'huile d'olive.",
+        "Égoutter les pâtes et les verser dans la sauce avec les deux tiers des aubergines et de l'eau de cuisson ({{80 ml water}}).",
         "Mélanger 1 minute à feu moyen, jusqu'à ce que la sauce enrobe bien les pâtes.",
         "Hors du feu, ajouter les feuilles de basilic déchirées.",
-        "Servir avec le reste des aubergines sur le dessus, une cuillerée de fromage blanc et le parmesan."
+        "Servir avec le reste des aubergines sur le dessus, une cuillerée de fromage blanc et le parmesan (30 g)."
       ],
       "rescue": [
         "Sauce trop épaisse : ajouter un peu d'eau de cuisson et mélanger."

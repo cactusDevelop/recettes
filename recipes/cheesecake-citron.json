@@ -30,12 +30,12 @@
         "Le fromage blanc doit déjà être bien égoutté : prévoir 1 kg de fromage blanc entier pour obtenir environ 600 g égoutté."
       ],
       "instructions": [
-        "Préchauffer le four à 170 °C.",
-        "Écraser très finement le spéculoos.",
-        "Faire fondre le beurre.",
+        "Préchauffer le four à 170 °C en chaleur statique.",
+        "Écraser très finement le spéculoos (280 g).",
+        "Faire fondre le beurre (110 g).",
         "Mélanger le beurre, les biscuits et la pincée de fleur de sel.",
         "Répartir dans le fond du moule et tasser extrêmement bien avec le fond d'un verre.",
-        "Cuire 10 min à 170 °C (hauteur 2/5).",
+        "Cuire [[10 min]] à 170 °C en chaleur statique (hauteur 2/5).",
         "Laisser refroidir."
       ],
       "doneness": "La base doit être bien tassée et complètement refroidie avant d'y verser l'appareil."
@@ -46,12 +46,12 @@
         "Le zeste de citron doit être prélevé très finement, sans la partie blanche amère."
       ],
       "instructions": [
-        "Mettre le fromage blanc égoutté dans un saladier.",
-        "Ajouter le sucre, la vanille, le zeste très fin du citron et environ 1 cuillère à soupe de jus de citron.",
+        "Mettre le fromage blanc égoutté (600 g) dans un saladier.",
+        "Ajouter le sucre (130 g), la vanille (1 à 2 cuillères à café), le zeste très fin du citron (1) et environ 1 cuillère à soupe de jus de citron.",
         "Mélanger doucement.",
-        "Ajouter la Maïzena et mélanger jusqu'à disparition complète des grumeaux.",
-        "Ajouter les œufs un par un, en mélangeant juste assez pour les incorporer.",
-        "Ajouter enfin la crème liquide."
+        "Ajouter la Maïzena (30 g) et mélanger jusqu'à disparition complète des grumeaux.",
+        "Ajouter les œufs ({{200 g egg}}) un par un, en mélangeant juste assez pour les incorporer.",
+        "Ajouter enfin la crème liquide ({{200 g cream}})."
       ],
       "important": [
         "Ne pas fouetter fortement : le but est d'avoir le moins de bulles d'air possible.",
@@ -66,12 +66,12 @@
       ],
       "instructions": [
         "Verser l'appareil sur la base refroidie.",
-        "Cuire à 150 °C chaleur statique pendant environ 55 min.",
-        "Surveiller la cuisson à partir de 45 min."
+        "Cuire à 150 °C en chaleur statique pendant [[environ 55 min]].",
+        "Surveiller la cuisson à partir de [[45 min]]."
       ],
       "doneness": "Le cheesecake est prêt lorsque les bords sont pris, que le centre tremble encore légèrement quand on bouge le moule et que le dessus reste très clair. Il ne doit surtout pas être complètement ferme dans le four.",
       "rescue": [
-        "S'il commence à gonfler fortement, baisser le four à 140 °C."
+        "S'il commence à gonfler fortement, baisser le four à 140 °C, toujours en chaleur statique."
       ]
     },
     {
@@ -80,9 +80,9 @@
         "Le refroidissement progressif évite que le cheesecake ne retombe ou ne craquelle."
       ],
       "instructions": [
-        "Éteindre le four et laisser le cheesecake 30 min à l'intérieur, porte entrouverte.",
+        "Éteindre le four et laisser le cheesecake [[30 min]] à l'intérieur, porte entrouverte.",
         "Sortir le cheesecake et le laisser refroidir complètement à température ambiante.",
-        "Réfrigérer au minimum 6 h, idéalement toute une nuit, avant de démouler et de servir."
+        "Réfrigérer [[au minimum 6 h]], idéalement toute une nuit, avant de démouler et de servir."
       ]
     }
   ]

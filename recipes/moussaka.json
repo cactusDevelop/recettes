@@ -45,22 +45,22 @@
         "Le dégorgement retire l'amertume et l'excès d'eau des aubergines : ne pas le sauter."
       ],
       "instructions": [
-        "Couper les aubergines en tranches d'environ 1 cm d'épaisseur, dans le sens de la longueur.",
+        "Couper les aubergines (3 grosses, soit environ 1,2 kg) en tranches d'environ 1 cm d'épaisseur, dans le sens de la longueur.",
         "Les disposer sur une grille ou un torchon, saler généreusement chaque face.",
-        "Laisser dégorger 30 minutes.",
+        "Laisser dégorger [[30 minutes]].",
         "Rincer rapidement et sécher soigneusement avec du papier absorbant."
       ]
     },
     {
       "title": "2. Rôtir les aubergines",
       "before": [
-        "Préchauffer le four à 220 °C.",
+        "Préchauffer le four à 220 °C en chaleur tournante.",
         "La cuisson au four remplace la friture traditionnelle : plus légère, tout en gardant les tranches fondantes."
       ],
       "instructions": [
         "Disposer les tranches d'aubergine sur une plaque recouverte de papier cuisson.",
-        "Badigeonner d'huile d'olive des deux côtés.",
-        "Enfourner 20 minutes, en retournant les tranches à mi-cuisson.",
+        "Badigeonner d'huile d'olive (5 cuillères à soupe) des deux côtés.",
+        "Enfourner [[20 minutes]] à 220 °C en chaleur tournante, en retournant les tranches à mi-cuisson.",
         "Réserver."
       ],
       "doneness": "Les tranches doivent être dorées et souples, sans être desséchées.",
@@ -71,8 +71,8 @@
     {
       "title": "3. Préparer les pommes de terre",
       "instructions": [
-        "Éplucher les pommes de terre et les couper en tranches fines (environ 5 mm).",
-        "Les précuire 5 minutes à l'eau bouillante salée pour les attendrir légèrement.",
+        "Éplucher les pommes de terre (4 moyennes) et les couper en tranches fines (environ 5 mm).",
+        "Les précuire [[5 minutes]] à l'eau bouillante salée pour les attendrir légèrement.",
         "Égoutter et réserver."
       ]
     },
@@ -82,15 +82,15 @@
         "Réduire le vin avant d'ajouter la tomate évite une sauce trop acide."
       ],
       "instructions": [
-        "Émincer finement l'oignon (ou les échalotes) et l'ail.",
-        "Faire chauffer l'huile d'olive dans une sauteuse.",
+        "Émincer finement l'oignon (1 gros, ou 3 échalotes) et l'ail (2 gousses).",
+        "Faire chauffer l'huile d'olive (2 cuillères à soupe) dans une sauteuse.",
         "Faire revenir l'oignon (ou les échalotes) et l'ail jusqu'à ce qu'ils deviennent translucides.",
-        "Ajouter la viande hachée et la faire dorer en l'émiettant à la spatule.",
-        "Verser le vin rouge et laisser réduire 2 minutes.",
-        "Ajouter les tomates concassées, le concentré de tomate, la cannelle, les clous de girofle et le laurier.",
+        "Ajouter la viande hachée (600 g) et la faire dorer en l'émiettant à la spatule.",
+        "Verser le vin rouge ({{10 cl wine}}) et laisser réduire [[2 minutes]].",
+        "Ajouter les tomates concassées (400 g), le concentré de tomate (1 cuillère à soupe), la cannelle (1/2 cuillère à café), les clous de girofle (2) et le laurier (1 feuille).",
         "Saler, poivrer.",
-        "Laisser mijoter à feu doux 30 minutes, à découvert, en remuant de temps en temps.",
-        "Retirer le laurier et les clous de girofle, ajouter le persil haché."
+        "Laisser mijoter à feu doux [[30 minutes]], à découvert, en remuant de temps en temps.",
+        "Retirer le laurier et les clous de girofle, ajouter le persil haché (2 cuillères à soupe)."
       ],
       "doneness": "La sauce doit être épaisse, sans excès de liquide en surface."
     },
@@ -100,13 +100,13 @@
         "Verser le lait froid d'un coup sur le roux chaud limite les grumeaux."
       ],
       "instructions": [
-        "Faire fondre le beurre dans une casserole à feu doux.",
-        "Ajouter la farine en une fois et mélanger au fouet pendant 1 minute pour cuire le roux.",
-        "Verser le lait froid en une fois, en fouettant énergiquement.",
+        "Faire fondre le beurre (60 g) dans une casserole à feu doux.",
+        "Ajouter la farine ({{60 g flour}}) en une fois et mélanger au fouet pendant 1 minute pour cuire le roux.",
+        "Verser le lait froid ({{60 cl milk}}) en une fois, en fouettant énergiquement.",
         "Cuire à feu moyen en fouettant sans arrêt jusqu'à épaississement.",
-        "Ajouter la muscade, le sel et le poivre.",
-        "Retirer du feu, laisser tiédir 2 minutes.",
-        "Incorporer les jaunes d'œufs un à un en fouettant, puis le fromage râpé."
+        "Ajouter la muscade (1 pincée), le sel et le poivre.",
+        "Retirer du feu, laisser tiédir [[2 minutes]].",
+        "Incorporer les jaunes d'œufs ({{40 g yolk}}) un à un en fouettant, puis le fromage râpé (80 g)."
       ],
       "doneness": "La béchamel doit napper la cuillère.",
       "rescue": [
@@ -117,7 +117,7 @@
     {
       "title": "6. Assembler la moussaka",
       "before": [
-        "Préchauffer le four à 180 °C si ce n'est pas déjà fait."
+        "Régler le four à 180 °C en chaleur statique : sans ventilation, ce plat épais cuit plus régulièrement et le dessus ne sèche pas."
       ],
       "instructions": [
         "Huiler légèrement le plat à gratin.",
@@ -133,7 +133,7 @@
     {
       "title": "7. Cuire au four",
       "instructions": [
-        "Enfourner 45 à 50 minutes, jusqu'à ce que le dessus soit doré et que les bords bouillonnent légèrement."
+        "Enfourner [[45 à 50 minutes]] à 180 °C en chaleur statique, jusqu'à ce que le dessus soit doré et que les bords bouillonnent légèrement."
       ],
       "doneness": "Le dessus doit être bien doré et légèrement gratiné, la pointe d'un couteau doit s'enfoncer facilement dans les pommes de terre."
     },
@@ -143,7 +143,7 @@
         "Cette étape est essentielle : coupée trop chaude, la moussaka s'effondre et les couches se mélangent."
       ],
       "instructions": [
-        "Laisser reposer au moins 20 minutes hors du four avant de découper.",
+        "Laisser reposer [[au moins 20 minutes]] hors du four avant de découper.",
         "Découper en parts et servir tiède."
       ]
     }

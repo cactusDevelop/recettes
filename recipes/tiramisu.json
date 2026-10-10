@@ -38,8 +38,8 @@
         "Plus le fromage blanc est ferme, plus la crème tiendra : c'est lui qui remplace une partie du mascarpone."
       ],
       "instructions": [
-        "La veille, égoutter le fromage blanc entier au réfrigérateur, comme pour le cheesecake.",
-        "Préparer le café fort et le verser dans un récipient large et peu profond.",
+        "La veille, égoutter le fromage blanc entier (environ 250 g) au réfrigérateur, comme pour le cheesecake.",
+        "Préparer le café fort ({{250 g coffee}}) et le verser dans un récipient large et peu profond.",
         "Laisser complètement refroidir le café."
       ],
       "doneness": "Le fromage blanc égoutté doit être assez ferme pour qu'une cuillère tienne debout dedans."
@@ -50,8 +50,8 @@
         "Utiliser un thermomètre de cuisine pour contrôler précisément la température du sirop."
       ],
       "instructions": [
-        "Placer les jaunes dans la cuve du batteur et commencer à les fouetter.",
-        "Chauffer l'eau et le sucre dans une petite casserole jusqu'à 118 °C.",
+        "Placer les jaunes ({{80 g yolk}}) dans la cuve du batteur et commencer à les fouetter.",
+        "Chauffer l'eau ({{25 g water}}) et le sucre (80 g) dans une petite casserole jusqu'à 118 °C.",
         "Verser le sirop en filet sur les jaunes en fouettant, le long de la paroi.",
         "Fouetter jusqu'à ce que la préparation soit claire, mousseuse et tiède."
       ],
@@ -63,7 +63,7 @@
         "Le mascarpone et le fromage blanc doivent être froids, la pâte à bombe tiède."
       ],
       "instructions": [
-        "Détendre le mascarpone avec le fromage blanc égoutté à la spatule, sans fouetter.",
+        "Détendre le mascarpone (250 g) avec le fromage blanc égoutté (150 g) à la spatule, sans fouetter.",
         "Incorporer la pâte à bombe en deux fois jusqu'à obtenir une crème lisse."
       ],
       "important": [
@@ -76,8 +76,8 @@
         "La meringue italienne cuit les blancs avec le sirop : elle est plus stable que des blancs simplement montés."
       ],
       "instructions": [
-        "Chauffer l'eau et le sucre jusqu'à 118 °C.",
-        "Quand le sirop atteint environ 110 °C, commencer à monter les blancs à vitesse moyenne.",
+        "Chauffer l'eau ({{15 g water}}) et le sucre (50 g) jusqu'à 118 °C.",
+        "Quand le sirop atteint environ 110 °C, commencer à monter les blancs ({{120 g white}}) à vitesse moyenne.",
         "Verser le sirop à 118 °C en filet sur les blancs mousseux, en fouettant.",
         "Continuer à fouetter jusqu'à complet refroidissement."
       ],
@@ -99,7 +99,7 @@
       ],
       "instructions": [
         "Étaler une fine couche de crème dans le fond du plat.",
-        "Tremper rapidement chaque biscuit boudoir dans le café.",
+        "Tremper rapidement chaque biscuit boudoir (200 g au total) dans le café.",
         "Disposer une couche régulière de biscuits.",
         "Recouvrir de crème.",
         "Réaliser une seconde couche de biscuits imbibés.",
@@ -116,7 +116,7 @@
       ],
       "instructions": [
         "Couvrir le plat.",
-        "Réfrigérer au moins 6 h, idéalement toute une nuit.",
+        "Réfrigérer [[au moins 6 h]], idéalement toute une nuit.",
         "Saupoudrer de cacao amer juste avant de servir."
       ]
     }

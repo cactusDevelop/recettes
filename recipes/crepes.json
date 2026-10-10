@@ -27,7 +27,7 @@
         "Le beurre noisette apporte beaucoup de goût : c'est ce qui permet d'en mettre moins sans perdre en saveur."
       ],
       "instructions": [
-        "Faire fondre le beurre dans une petite casserole à feu moyen.",
+        "Faire fondre le beurre (30 g) dans une petite casserole à feu moyen.",
         "Laisser cuire jusqu'à ce qu'il mousse, puis prenne une couleur blonde et une odeur de noisette.",
         "Retirer immédiatement du feu et laisser tiédir."
       ],
@@ -39,9 +39,9 @@
         "La quantité de lait dépend de la farine choisie dans les paramètres : la farine tout usage, plus riche en protéines, boit plus de liquide qu'une T45 ou une T55."
       ],
       "instructions": [
-        "Mélanger la farine, le sucre et le sel dans un saladier.",
-        "Creuser un puits et y casser les œufs.",
-        "Commencer à mélanger au fouet au centre en ajoutant le lait petit à petit, pour obtenir une pâte épaisse et lisse sans grumeaux.",
+        "Mélanger la farine ({{250 g flour}}), le sucre (15 g) et le sel (2 g) dans un saladier.",
+        "Creuser un puits et y casser les œufs ({{150 g egg}}).",
+        "Commencer à mélanger au fouet au centre en ajoutant le lait ({{520 g milk liquid}}) petit à petit, pour obtenir une pâte épaisse et lisse sans grumeaux.",
         "Verser le reste du lait progressivement en mélangeant.",
         "Ajouter le beurre noisette tiède et mélanger."
       ],
@@ -57,7 +57,7 @@
       ],
       "instructions": [
         "Couvrir le saladier.",
-        "Laisser reposer au moins 1 h, idéalement 2 h, au réfrigérateur.",
+        "Laisser reposer [[au moins 1 h]], idéalement 2 h, au réfrigérateur.",
         "Remélanger doucement la pâte avant la cuisson."
       ]
     },
@@ -69,8 +69,8 @@
       "instructions": [
         "Chauffer la poêle à feu moyen-vif et la graisser très légèrement avec un papier absorbant.",
         "Verser environ une petite louche de pâte en inclinant la poêle pour couvrir tout le fond en couche fine.",
-        "Cuire environ 1 min, jusqu'à ce que les bords se décollent et dorent.",
-        "Retourner et cuire encore 30 s à 1 min.",
+        "Cuire [[environ 1 min]], jusqu'à ce que les bords se décollent et dorent.",
+        "Retourner et cuire encore [[30 s à 1 min]].",
         "Empiler les crêpes sur une assiette et les couvrir pour qu'elles restent souples."
       ],
       "doneness": "La crêpe doit être dorée par endroits, fine et souple, sans être sèche sur les bords."

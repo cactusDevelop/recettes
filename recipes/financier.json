@@ -26,7 +26,7 @@
         "Prévoir une passoire fine ou une gaze pour filtrer le beurre une fois cuit."
       ],
       "instructions": [
-        "Couper le beurre en morceaux et le mettre dans la casserole.",
+        "Couper le beurre (150 g) en morceaux et le mettre dans la casserole.",
         "Faire fondre à feu moyen.",
         "Laisser cuire en remuant de temps en temps : le beurre mousse, puis les particules de lait tombent au fond et brunissent.",
         "Continuer la cuisson jusqu'à ce que le beurre prenne une couleur ambrée et dégage une odeur de noisette.",
@@ -38,8 +38,8 @@
     {
       "title": "2. Mélanger les poudres",
       "instructions": [
-        "Tamiser le sucre glace, la poudre d'amandes et la farine dans un grand saladier.",
-        "Ajouter la pincée de sel.",
+        "Tamiser le sucre glace (150 g), la poudre d'amandes (75 g) et la farine ({{50 g flour}}) dans un grand saladier.",
+        "Ajouter le sel (1 pincée).",
         "Mélanger brièvement à la spatule pour homogénéiser."
       ]
     },
@@ -50,7 +50,7 @@
       ],
       "instructions": [
         "Faire un puits au centre des poudres.",
-        "Verser les blancs d'œufs et le miel.",
+        "Verser les blancs d'œufs ({{150 g white}}) et le miel (10 g).",
         "Mélanger à la spatule en partant du centre, jusqu'à obtenir une pâte lisse et homogène."
       ]
     },
@@ -71,7 +71,7 @@
       ],
       "instructions": [
         "Filmer le saladier au contact.",
-        "Réserver au réfrigérateur au moins 30 minutes, idéalement 1 heure."
+        "Réserver au réfrigérateur [[au moins 30 minutes]], idéalement 1 heure."
       ]
     },
     {
@@ -82,15 +82,15 @@
       ],
       "instructions": [
         "Remplir les moules aux trois quarts à l'aide d'une poche à douille ou d'une cuillère.",
-        "Enfourner et cuire 4 minutes à 210 °C.",
-        "Baisser le four à 180 °C sans ouvrir la porte et poursuivre la cuisson 8 à 10 minutes."
+        "Enfourner et cuire [[4 minutes]] à 210 °C en chaleur tournante.",
+        "Baisser le four à 180 °C, toujours en chaleur tournante, sans ouvrir la porte et poursuivre la cuisson [[8 à 10 minutes]]."
       ],
       "doneness": "Les bords doivent être dorés et le centre moelleux, qui reprend sa forme sous le doigt sans être liquide."
     },
     {
       "title": "7. Démouler et refroidir",
       "instructions": [
-        "Laisser tiédir 5 minutes dans les moules.",
+        "Laisser tiédir [[5 minutes]] dans les moules.",
         "Démouler délicatement sur une grille.",
         "Laisser refroidir complètement avant de déguster."
       ],

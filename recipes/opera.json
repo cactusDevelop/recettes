@@ -50,19 +50,19 @@
         "Le beurre fondu devra être tiède et non brûlant avant son incorporation."
       ],
       "instructions": [
-        "Faire fondre les 20 g de beurre puis le laisser tiédir.",
-        "Mélanger la poudre d'amandes et le sucre glace.",
+        "Faire fondre le beurre (20 g) puis le laisser tiédir.",
+        "Mélanger la poudre d'amandes (100 g) et le sucre glace (100 g).",
         "Ajouter les œufs entiers ({{150 g egg}}).",
-        "Fouetter environ 5 minutes jusqu'à obtenir un mélange clair, mousseux et nettement plus volumineux.",
-        "Tamiser les 30 g de farine au-dessus du mélange.",
+        "Fouetter [[environ 5 minutes]] jusqu'à obtenir un mélange clair, mousseux et nettement plus volumineux.",
+        "Tamiser la farine ({{30 g flour}}) au-dessus du mélange.",
         "Incorporer délicatement la farine à la spatule.",
         "Monter les blancs d'œufs ({{90 g white}}) en neige.",
-        "Lorsqu'ils commencent à mousser, ajouter progressivement les 20 g de sucre.",
+        "Lorsqu'ils commencent à mousser, ajouter progressivement le sucre semoule (20 g).",
         "Continuer à fouetter jusqu'à obtenir des blancs souples mais suffisamment fermes.",
         "Incorporer les blancs en 2 ou 3 fois avec une spatule, délicatement.",
         "Ajouter le beurre fondu tiède et l'incorporer doucement.",
         "Étaler immédiatement la pâte sur la plaque en une couche régulière de 5 à 7 mm.",
-        "Cuire 8 à 10 minutes à 200 °C."
+        "Cuire [[8 à 10 minutes]] à 200 °C en chaleur tournante."
       ],
       "doneness": "Le biscuit doit être légèrement doré, souple au toucher et cuit sans être sec."
     },
@@ -88,11 +88,11 @@
         "Le sirop doit rester liquide et ne doit surtout pas être réduit jusqu'à devenir un caramel."
       ],
       "instructions": [
-        "Mettre {{50 g water}} d'eau et 50 g de sucre dans une petite casserole.",
+        "Mettre l'eau ({{50 g water}}) et le sucre (50 g) dans une petite casserole.",
         "Porter à ébullition.",
-        "Laisser bouillir environ 1 minute.",
+        "Laisser bouillir [[environ 1 minute]].",
         "Retirer du feu.",
-        "Ajouter les 5 g de café soluble.",
+        "Ajouter le café soluble (5 g).",
         "Mélanger jusqu'à dissolution complète.",
         "Laisser refroidir."
       ]
@@ -103,8 +103,8 @@
         "Éviter d'utiliser une grande quantité de café liquide dans la crème au beurre : l'excès d'eau peut perturber l'émulsion."
       ],
       "instructions": [
-        "Mettre les 5 g de café soluble dans un petit récipient.",
-        "Ajouter environ 1 cuillère à café d'eau très chaude.",
+        "Mettre le café soluble (5 g) dans un petit récipient.",
+        "Ajouter l'eau très chaude (environ 1 cuillère à café).",
         "Mélanger jusqu'à obtenir une pâte de café très concentrée.",
         "Réserver."
       ]
@@ -119,7 +119,7 @@
       ],
       "instructions": [
         "Mettre les jaunes d'œufs ({{40 g yolk}}) dans un grand saladier et commencer à les fouetter.",
-        "Mettre les 100 g de sucre et les {{30 g water}} d'eau dans une casserole.",
+        "Mettre le sucre (100 g) et l'eau ({{30 g water}}) dans une casserole.",
         "Chauffer à feu moyen sans remuer avec une cuillère.",
         "Lorsque le sirop bout, poursuivre la cuisson en surveillant attentivement.",
         "Pour vérifier sans thermomètre, déposer une petite goutte de sirop dans un verre d'eau froide.",
@@ -132,7 +132,7 @@
         "Faire couler le sirop dans la zone où les jaunes sont entraînés par le fouet afin qu'il soit immédiatement incorporé.",
         "Continuer à fouetter sans interruption.",
         "Fouetter jusqu'à ce que le mélange refroidisse et épaississe.",
-        "Ajouter progressivement le beurre souple en continuant à fouetter.",
+        "Ajouter progressivement le beurre souple (200 g) en continuant à fouetter.",
         "Fouetter jusqu'à obtenir une crème lisse et homogène.",
         "Ajouter progressivement la pâte de café concentrée.",
         "Fouetter jusqu'à obtenir une crème au beurre parfaitement homogène."
@@ -153,12 +153,12 @@
         "Ne pas ajouter de crème supplémentaire simplement parce que la ganache est liquide lorsqu'elle est chaude : elle épaissira en refroidissant."
       ],
       "instructions": [
-        "Hacher très finement les 120 g de chocolat à 49 % et les 80 g de chocolat à 72 %.",
-        "Mettre les 200 g de chocolat haché dans un bol.",
-        "Chauffer les {{100 g cream}} de crème 35 % jusqu'au frémissement.",
+        "Hacher très finement le chocolat à 49 % (120 g) et le chocolat à 72 % (80 g).",
+        "Mettre le chocolat haché (200 g) dans un bol.",
+        "Chauffer la crème 35 % ({{100 g cream}}) jusqu'au frémissement.",
         "Retirer immédiatement du feu.",
-        "Verser environ {{50 g cream}} de crème chaude sur le chocolat.",
-        "Attendre environ 30 secondes.",
+        "Verser la moitié de la crème chaude (environ {{50 g cream}}) sur le chocolat.",
+        "Attendre [[environ 30 secondes]].",
         "Mélanger doucement au centre avec une spatule en effectuant de petits cercles.",
         "Lorsque le centre devient brillant et homogène, incorporer progressivement le reste de la crème.",
         "Continuer à mélanger jusqu'à obtenir une ganache lisse et brillante."
@@ -191,7 +191,7 @@
         "L'imbiber légèrement avec le sirop au café.",
         "Étaler environ la moitié de la crème au beurre au café.",
         "Lisser soigneusement avec une spatule.",
-        "Placer au réfrigérateur environ 15 minutes afin de raffermir la couche."
+        "Placer au réfrigérateur [[environ 15 minutes]] afin de raffermir la couche."
       ]
     },
     {
@@ -204,7 +204,7 @@
         "L'imbiber légèrement de sirop.",
         "Étaler toute la ganache.",
         "Lisser régulièrement.",
-        "Placer au réfrigérateur pendant 15 à 20 minutes."
+        "Placer au réfrigérateur pendant [[15 à 20 minutes]]."
       ]
     },
     {
@@ -218,20 +218,20 @@
         "L'imbiber légèrement de sirop.",
         "Étaler le reste de la crème au beurre au café.",
         "Lisser parfaitement la surface.",
-        "Placer au réfrigérateur pendant au moins 1 heure."
+        "Placer au réfrigérateur pendant [[au moins 1 heure]]."
       ]
     },
     {
       "title": "10. Préparer le glaçage au chocolat",
       "before": [
         "Le gâteau doit être très froid avant le glaçage afin que le chocolat fige rapidement au contact de la surface.",
-        "Pour faciliter le glaçage et éviter d'arracher la crème au beurre, placer le gâteau 20 à 30 minutes au congélateur juste avant le glaçage si possible.",
+        "Pour faciliter le glaçage et éviter d'arracher la crème au beurre, placer le gâteau [[20 à 30 minutes]] au congélateur juste avant le glaçage si possible.",
         "Le glaçage doit être fluide mais pas brûlant.",
         "Ce glaçage contient moins d'huile que la version précédente afin d'obtenir une couche qui se raffermit davantage au froid."
       ],
       "instructions": [
-        "Faire fondre doucement les 100 g de chocolat.",
-        "Ajouter les {{10 g oil}} d'huile neutre.",
+        "Faire fondre doucement le chocolat (100 g).",
+        "Ajouter l'huile neutre ({{10 g oil}}).",
         "Mélanger jusqu'à obtenir un glaçage parfaitement homogène.",
         "Laisser légèrement redescendre en température : il doit rester fluide mais ne doit pas être chaud au point de ramollir la crème au beurre.",
         "Sortir le gâteau très froid.",
@@ -249,7 +249,7 @@
         "Le glaçage doit avoir suffisamment de temps pour se raffermir avant la découpe."
       ],
       "instructions": [
-        "Laisser l'Opéra au réfrigérateur pendant au moins 1 heure.",
+        "Laisser l'Opéra au réfrigérateur pendant [[au moins 1 heure]].",
         "Pour une texture plus homogène et une découpe plus nette, un repos de plusieurs heures est préférable."
       ]
     },

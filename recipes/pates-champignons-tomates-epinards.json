@@ -31,18 +31,18 @@
     {
       "title": "1. Préparer les légumes",
       "instructions": [
-        "Nettoyer les champignons sans les faire tremper et les couper en quartiers.",
-        "Couper les tomates cerises en deux.",
-        "Ciseler l'oignon (ou les échalotes) et hacher l'ail.",
-        "Rincer et essorer les pousses d'épinards."
+        "Nettoyer les champignons (300 g) sans les faire tremper et les couper en quartiers.",
+        "Couper les tomates cerises (300 g) en deux.",
+        "Ciseler l'oignon (1 petit, ou 2 échalotes) et hacher l'ail (2 gousses).",
+        "Rincer et essorer les pousses d'épinards (150 g)."
       ]
     },
     {
       "title": "2. Saisir les champignons",
       "instructions": [
-        "Chauffer 1 cuillère à soupe d'huile d'olive dans une grande poêle à feu vif.",
-        "Ajouter les champignons en une seule couche et les laisser colorer 2 minutes sans remuer.",
-        "Poursuivre la cuisson 3 à 4 minutes en remuant, jusqu'à ce qu'ils soient bien dorés.",
+        "Chauffer l'huile d'olive (1 cuillère à soupe) dans une grande poêle à feu vif.",
+        "Ajouter les champignons en une seule couche et les laisser colorer [[2 minutes]] sans remuer.",
+        "Poursuivre la cuisson [[3 à 4 minutes]] en remuant, jusqu'à ce qu'ils soient bien dorés.",
         "Saler, poivrer et réserver dans une assiette."
       ],
       "important": [
@@ -52,17 +52,17 @@
     {
       "title": "3. Cuire les pâtes",
       "instructions": [
-        "Porter l'eau à ébullition et la saler avec le gros sel.",
-        "Cuire les pâtes 1 minute de moins que le temps indiqué sur le paquet (2 minutes pour des pâtes fraîches maison).",
+        "Porter l'eau (environ 4 litres) à ébullition et la saler avec le gros sel (40 g).",
+        "Cuire les pâtes (320 g) 1 minute de moins que le temps indiqué sur le paquet (2 minutes pour des pâtes fraîches maison).",
         "Avant d'égoutter, prélever une grande tasse d'eau de cuisson."
       ]
     },
     {
       "title": "4. Faire fondre les tomates",
       "instructions": [
-        "Pendant la cuisson des pâtes, remettre la poêle à feu moyen avec le reste d'huile d'olive.",
-        "Faire suer l'oignon (ou les échalotes) 3 minutes sans coloration, puis ajouter l'ail et le piment, et cuire 30 secondes.",
-        "Ajouter les tomates cerises, face coupée contre la poêle, et cuire 3 à 4 minutes.",
+        "Pendant la cuisson des pâtes, remettre la poêle à feu moyen avec le reste d'huile d'olive (1 cuillère à soupe).",
+        "Faire suer l'oignon (ou les échalotes) [[3 minutes]] sans coloration, puis ajouter l'ail et le piment (1 pincée, facultatif), et cuire 30 secondes.",
+        "Ajouter les tomates cerises, face coupée contre la poêle, et cuire [[3 à 4 minutes]].",
         "Écraser légèrement quelques tomates à la spatule pour qu'elles rendent leur jus."
       ],
       "doneness": "Les tomates doivent être fondantes et avoir rendu un peu de jus, tout en gardant leur forme pour la plupart."
@@ -70,10 +70,10 @@
     {
       "title": "5. Assembler",
       "instructions": [
-        "Égoutter les pâtes et les verser dans la poêle avec les champignons et {{80 ml water}} d'eau de cuisson.",
+        "Égoutter les pâtes et les verser dans la poêle avec les champignons et de l'eau de cuisson ({{80 ml water}}).",
         "Mélanger 1 minute à feu moyen.",
         "Couper le feu, ajouter les épinards et mélanger : ils tombent en 1 minute avec la chaleur des pâtes.",
-        "Ajouter le parmesan et le zeste de citron, mélanger et ajuster avec un peu d'eau de cuisson si besoin.",
+        "Ajouter le parmesan (40 g) et le zeste de citron (1/2 citron), mélanger et ajuster avec un peu d'eau de cuisson si besoin.",
         "Goûter, rectifier le sel et le poivre et servir aussitôt."
       ],
       "doneness": "Les épinards doivent être tout juste tombés, encore bien verts, et les pâtes enrobées d'un jus légèrement lié.",

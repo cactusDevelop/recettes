@@ -756,7 +756,10 @@ function renderSteps(steps) {
 
             const list =
                 createList(
-                    step.before
+                    step.before,
+                    false,
+                    `${index}-before`,
+                    step.title
                 );
 
 
@@ -796,7 +799,9 @@ function renderSteps(steps) {
             const list =
                 createList(
                     step.instructions,
-                    true
+                    true,
+                    `${index}-instructions`,
+                    step.title
                 );
 
 
@@ -815,9 +820,12 @@ function renderSteps(steps) {
             const box =
                 createElement(
                     "div",
-                    "doneness",
-                    renderText(step.doneness)
+                    "doneness"
                 );
+
+            box.appendChild(
+                renderRichText(step.doneness, `${index}-doneness`, step.title)
+            );
 
 
             content.appendChild(box);
@@ -836,7 +844,9 @@ function renderSteps(steps) {
             const box =
                 createInfoBox(
                     "important",
-                    step.important
+                    step.important,
+                    `${index}-important`,
+                    step.title
                 );
 
 
@@ -856,7 +866,9 @@ function renderSteps(steps) {
             const box =
                 createInfoBox(
                     "rescue",
-                    step.rescue
+                    step.rescue,
+                    `${index}-rescue`,
+                    step.title
                 );
 
 
@@ -876,7 +888,9 @@ function renderSteps(steps) {
             const box =
                 createInfoBox(
                     "cooling",
-                    step.cooling
+                    step.cooling,
+                    `${index}-cooling`,
+                    step.title
                 );
 
 
@@ -899,7 +913,9 @@ function renderSteps(steps) {
 
 function createList(
     items,
-    numbered = false
+    numbered = false,
+    keyPrefix = "",
+    stepTitle = ""
 ) {
 
     const list =
@@ -914,14 +930,15 @@ function createList(
         );
 
 
-    items.forEach(item => {
+    items.forEach((item, itemIndex) => {
 
         const li =
             createElement("li");
 
 
-        li.textContent =
-            renderText(item);
+        li.appendChild(
+            renderRichText(item, `${keyPrefix}-${itemIndex}`, stepTitle)
+        );
 
 
         list.appendChild(li);
@@ -938,7 +955,9 @@ function createList(
 
 function createInfoBox(
     className,
-    items
+    items,
+    keyPrefix = "",
+    stepTitle = ""
 ) {
 
     const box =
@@ -955,14 +974,15 @@ function createInfoBox(
         );
 
 
-    items.forEach(item => {
+    items.forEach((item, itemIndex) => {
 
         const li =
             createElement("li");
 
 
-        li.textContent =
-            renderText(item);
+        li.appendChild(
+            renderRichText(item, `${keyPrefix}-${itemIndex}`, stepTitle)
+        );
 
 
         list.appendChild(li);
@@ -974,6 +994,579 @@ function createInfoBox(
 
     return box;
 }
+
+
+/* =========================================================
+   MINUTEURS
+   ========================================================= */
+
+/*
+ * Dans le texte des étapes, une durée entre doubles crochets
+ * devient un minuteur :
+ *
+ *   "Enfourner [[30 à 35 minutes]]."
+ *   "Réfrigérer [[au moins 6 h]], idéalement toute une nuit."
+ *
+ * Le texte entre crochets est affiché tel quel, suivi d'un
+ * bouton. Pour une fourchette, le minuteur sonne à la plus
+ * courte durée : c'est le moment de vérifier.
+ *
+ * Au démarrage, un bip court permet de vérifier que le son
+ * est allumé. À la fin, l'alarme sonne jusqu'à ce qu'on
+ * l'arrête (2 minutes au maximum).
+ */
+
+const TIMER_PATTERN = /\[\[(.+?)\]\]/g;
+
+const ALARM_MAX_DURATION = 2 * 60 * 1000;
+
+const timers = new Map();
+
+let timerInterval = null;
+let audioContext = null;
+let wakeLock = null;
+
+
+/**
+ * Durée en secondes d'un texte comme "15 minutes",
+ * "30 à 35 min", "1 h 30", "30 s à 1 min" ou "au moins 6 h".
+ */
+function parseDuration(text) {
+
+    const hoursMinutes =
+        text.match(/(\d+)\s*h\s*(\d+)/);
+
+    if (hoursMinutes) {
+        return Number(hoursMinutes[1]) * 3600 + Number(hoursMinutes[2]) * 60;
+    }
+
+    const number =
+        text.match(/(\d+(?:[.,]\d+)?)/);
+
+    if (!number) {
+        return 0;
+    }
+
+    const value =
+        Number(number[1].replace(",", "."));
+
+    const rest =
+        text.slice(number.index + number[0].length);
+
+    const unit =
+        rest.match(/\b(h|heures?|min|minutes?|s|sec|secondes?)\b/);
+
+    if (!unit) {
+        return 0;
+    }
+
+    if (unit[1].startsWith("h")) {
+        return Math.round(value * 3600);
+    }
+
+    if (unit[1].startsWith("m")) {
+        return Math.round(value * 60);
+    }
+
+    return Math.round(value);
+}
+
+
+function formatClock(seconds) {
+
+    const total = Math.max(0, Math.ceil(seconds));
+
+    const hours = Math.floor(total / 3600);
+    const minutes = Math.floor((total % 3600) / 60);
+    const secs = total % 60;
+
+    const pad = value => String(value).padStart(2, "0");
+
+    return hours > 0
+        ? `${hours}:${pad(minutes)}:${pad(secs)}`
+        : `${pad(minutes)}:${pad(secs)}`;
+}
+
+
+/**
+ * Rend un texte d'étape : quantités, températures
+ * et minuteurs.
+ */
+function renderRichText(text, keyPrefix = "", stepTitle = "") {
+
+    const fragment =
+        document.createDocumentFragment();
+
+    let lastIndex = 0;
+    let timerIndex = 0;
+
+    for (const match of text.matchAll(TIMER_PATTERN)) {
+
+        fragment.appendChild(
+            document.createTextNode(
+                renderText(text.slice(lastIndex, match.index))
+            )
+        );
+
+        const label = renderText(match[1]);
+        const seconds = parseDuration(match[1]);
+
+        if (seconds > 0) {
+            fragment.appendChild(
+                createTimerWidget(
+                    `${keyPrefix}-${timerIndex}`,
+                    label,
+                    seconds,
+                    stepTitle
+                )
+            );
+        } else {
+            fragment.appendChild(document.createTextNode(label));
+        }
+
+        lastIndex = match.index + match[0].length;
+        timerIndex++;
+    }
+
+    fragment.appendChild(
+        document.createTextNode(
+            renderText(text.slice(lastIndex))
+        )
+    );
+
+    return fragment;
+}
+
+
+function getTimer(key, label, seconds, stepTitle) {
+
+    if (!timers.has(key)) {
+
+        timers.set(key, {
+            key,
+            label,
+            stepTitle: stepTitle.replace(/^\d+\.\s*/, ""),
+            stepId: `step-${Number(key.split("-")[0]) + 1}`,
+            duration: seconds * 1000,
+            remaining: seconds * 1000,
+            endsAt: 0,
+            state: "idle",          // idle | running | paused | done
+            doneAt: 0,
+        });
+    }
+
+    return timers.get(key);
+}
+
+
+function createTimerWidget(key, label, seconds, stepTitle) {
+
+    const timer =
+        getTimer(key, label, seconds, stepTitle);
+
+    timer.label = label;
+
+    const wrapper =
+        createElement("span", "timer");
+
+    wrapper.dataset.timerKey = key;
+
+    wrapper.appendChild(
+        createElement("span", "timer-label", label)
+    );
+
+    const toggle =
+        createElement("button", "timer-toggle");
+
+    toggle.type = "button";
+    toggle.addEventListener("click", () => toggleTimer(timer));
+
+    const reset =
+        createElement("button", "timer-reset", "↺");
+
+    reset.type = "button";
+    reset.title = "Remettre à zéro";
+    reset.setAttribute("aria-label", "Remettre le minuteur à zéro");
+    reset.addEventListener("click", () => resetTimer(timer));
+
+    wrapper.appendChild(toggle);
+    wrapper.appendChild(reset);
+
+    updateTimerElement(wrapper, timer);
+
+    return wrapper;
+}
+
+
+function timerRemaining(timer) {
+
+    if (timer.state === "running") {
+        return Math.max(0, timer.endsAt - Date.now());
+    }
+
+    return timer.state === "done" ? 0 : timer.remaining;
+}
+
+
+function timerButtonText(timer) {
+
+    const clock = formatClock(timerRemaining(timer) / 1000);
+
+    switch (timer.state) {
+        case "running": return `❚❚ ${clock}`;
+        case "paused":  return `▶ ${clock}`;
+        case "done":    return "⏰ Terminé";
+        default:        return `▶ ${clock}`;
+    }
+}
+
+
+function timerButtonTitle(timer) {
+
+    switch (timer.state) {
+        case "running": return "Mettre en pause";
+        case "paused":  return "Reprendre";
+        case "done":    return "Arrêter l'alarme";
+        default:        return "Lancer le minuteur";
+    }
+}
+
+
+function updateTimerElement(element, timer) {
+
+    element.dataset.state = timer.state;
+
+    const toggle = element.querySelector(".timer-toggle");
+
+    toggle.textContent = timerButtonText(timer);
+    toggle.title = timerButtonTitle(timer);
+    toggle.setAttribute("aria-label", `${timerButtonTitle(timer)} (${timer.label})`);
+}
+
+
+/* ---------- Son ---------- */
+
+function getAudioContext() {
+
+    const AudioContextClass =
+        window.AudioContext || window.webkitAudioContext;
+
+    if (!AudioContextClass) {
+        return null;
+    }
+
+    if (!audioContext) {
+        audioContext = new AudioContextClass();
+    }
+
+    if (audioContext.state === "suspended") {
+        audioContext.resume();
+    }
+
+    return audioContext;
+}
+
+
+/**
+ * Joue une série de bips : [[fréquence, durée en s], ...]
+ * séparés par un court silence.
+ */
+function playBeeps(beeps) {
+
+    const context = getAudioContext();
+
+    if (!context) {
+        return;
+    }
+
+    let time = context.currentTime + 0.02;
+
+    for (const [frequency, duration] of beeps) {
+
+        const oscillator = context.createOscillator();
+        const gain = context.createGain();
+
+        oscillator.type = "sine";
+        oscillator.frequency.value = frequency;
+
+        gain.gain.setValueAtTime(0.0001, time);
+        gain.gain.exponentialRampToValueAtTime(0.4, time + 0.01);
+        gain.gain.setValueAtTime(0.4, time + duration - 0.03);
+        gain.gain.exponentialRampToValueAtTime(0.0001, time + duration);
+
+        oscillator.connect(gain);
+        gain.connect(context.destination);
+
+        oscillator.start(time);
+        oscillator.stop(time + duration + 0.02);
+
+        time += duration + 0.12;
+    }
+}
+
+
+function playStartBeep() {
+    playBeeps([[880, 0.15]]);
+}
+
+
+function playAlarm() {
+
+    playBeeps([[988, 0.18], [988, 0.18], [988, 0.18], [1319, 0.35]]);
+
+    if (navigator.vibrate) {
+        navigator.vibrate([200, 100, 200, 100, 400]);
+    }
+}
+
+
+/* ---------- Écran allumé ---------- */
+
+async function updateWakeLock() {
+
+    const needed =
+        [...timers.values()].some(timer => timer.state === "running");
+
+    try {
+
+        if (needed && !wakeLock && "wakeLock" in navigator) {
+
+            wakeLock = await navigator.wakeLock.request("screen");
+
+            wakeLock.addEventListener("release", () => {
+                wakeLock = null;
+            });
+        }
+
+        if (!needed && wakeLock) {
+            await wakeLock.release();
+            wakeLock = null;
+        }
+
+    } catch (error) {
+        wakeLock = null;
+    }
+}
+
+
+document.addEventListener("visibilitychange", () => {
+
+    if (document.visibilityState === "visible") {
+        updateWakeLock();
+        tickTimers();
+    }
+});
+
+
+/* ---------- Actions ---------- */
+
+function toggleTimer(timer) {
+
+    if (timer.state === "running") {
+
+        timer.remaining = Math.max(0, timer.endsAt - Date.now());
+        timer.state = "paused";
+
+    } else if (timer.state === "done") {
+
+        resetTimer(timer);
+        return;
+
+    } else {
+
+        timer.endsAt = Date.now() + timer.remaining;
+        timer.state = "running";
+
+        // Bip de démarrage : vérifie que le son est allumé.
+        playStartBeep();
+    }
+
+    refreshTimers();
+}
+
+
+function resetTimer(timer) {
+
+    timer.state = "idle";
+    timer.remaining = timer.duration;
+    timer.endsAt = 0;
+    timer.doneAt = 0;
+
+    refreshTimers();
+}
+
+
+function tickTimers() {
+
+    const now = Date.now();
+
+    for (const timer of timers.values()) {
+
+        if (timer.state === "running" && timer.endsAt <= now) {
+
+            timer.state = "done";
+            timer.remaining = 0;
+            timer.doneAt = now;
+            timer.lastAlarm = 0;
+        }
+
+        if (timer.state === "done") {
+
+            if (now - timer.doneAt > ALARM_MAX_DURATION) {
+                continue;
+            }
+
+            if (now - (timer.lastAlarm || 0) >= 2000) {
+                timer.lastAlarm = now;
+                playAlarm();
+            }
+        }
+    }
+
+    refreshTimers();
+}
+
+
+function refreshTimers() {
+
+    for (const element of document.querySelectorAll("[data-timer-key]")) {
+
+        const timer = timers.get(element.dataset.timerKey);
+
+        if (timer) {
+            updateTimerElement(element, timer);
+        }
+    }
+
+    renderTimerTray();
+
+    const active =
+        [...timers.values()].filter(timer => timer.state !== "idle");
+
+    const ticking =
+        active.some(timer => timer.state === "running" || timer.state === "done");
+
+    if (ticking && !timerInterval) {
+        timerInterval = setInterval(tickTimers, 250);
+    }
+
+    if (!ticking && timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+    }
+
+    const ringing =
+        active.some(timer => timer.state === "done");
+
+    const baseTitle =
+        currentRecipe ? currentRecipe.title : document.title;
+
+    document.title =
+        ringing ? `⏰ Terminé · ${baseTitle}` : baseTitle;
+
+    updateWakeLock();
+}
+
+
+/* ---------- Panneau des minuteurs en cours ---------- */
+
+function renderTimerTray() {
+
+    let tray =
+        document.getElementById("timer-tray");
+
+    const active =
+        [...timers.values()].filter(timer => timer.state !== "idle");
+
+    if (active.length === 0) {
+
+        if (tray) {
+            tray.remove();
+        }
+
+        return;
+    }
+
+    if (!tray) {
+        tray = createElement("aside", "timer-tray");
+        tray.id = "timer-tray";
+        tray.setAttribute("aria-label", "Minuteurs en cours");
+        document.body.appendChild(tray);
+    }
+
+    // Reconstruit seulement si la liste change : sinon un clic
+    // pourrait tomber pendant le remplacement des boutons.
+    const signature =
+        active.map(timer => `${timer.key}:${timer.state}`).join("|");
+
+    if (tray.dataset.signature === signature) {
+
+        tray.querySelectorAll(".timer-tray-item").forEach((row, index) => {
+            row.querySelector(".timer-toggle").textContent =
+                timerButtonText(active[index]);
+        });
+
+        return;
+    }
+
+    tray.dataset.signature = signature;
+
+    clearElement(tray);
+
+    for (const timer of active) {
+
+        const row =
+            createElement("div", "timer-tray-item");
+
+        row.dataset.state = timer.state;
+
+        const link =
+            createElement("a", "timer-tray-label");
+
+        link.href = `#${timer.stepId}`;
+
+        link.appendChild(
+            createElement("span", "timer-tray-step", timer.stepTitle)
+        );
+
+        link.appendChild(
+            createElement("span", "timer-tray-duration", timer.label)
+        );
+
+        const toggle =
+            createElement("button", "timer-toggle", timerButtonText(timer));
+
+        toggle.type = "button";
+        toggle.title = timerButtonTitle(timer);
+        toggle.addEventListener("click", () => toggleTimer(timer));
+
+        const reset =
+            createElement("button", "timer-reset", "×");
+
+        reset.type = "button";
+        reset.title = "Fermer le minuteur";
+        reset.setAttribute("aria-label", "Fermer le minuteur");
+        reset.addEventListener("click", () => resetTimer(timer));
+
+        row.appendChild(link);
+        row.appendChild(toggle);
+        row.appendChild(reset);
+
+        tray.appendChild(row);
+    }
+}
+
+
+window.addEventListener("beforeunload", event => {
+
+    const running =
+        [...timers.values()].some(timer => timer.state === "running");
+
+    if (running) {
+        event.preventDefault();
+        event.returnValue = "";
+    }
+});
 
 
 /* =========================================================

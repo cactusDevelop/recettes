@@ -23,15 +23,15 @@
     {
       "title": "1. Préparer les légumes",
       "instructions": [
-        "Éplucher et émincer finement l'oignon (ou les échalotes) et l'ail.",
-        "Nettoyer les champignons de Paris avec un chiffon humide, les couper en lamelles."
+        "Éplucher et émincer finement l'oignon (1, ou 2 échalotes) et l'ail (1 gousse).",
+        "Nettoyer les champignons de Paris (250 g) avec un chiffon humide, les couper en lamelles."
       ]
     },
     {
       "title": "2. Faire dorer les champignons",
       "instructions": [
-        "Chauffer l'huile d'olive dans une poêle ou sauteuse large, à feu vif.",
-        "Ajouter les champignons et les faire sauter 5 minutes sans trop remuer, jusqu'à ce qu'ils rendent leur eau et dorent.",
+        "Chauffer l'huile d'olive (1 cuillère à soupe) dans une poêle ou sauteuse large, à feu vif.",
+        "Ajouter les champignons et les faire sauter [[5 minutes]] sans trop remuer, jusqu'à ce qu'ils rendent leur eau et dorent.",
         "Saler légèrement, poivrer, puis réserver hors de la poêle."
       ],
       "doneness": "Les champignons doivent être bien dorés, sans excès de liquide restant dans la poêle."
@@ -42,29 +42,29 @@
         "L'eau doit rester chaude à proximité pendant toute la cuisson du quinoa, pour ne pas interrompre la cuisson."
       ],
       "instructions": [
-        "Faire chauffer l'eau dans une casserole à part, la maintenir frémissante."
+        "Faire chauffer l'eau ({{600 ml water}}) dans une casserole à part, la maintenir frémissante."
       ]
     },
     {
       "title": "4. Faire suer l'oignon et nacrer le quinoa",
       "instructions": [
         "Dans la même poêle, ajouter un filet d'huile si nécessaire.",
-        "Faire suer l'oignon (ou les échalotes) et l'ail 2 à 3 minutes à feu doux, sans coloration.",
-        "Ajouter le quinoa cru et remuer 1 minute pour le nacrer légèrement."
+        "Faire suer l'oignon (ou les échalotes) et l'ail [[2 à 3 minutes]] à feu doux, sans coloration.",
+        "Ajouter le quinoa cru (200 g) et remuer 1 minute pour le nacrer légèrement."
       ]
     },
     {
       "title": "5. Cuire le quinoa façon risotto",
       "instructions": [
         "Verser une louche d'eau chaude sur le quinoa, remuer régulièrement jusqu'à absorption presque complète.",
-        "Répéter l'opération louche par louche pendant environ 20 minutes, en remuant souvent."
+        "Répéter l'opération louche par louche pendant [[environ 20 minutes]], en remuant souvent."
       ],
       "doneness": "Le quinoa doit être tendre mais encore légèrement croquant au cœur, avec les petits germes en spirale bien détachés."
     },
     {
       "title": "6. Terminer et servir",
       "instructions": [
-        "Hors du feu, incorporer les champignons réservés, le beurre et le parmesan.",
+        "Hors du feu, incorporer les champignons réservés, le beurre (20 g) et le parmesan (50 g).",
         "Mélanger jusqu'à obtenir une texture crémeuse.",
         "Rectifier l'assaisonnement en sel et poivre.",
         "Servir immédiatement, avec un peu de parmesan supplémentaire si désiré."

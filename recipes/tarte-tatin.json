@@ -29,10 +29,10 @@
         "Le beurre doit rester froid pour une pâte sableuse et facile à travailler."
       ],
       "instructions": [
-        "Couper le beurre froid en dés.",
-        "Sabler la farine, le sucre, le sel et le beurre du bout des doigts.",
-        "Ajouter l'eau froide progressivement, juste assez pour lier la pâte sans la travailler davantage.",
-        "Former une boule aplatie, filmer et réserver au réfrigérateur 30 minutes."
+        "Couper le beurre froid (100 g) en dés.",
+        "Sabler la farine ({{200 g flour}}), le sucre (1 cuillère à soupe), le sel (1 pincée) et le beurre du bout des doigts.",
+        "Ajouter l'eau froide (3 à 4 cuillères à soupe) progressivement, juste assez pour lier la pâte sans la travailler davantage.",
+        "Former une boule aplatie, filmer et réserver au réfrigérateur [[30 minutes]]."
       ]
     },
     {
@@ -41,7 +41,7 @@
         "Choisir une variété de pomme ferme qui tient bien à la cuisson : elle ne doit pas se transformer en compote."
       ],
       "instructions": [
-        "Éplucher les pommes.",
+        "Éplucher les pommes (1,3 kg, soit 7 à 8 pommes).",
         "Les couper en deux, retirer le cœur et les pépins.",
         "Arroser de quelques gouttes de citron pour éviter l'oxydation.",
         "Réserver."
@@ -54,10 +54,10 @@
         "Le caramel à sec (sans eau) colore plus vite : rester attentif en permanence."
       ],
       "instructions": [
-        "Répartir le sucre semoule en couche régulière dans le fond du moule.",
+        "Répartir le sucre semoule (150 g) en couche régulière dans le fond du moule.",
         "Chauffer à feu moyen sans remuer, en inclinant le moule de temps en temps pour répartir la fonte.",
         "Laisser cuire jusqu'à obtenir un caramel ambré.",
-        "Retirer du feu et ajouter le beurre coupé en morceaux, en mélangeant rapidement pour l'incorporer."
+        "Retirer du feu et ajouter le beurre (100 g) coupé en morceaux, en mélangeant rapidement pour l'incorporer."
       ],
       "doneness": "Le caramel doit être ambré, couleur miel foncé, sans être brûlé (odeur âcre)."
     },
@@ -69,7 +69,7 @@
       "instructions": [
         "Ranger les demi-pommes debout, côté bombé contre le fond, bien serrées en cercle.",
         "Combler les espaces avec des petits morceaux de pomme.",
-        "Cuire à feu moyen sur la plaque de cuisson pendant 20 à 25 minutes.",
+        "Cuire à feu moyen sur la plaque de cuisson pendant [[20 à 25 minutes]].",
         "Arroser régulièrement les pommes avec le caramel qui remonte sur les bords."
       ],
       "doneness": "Les pommes doivent être fondantes lorsqu'on les pique avec la pointe d'un couteau, et le caramel bien réduit."
@@ -77,7 +77,7 @@
     {
       "title": "5. Couvrir de pâte et enfourner",
       "before": [
-        "Préchauffer le four à 200 °C.",
+        "Préchauffer le four à 200 °C en chaleur statique.",
         "Laisser tiédir légèrement les pommes avant de poser la pâte."
       ],
       "instructions": [
@@ -85,7 +85,7 @@
         "Poser la pâte sur les pommes.",
         "Rentrer les bords de la pâte à l'intérieur du moule, tout autour des pommes.",
         "Piquer légèrement la surface avec une fourchette.",
-        "Enfourner 25 à 30 minutes."
+        "Enfourner [[25 à 30 minutes]] à 200 °C en chaleur statique."
       ],
       "doneness": "La pâte doit être dorée et bien cuite."
     },
@@ -95,7 +95,7 @@
         "Le démoulage se fait à chaud : utiliser des gants et travailler avec précaution, le caramel est brûlant."
       ],
       "instructions": [
-        "Laisser reposer la tarte 10 minutes à la sortie du four.",
+        "Laisser reposer la tarte [[10 minutes]] à la sortie du four.",
         "Poser un plat de service à l'envers sur le moule.",
         "Retourner d'un geste ferme et rapide.",
         "Retirer délicatement le moule."
