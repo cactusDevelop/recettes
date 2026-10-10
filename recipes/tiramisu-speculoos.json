@@ -1,0 +1,126 @@
+{
+  "title": "Tiramisù spéculoos",
+  "description": "Le tiramisù du site, version spéculoos : même crème allégée au fromage blanc égoutté et à la meringue italienne, mais les biscuits boudoir sont remplacés par des spéculoos à peine trempés dans le café. Un peu moins de sucre dans la crème pour compenser le biscuit caramélisé, et un éclat de spéculoos concassé sur le dessus.",
+  "servings": "6 parts",
+  "pan_size": "25 × 19 cm",
+  "total_time": {
+    "preparation": "environ 45 min",
+    "resting": "égouttage du fromage blanc la veille, puis au moins 6 h au réfrigérateur (idéalement toute une nuit)"
+  },
+  "ingredients": {
+    "café": [
+      { "ingredient": "Café fort non sucré", "amount": 200, "unit": "g", "kind": "coffee" }
+    ],
+    "pâte_à_bombe": [
+      { "ingredient": "Jaunes d'œufs", "amount": 80, "unit": "g", "kind": "yolk" },
+      { "ingredient": "Sucre semoule", "quantity": "65 g" },
+      { "ingredient": "Eau", "amount": 20, "unit": "g", "kind": "water" }
+    ],
+    "meringue_italienne": [
+      { "ingredient": "Blancs d'œufs", "amount": 120, "unit": "g", "kind": "white" },
+      { "ingredient": "Sucre semoule", "quantity": "50 g" },
+      { "ingredient": "Eau", "amount": 15, "unit": "g", "kind": "water" }
+    ],
+    "crème": [
+      { "ingredient": "Mascarpone", "quantity": "250 g" },
+      { "ingredient": "Fromage blanc entier bien égoutté", "quantity": "150 g (soit environ 250 g avant égouttage)" },
+      { "ingredient": "Cannelle en poudre (facultatif)", "quantity": "1 pincée" }
+    ],
+    "montage": [
+      { "ingredient": "Spéculoos", "quantity": "250 g (environ 40 biscuits)" },
+      { "ingredient": "Spéculoos pour le dessus", "quantity": "40 g" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Égoutter le fromage blanc et préparer le café",
+      "before": [
+        "Même égouttage que pour le tiramisù classique : prévoir environ 250 g de fromage blanc entier pour obtenir 150 g égoutté.",
+        "Il faut moins de café qu'avec des biscuits boudoir : le spéculoos est plus dense et boit beaucoup plus vite."
+      ],
+      "instructions": [
+        "La veille, égoutter le fromage blanc entier au réfrigérateur.",
+        "Préparer le café fort et le verser dans un récipient large et peu profond.",
+        "Laisser complètement refroidir le café."
+      ],
+      "doneness": "Le fromage blanc égoutté doit être assez ferme pour qu'une cuillère tienne debout dedans."
+    },
+    {
+      "title": "2. Préparer la pâte à bombe",
+      "before": [
+        "Utiliser un thermomètre de cuisine pour contrôler précisément la température du sirop.",
+        "Le sucre est légèrement réduit par rapport au tiramisù classique : le spéculoos apporte déjà sucre et notes caramélisées."
+      ],
+      "instructions": [
+        "Placer les jaunes dans la cuve du batteur et commencer à les fouetter.",
+        "Chauffer l'eau et le sucre dans une petite casserole jusqu'à 118 °C.",
+        "Verser le sirop en filet sur les jaunes en fouettant, le long de la paroi.",
+        "Fouetter jusqu'à ce que la préparation soit claire, mousseuse et tiède."
+      ],
+      "doneness": "La pâte à bombe doit être pâle, aérienne et avoir nettement augmenté de volume."
+    },
+    {
+      "title": "3. Préparer la crème",
+      "before": [
+        "Le mascarpone et le fromage blanc doivent être froids, la pâte à bombe tiède."
+      ],
+      "instructions": [
+        "Détendre le mascarpone avec le fromage blanc égoutté et la cannelle à la spatule, sans fouetter.",
+        "Incorporer la pâte à bombe en deux fois jusqu'à obtenir une crème lisse."
+      ],
+      "important": [
+        "Ne pas fouetter le mascarpone : il peut trancher et donner une crème granuleuse."
+      ]
+    },
+    {
+      "title": "4. Préparer la meringue italienne",
+      "before": [
+        "Le sucre de la meringue n'est pas réduit : c'est lui qui la rend stable et qui permet à la crème de tenir."
+      ],
+      "instructions": [
+        "Chauffer l'eau et le sucre jusqu'à 118 °C.",
+        "Quand le sirop atteint environ 110 °C, commencer à monter les blancs à vitesse moyenne.",
+        "Verser le sirop à 118 °C en filet sur les blancs mousseux, en fouettant.",
+        "Continuer à fouetter jusqu'à complet refroidissement."
+      ],
+      "doneness": "La meringue doit être ferme, lisse, brillante et revenue à température ambiante."
+    },
+    {
+      "title": "5. Alléger la crème",
+      "instructions": [
+        "Incorporer un tiers de la meringue à la crème en mélangeant franchement.",
+        "Ajouter le reste en deux fois, délicatement à la spatule, de bas en haut.",
+        "Arrêter dès que la crème est homogène."
+      ]
+    },
+    {
+      "title": "6. Monter le tiramisù",
+      "before": [
+        "Le café doit être froid.",
+        "Préparer le plat de 25 × 19 cm avant de commencer le montage."
+      ],
+      "instructions": [
+        "Étaler une fine couche de crème dans le fond du plat.",
+        "Tremper chaque spéculoos dans le café une demi-seconde, sur une seule face.",
+        "Disposer une couche régulière de spéculoos, face trempée vers le haut, en cassant des morceaux pour combler les vides.",
+        "Recouvrir de la moitié de la crème restante.",
+        "Réaliser une seconde couche de spéculoos imbibés.",
+        "Recouvrir avec le reste de la crème et lisser la surface."
+      ],
+      "important": [
+        "Le spéculoos se détrempe beaucoup plus vite qu'un biscuit boudoir : trempé trop longtemps, il se délite et le tiramisù devient pâteux. Il finit de s'humidifier dans la crème pendant le repos."
+      ]
+    },
+    {
+      "title": "7. Repos et finition",
+      "before": [
+        "Le spéculoos du dessus n'est ajouté qu'au dernier moment pour rester croquant."
+      ],
+      "instructions": [
+        "Couvrir le plat.",
+        "Réfrigérer au moins 6 h, idéalement toute une nuit.",
+        "Juste avant de servir, concasser grossièrement les 40 g de spéculoos et les parsemer sur le dessus."
+      ]
+    }
+  ]
+}
