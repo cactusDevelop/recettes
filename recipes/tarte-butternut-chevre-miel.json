@@ -1,0 +1,128 @@
+{
+  "title": "Tarte butternut, chèvre et miel",
+  "description": "Tarte maison sur pâte brisée précuite, garnie de butternut rôtie au four et d'oignon fondu, liée par un appareil allégé (moitié crème, moitié lait), puis couverte de rondelles de chèvre caramélisées au miel et de noix.",
+  "servings": "6 parts",
+  "pan_size": "moule à tarte de 28 cm",
+  "total_time": {
+    "preparation": "45 min",
+    "resting": "30 min de repos pour la pâte + 10 min avant découpe"
+  },
+  "ingredients": {
+    "pate_brisee": [
+      { "ingredient": "Farine", "amount": 250, "unit": "g", "kind": "flour" },
+      { "ingredient": "Beurre froid", "quantity": "125 g" },
+      { "ingredient": "Œuf", "amount": 50, "unit": "g", "kind": "egg" },
+      { "ingredient": "Eau froide", "quantity": "2 à 3 cuillères à soupe" },
+      { "ingredient": "Sel fin", "quantity": "1 pincée" }
+    ],
+    "garniture": [
+      { "ingredient": "Courge butternut", "quantity": "1 petite (environ 1 kg), soit 600 g épluchée et épépinée" },
+      { "ingredient": "Oignon (ou échalotes)", "quantity": "1 gros (ou 3 échalotes)" },
+      { "ingredient": "Huile d'olive", "quantity": "1 cuillère à soupe" },
+      { "ingredient": "Beurre", "quantity": "10 g" },
+      { "ingredient": "Thym (frais ou séché)", "quantity": "4 brins ou 1 cuillère à café" },
+      { "ingredient": "Sel, poivre", "quantity": "au goût" }
+    ],
+    "appareil": [
+      { "ingredient": "Œufs", "amount": 150, "unit": "g", "kind": "egg" },
+      { "ingredient": "Crème fraîche épaisse", "amount": 15, "unit": "cl", "kind": "cream" },
+      { "ingredient": "Lait", "amount": 15, "unit": "cl", "kind": "milk" },
+      { "ingredient": "Muscade", "quantity": "1 pincée" },
+      { "ingredient": "Sel, poivre", "quantity": "au goût" }
+    ],
+    "finition": [
+      { "ingredient": "Bûche de chèvre", "quantity": "150 g" },
+      { "ingredient": "Miel liquide", "quantity": "2 cuillères à soupe (30 g)" },
+      { "ingredient": "Cerneaux de noix (facultatif)", "quantity": "30 g" }
+    ]
+  },
+  "steps": [
+    {
+      "title": "1. Préparer la pâte brisée",
+      "before": [
+        "Le beurre doit rester froid pour obtenir une pâte sableuse et non élastique."
+      ],
+      "instructions": [
+        "Couper le beurre froid (125 g) en petits dés.",
+        "Dans un saladier, mélanger la farine ({{250 g flour}}), le sel (1 pincée) et le beurre du bout des doigts jusqu'à obtenir une texture sableuse.",
+        "Ajouter l'œuf ({{50 g egg}}) et mélanger rapidement.",
+        "Ajouter l'eau froide (2 à 3 cuillères à soupe) cuillère par cuillère, juste assez pour lier la pâte.",
+        "Former une boule sans trop pétrir, filmer et réserver au réfrigérateur [[30 minutes]]."
+      ]
+    },
+    {
+      "title": "2. Rôtir la butternut",
+      "before": [
+        "Préchauffer le four à 200 °C en chaleur tournante.",
+        "Rôtir la courge plutôt que la cuire à l'eau : elle perd son eau, se concentre en goût et ne détrempe pas la pâte. Elle cuit pendant le repos de la pâte."
+      ],
+      "instructions": [
+        "Éplucher la butternut, retirer les graines et la couper en cubes de 1,5 cm (600 g).",
+        "Sur une plaque couverte de papier cuisson, mélanger les cubes avec l'huile d'olive (1 cuillère à soupe), la moitié du thym, du sel et du poivre.",
+        "Les étaler en une seule couche, sans qu'ils se chevauchent.",
+        "Enfourner [[25 minutes]] à 200 °C en chaleur tournante, en les retournant à mi-cuisson.",
+        "Sortir la plaque et baisser le four à 180 °C en chaleur statique (sole et voûte) pour la suite."
+      ],
+      "doneness": "Les cubes doivent être tendres à cœur (la pointe d'un couteau entre sans résistance) et légèrement dorés sur les bords, sans s'écraser."
+    },
+    {
+      "title": "3. Faire fondre l'oignon (ou les échalotes)",
+      "instructions": [
+        "Émincer finement l'oignon (1 gros, ou 3 échalotes).",
+        "Faire fondre le beurre (10 g) dans une poêle à feu doux.",
+        "Ajouter l'oignon (ou les échalotes) et une pincée de sel.",
+        "Laisser fondre [[10 à 15 minutes]] à feu doux en remuant régulièrement.",
+        "Réserver hors du feu."
+      ],
+      "doneness": "L'oignon doit être fondant et translucide, à peine blond."
+    },
+    {
+      "title": "4. Foncer le moule et précuire à blanc",
+      "before": [
+        "Le four doit être à 180 °C en chaleur statique (sole et voûte).",
+        "La précuisson à blanc évite que le fond de tarte détrempe avec la garniture."
+      ],
+      "instructions": [
+        "Étaler la pâte sur un plan fariné et foncer le moule beurré.",
+        "Piquer le fond à la fourchette.",
+        "Couvrir de papier cuisson et de billes de cuisson (ou légumes secs).",
+        "Enfourner [[15 minutes]] à 180 °C en chaleur statique.",
+        "Retirer les billes et le papier, poursuivre la cuisson [[5 minutes]] pour sécher légèrement le fond.",
+        "Réserver."
+      ],
+      "doneness": "Le fond doit être légèrement doré et sec au toucher, sans être complètement cuit."
+    },
+    {
+      "title": "5. Préparer l'appareil",
+      "instructions": [
+        "Dans un saladier, fouetter les œufs ({{150 g egg}}) avec la crème fraîche ({{15 cl cream}}) et le lait ({{15 cl milk}}).",
+        "Ajouter la muscade (1 pincée), le sel et le poivre.",
+        "Mélanger jusqu'à obtenir une préparation homogène."
+      ]
+    },
+    {
+      "title": "6. Garnir et cuire",
+      "before": [
+        "Le four doit être à 180 °C en chaleur statique.",
+        "Le chèvre se pose sur le dessus, après l'appareil : il dore au lieu de fondre dans la crème."
+      ],
+      "instructions": [
+        "Répartir l'oignon (ou les échalotes) fondu sur le fond de tarte précuit.",
+        "Disposer les cubes de butternut rôtis par-dessus.",
+        "Verser l'appareil sur la garniture.",
+        "Couper la bûche de chèvre (150 g) en rondelles de 1 cm et les répartir sur la tarte.",
+        "Arroser les rondelles avec la moitié du miel (1 cuillère à soupe), parsemer des noix concassées (30 g) et du reste de thym.",
+        "Enfourner [[30 à 35 minutes]] à 180 °C en chaleur statique."
+      ],
+      "doneness": "Le chèvre doit être doré et légèrement gratiné ; le centre de la tarte doit trembloter à peine sans être liquide."
+    },
+    {
+      "title": "7. Finir et laisser reposer",
+      "instructions": [
+        "À la sortie du four, arroser la tarte du reste de miel (1 cuillère à soupe) et donner un tour de moulin à poivre.",
+        "Laisser reposer [[10 minutes]] hors du four avant de découper.",
+        "Servir tiède, avec une salade verte."
+      ]
+    }
+  ]
+}

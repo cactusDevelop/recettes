@@ -14,6 +14,7 @@ const NAV_RECIPES = {
     ],
     sales: [
         { title: "Quiche saumon", href: "quiche.html", image: "images/quiche.jpg" },
+        { title: "Tarte butternut chèvre miel", href: "tarte-butternut-chevre-miel.html", image: "images/tarte-butternut-chevre-miel.jpg" },
         { title: "Moussaka", href: "moussaka.html", image: "images/moussaka.jpg" },
         { title: "Risotto de quinoa", href: "risotto-quinoa.html", image: "images/risotto-quinoa.jpg" },
         { title: "Pâtes fraîches", href: "pates-fraiches.html", image: "images/pates-fraiches.jpg" },
